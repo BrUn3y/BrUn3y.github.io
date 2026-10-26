@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T03:40:13.738607+00:00",
+  "updated_at": "2026-10-26T03:46:48.592217+00:00",
   "events": [
     {
       "id": "25190654597",
@@ -62,6 +62,18 @@
       }
     },
     {
+      "id": "25188771095",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/BrUn3y.github.io"
+      },
+      "created_at": "2026-10-26T03:08:56Z",
+      "payload": {
+        "ref": "refs/heads/main",
+        "head": "b5386e34c560e816627fe52d9430d2f6be693c7e"
+      }
+    },
+    {
       "id": "25188767612",
       "type": "PushEvent",
       "repo": {
@@ -72,6 +84,40 @@
         "ref": "refs/heads/master",
         "head": "4518359514e1d183a34eadf9b7645351d560d3bd"
       }
+    },
+    {
+      "id": "25188711314",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/BrUn3y.github.io"
+      },
+      "created_at": "2026-10-26T03:08:05Z",
+      "payload": {
+        "ref": "refs/heads/main",
+        "head": "1e0e6c1f23697b63777442b6d404f1552b5ba47c"
+      }
+    },
+    {
+      "id": "25188646304",
+      "type": "CreateEvent",
+      "repo": {
+        "name": "BrUn3y/BrUn3y.github.io"
+      },
+      "created_at": "2026-10-26T03:07:17Z",
+      "payload": {
+        "ref": "main",
+        "ref_type": "branch",
+        "description": "BrUn3y personal website · Y2K aesthetics, AI agents, quantum computing, and open source. Source: BrUn3y/Brun3y"
+      }
+    },
+    {
+      "id": "18196550019",
+      "type": "PublicEvent",
+      "repo": {
+        "name": "BrUn3y/BrUn3y.github.io"
+      },
+      "created_at": "2026-10-26T02:44:19Z",
+      "payload": {}
     },
     {
       "id": "25170348337",
@@ -504,18 +550,6 @@
       }
     },
     {
-      "id": "24216864073",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/Brun3y"
-      },
-      "created_at": "2026-10-16T02:01:21Z",
-      "payload": {
-        "ref": "refs/heads/master",
-        "head": "c0880e358b3ed2f67d616f384172fdd3b1030eaa"
-      }
-    },
-    {
       "id": "24286339409",
       "type": "PushEvent",
       "repo": {
@@ -552,18 +586,6 @@
       }
     },
     {
-      "id": "24231119769",
-      "type": "PushEvent",
-      "repo": {
-        "name": "Quantum-Guild-GDL/qiskit_fall_fest_gdl"
-      },
-      "created_at": "2026-10-15T23:20:39Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "8d93d266960ffc5e8d7ee73b9c7336b795982951"
-      }
-    },
-    {
       "id": "24277989102",
       "type": "PushEvent",
       "repo": {
@@ -573,30 +595,6 @@
       "payload": {
         "ref": "refs/heads/main",
         "head": "0c53dc7c0e77b1340923192e8be1497b182d7371"
-      }
-    },
-    {
-      "id": "24226986491",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/quantum-and-cybersecurity"
-      },
-      "created_at": "2026-10-15T16:40:12Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "5ebda2c408531e1322a6eed008681d9e01f78b7e"
-      }
-    },
-    {
-      "id": "24199781140",
-      "type": "PushEvent",
-      "repo": {
-        "name": "Quantum-Guild-GDL/qiskit_fall_fest_gdl"
-      },
-      "created_at": "2026-10-14T22:33:16Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "7304c1fd0796f65579aa063aa76e245a4e628325"
       }
     }
   ],
