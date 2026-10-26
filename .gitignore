@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+_site/
+.env
+.env.*
+!.env.example
+token.json
+strava_tokens.json
+*.pem
+*.key

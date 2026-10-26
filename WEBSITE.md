@@ -1,0 +1,43 @@
+# BrUn3y personal website
+
+A Y2K-inspired static website based on the profile README. Built with HTML, CSS, and JavaScript, with no build dependencies. All website copy is in English.
+
+- `index.html`: content, links, projects, and retro self-promotion banners.
+- `site/style.css`: desktop and mobile styles.
+- `site/app.js`: project filters, navigation, and the Mexico City clock.
+- `site/chat.js` and `site/chat-messages.json`: local chat, 500 original English messages, randomized pacing, personalized greetings, and funny replies.
+- `site/activity.js` and `site/activity.json`: public GitHub events and authored issues/PRs, with a saved fallback for network errors or API rate limits.
+- `site/strava.js` and `site/strava.json`: the latest six published workouts and totals, based on the existing profile Strava widget.
+- `scripts/refresh_site_data.py`: safe, repeatable GitHub and Strava refreshes. Run without flags to refresh both, or use `--github` / `--strava`.
+- `AGENTS.md` (also linked from `agent.md`): maintenance instructions for agents, including data sources, refresh commands, design constraints, validation, and publishing. Both guides live in this repository's root.
+- `site/assets/`: original SVG illustrations and the public GitHub avatar.
+
+## Local development
+
+From the repository root:
+
+```sh
+python3 -m http.server 8080 --bind 127.0.0.1
+```
+
+Open http://127.0.0.1:8080. Editorial content is maintained manually; existing profile README automation runs independently. The Spotify button opens the public profile rather than playing audio automatically or claiming to show a live track. Retro banners link to the owner's own projects and do not use an advertising network.
+
+Google Analytics uses the owner's Google tag, `G-GSG3QV8LMM`, loaded asynchronously in the document head. No custom analytics events send chat nicknames or messages.
+
+The project chat is entirely simulated. Visitors can add a nickname and a message to the current tab; messages are rendered with `textContent`, never sent over the network, and never stored in cookies, localStorage, sessionStorage, or a backend. Reloading resets the room. Fictional participants draw from 500 unique English messages shuffled without repeating a message until the deck is exhausted. Messages arrive at irregular intervals while the tab is visible. A nickname receives a welcome and a humorous reply on its first message in the current tab. The displayed log is limited to 18 messages. The UI only notes that messages clear on refresh.
+
+Last activity uses GitHub's public events and authored issue search APIs without authentication. It supports pushes, pull requests, reviews, issues, comments, repositories, forks, stars, and releases. A checked-in public snapshot remains available when the API fails or rate limits requests. The displayed source indicates whether the feed is live, saved, or mixed. All links point to the actual GitHub resources.
+
+The Strava section reuses the already-public `assets/strava-widget.svg` from `BrUn3y/Brun3y`. The refresh script finds its latest public commit and downloads that exact revision without checking out the profile repository. It includes six sessions, duration, available distance, heart rate, and calories. Totals cover those displayed sessions. The publication date comes from that widget commit, and workout dates keep the month/day labels supplied by the widget. The browser reads only the sanitized static JSON; no Strava credentials, route data, or raw API responses are published.
+
+## Deployment
+
+Website URL: https://brun3y.github.io/
+
+All website files, maintenance scripts, guides, and workflows live in **`BrUn3y/BrUn3y.github.io`**, on `main`. It is **private** at the user's request. The separate `BrUn3y/Brun3y` repository contains the public profile and its existing automation; do not put website changes there. Public profile information and its Strava widget are external data sources only.
+
+**Deployment limitation:** GitHub disabled Pages after this repository became private. Re-enabling it returned: "Your current plan does not support GitHub Pages for this repository." Serving a public Pages website from this private personal repository requires GitHub Pro. Preserve the private visibility. After the account has a supported plan, select **GitHub Actions** in Settings → Pages, set the repository Actions variable `PAGES_ENABLED` to `true`, and run the Pages workflow. Verify a successful deployment and updated public content. Cached HTTP 200 responses do not establish that Pages is still enabled.
+
+`.github/workflows/refresh-data.yml` refreshes both data snapshots daily at 06:41 UTC and manually, then commits only the two sanitized JSON files. It uses the repository's built-in token and requires no custom credentials. Run `python3 scripts/refresh_site_data.py` locally for both sources, or use `--github` / `--strava` for one. `--best-effort` preserves the previous good snapshot if an optional refresh fails.
+
+`.github/workflows/pages.yml` deploys relevant pushes to `main` and follows successful data refreshes. It uses the official GitHub Pages actions with repository-scoped permissions; no cross-repository deploy key is needed. The job stays skipped until `PAGES_ENABLED=true`. The public artifact contains only `index.html`, `site/`, and `.nojekyll`; the guides, scripts, and workflows remain in the private repository. Successful repository pushes alone do not deploy the website while Pages is disabled.
