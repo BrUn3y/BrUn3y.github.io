@@ -20,6 +20,7 @@ This website repository is **public** at the user's explicit request so GitHub P
 | `.github/workflows/refresh-data.yml` | Scheduled refresh of public GitHub and Strava snapshots |
 | `.github/workflows/pages.yml` | Deployment from this repository when Pages is supported and enabled |
 | `site/chat.js`, `site/chat-messages.json` | Ephemeral chat, 500 messages, greetings, and funny replies |
+| `site/spotify.js` | Fetches the live spotify-github-profile widget, parses artist/song/state, and updates the BRUN3YAMP player in the sidebar |
 | `agent.md`, `AGENTS.md` | Website maintenance and credential-handling instructions |
 
 ## User preferences to preserve
