@@ -23,7 +23,7 @@ concurrency:
 
 jobs:
   deploy:
-    # Set PAGES_ENABLED=true only after the account supports private-repository Pages.
+    # PAGES_ENABLED=true enables deployment from this public website repository.
     if: vars.PAGES_ENABLED == 'true' && (github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success')
     environment:
       name: github-pages

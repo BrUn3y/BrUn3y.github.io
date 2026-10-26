@@ -6,7 +6,7 @@ This repository, [BrUn3y/BrUn3y.github.io](https://github.com/BrUn3y/BrUn3y.gith
 
 The user explicitly asked to remove all website changes from the separate public profile repository, `BrUn3y/Brun3y`. Do not put website files, guides, links, or deployment workflows there. Its public README and published Strava widget remain external information sources for the website.
 
-This website repository is **private** at the user's explicit request. GitHub Pages from a private personal repository requires GitHub Pro. After the visibility change, GitHub disabled Pages and rejected re-enabling it because the current plan does not support it. Preserve the repository's privacy; do not make it public or purchase a plan without the user's authorization.
+This website repository is **public** at the user's explicit request so GitHub Pages can serve https://brun3y.github.io/ on the current plan. Preserve this arrangement. GitHub Pages from a private personal repository requires GitHub Pro; changing this repository to private without a supported plan would disable the website.
 
 | File | Purpose |
 | --- | --- |
@@ -118,6 +118,6 @@ Commit the relevant website files and push to `main` in this repository. Keep bo
 
 **Refresh public website data** runs daily at 06:41 UTC and manually. It uses the repository's `GITHUB_TOKEN`, requests only public source information, and commits only `site/activity.json` and `site/strava.json`. `--best-effort` preserves each last good snapshot if its refresh fails. No Strava credentials are required.
 
-**Deploy personal website to GitHub Pages** uses the official Pages actions. It copies only `index.html`, `site/`, and `.nojekyll` into the public artifact. Scripts, workflows, and guides stay in the private repository. The deployment job is gated by the repository variable `PAGES_ENABLED=true` so the current plan limitation does not cause repeated failed deployments.
+**Deploy personal website to GitHub Pages** uses the official Pages actions. It copies only `index.html`, `site/`, and `.nojekyll` into the website artifact. Scripts, workflows, and guides are available in the public repository but are excluded from the website artifact. The deployment job is enabled by the repository variable `PAGES_ENABLED=true`.
 
-Once the account has a supported plan, enable Pages in this repository's Settings → Pages with **GitHub Actions** as the source. Set the repository Actions variable `PAGES_ENABLED` to `true` and run the Pages workflow. Future website pushes and successful data refreshes trigger deployment. Verify the Pages run and confirm https://brun3y.github.io/ serves the updated page publicly. Also check `gh api repos/BrUn3y/BrUn3y.github.io --jq '{private,has_pages}'` and the Pages settings API; an HTTP 200 alone may be cached content after a visibility change. Include any genuine refresh/deployment limitation in the final report.
+Pages uses **GitHub Actions** as the source in this repository's Settings → Pages. Keep the repository Actions variable `PAGES_ENABLED` set to `true`. Website pushes and successful data refreshes trigger deployment; the Pages workflow can also be run manually. Verify the Pages run and confirm https://brun3y.github.io/ serves the updated page publicly. Also check `gh api repos/BrUn3y/BrUn3y.github.io --jq '{private,has_pages}'` and the Pages settings API; an HTTP 200 alone may be cached content after a visibility change. Include any genuine refresh/deployment limitation in the final report.
