@@ -72,11 +72,12 @@
             </ol>
             <form class="chat-form" id="chat-form" autocomplete="off">
               <label for="chat-nickname">YOUR NICKNAME</label>
-              <input id="chat-nickname" name="nickname" type="text" placeholder="guest_2000" maxlength="18" required spellcheck="false" autocapitalize="off">
+              <input id="chat-nickname" name="nickname" type="text" placeholder="guest_2000" maxlength="18" required spellcheck="false" autocapitalize="off" disabled>
               <label for="chat-message">YOUR MESSAGE</label>
-              <input id="chat-message" name="message" type="text" placeholder="Join the conversation…" maxlength="180" required>
-              <button type="submit">Send message <span aria-hidden="true">↵</span></button>
+              <input id="chat-message" name="message" type="text" placeholder="Join the conversation…" maxlength="180" required disabled>
+              <button type="submit" disabled>Send message <span aria-hidden="true">↵</span></button>
             </form>
+            <noscript><p class="chat-disclaimer">Enable JavaScript to join this local chat.</p></noscript>
             <p class="chat-disclaimer">Messages stay in this tab. Cleared on refresh.</p>
           </section>
           <section class="music-player" aria-labelledby="music-title">

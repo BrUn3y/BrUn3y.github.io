@@ -82,6 +82,9 @@
     }
   });
 
+  // Enable input only after the local-only submit handler is installed.
+  for (const control of form.elements) control.disabled = false;
+
   async function startSimulation() {
     try {
       const response = await fetch('site/chat-messages.json');
