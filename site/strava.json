@@ -1,0 +1,72 @@
+{
+  "updated_at": "2026-10-26T03:00:43Z",
+  "source": "Published profile Strava widget",
+  "source_url": "https://github.com/BrUn3y/Brun3y/blob/master/assets/strava-widget.svg",
+  "activities": [
+    {
+      "title": "Morning workout",
+      "type": "Workout",
+      "date_label": "Oct 25",
+      "duration": "1h 10m",
+      "moving_time_seconds": 4200,
+      "distance_km": null,
+      "heart_rate": "135 bpm",
+      "calories": "608 kcal"
+    },
+    {
+      "title": "Morning workout",
+      "type": "Workout",
+      "date_label": "Oct 24",
+      "duration": "1h 8m",
+      "moving_time_seconds": 4080,
+      "distance_km": null,
+      "heart_rate": "157 bpm",
+      "calories": "807 kcal"
+    },
+    {
+      "title": "Afternoon weight training",
+      "type": "Workout",
+      "date_label": "Oct 23",
+      "duration": "1h 8m",
+      "moving_time_seconds": 4080,
+      "distance_km": null,
+      "heart_rate": "130 bpm",
+      "calories": "573 kcal"
+    },
+    {
+      "title": "Afternoon weight training",
+      "type": "Workout",
+      "date_label": "Oct 20",
+      "duration": "1h 20m",
+      "moving_time_seconds": 4800,
+      "distance_km": null,
+      "heart_rate": "130 bpm",
+      "calories": "663 kcal"
+    },
+    {
+      "title": "Afternoon CrossFit",
+      "type": "Workout",
+      "date_label": "Oct 18",
+      "duration": "57m 30s",
+      "moving_time_seconds": 3450,
+      "distance_km": null,
+      "heart_rate": "135 bpm",
+      "calories": "510 kcal"
+    },
+    {
+      "title": "Afternoon run",
+      "type": "Run",
+      "date_label": "Oct 16",
+      "duration": "47m 46s",
+      "moving_time_seconds": 2866,
+      "distance_km": 10.06,
+      "heart_rate": "178 bpm",
+      "calories": "694 kcal"
+    }
+  ],
+  "summary": {
+    "activity_count": 6,
+    "distance_km": 10.06,
+    "moving_time_seconds": 23476
+  }
+}

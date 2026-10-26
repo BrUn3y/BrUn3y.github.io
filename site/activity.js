@@ -127,7 +127,7 @@
     } catch { /* The public GitHub link is always available. */ }
     const urls = [
       'https://api.github.com/users/BrUn3y/events/public?per_page=50',
-      'https://api.github.com/search/issues?q=author%3ABrUn3y&sort=updated&order=desc&per_page=12',
+      'https://api.github.com/search/issues?q=author%3ABrUn3y+is%3Apublic&sort=updated&order=desc&per_page=12',
     ];
     const [eventsResult, issuesResult] = await Promise.allSettled(urls.map(async (url) => {
       const response = await fetch(url, { signal: AbortSignal.timeout(6000), credentials: 'omit' });

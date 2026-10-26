@@ -248,11 +248,6 @@ main { min-width: 0; }
 .tags > span { padding: 3px 5px; background: #eeebf2; border: 1px solid #ded6e7; color: #75657f; font: 6px var(--mono); }
 .all-projects { display: flex; align-items: center; justify-content: center; gap: 15px; margin-top: 22px; font: 9px var(--mono); color: #786487; padding: 9px; }
 .all-projects:hover { background: #eee7f4; }
-.stack-strip { display: flex; gap: 25px; align-items: center; margin-inline: 34px; padding-block: 23px; border-block: 1px dashed #c7bbd1; }
-.stack-strip h2 { flex-shrink: 0; font: 7px/1.6 var(--mono); letter-spacing: .5px; color: #87768f; }
-.stack-strip h2 span { margin-left: 8px; font-size: 11px; }
-.stack-strip > div { display: flex; gap: 14px 20px; flex-wrap: wrap; align-items: center; }
-.stack-strip > div > span { font-size: 11px; color: #706576; letter-spacing: -.3px; font-weight: 500; }
 .retro-ads { padding: 26px 34px 0; }
 .ad-label { display: flex; justify-content: space-between; gap: 10px; color: #9c8caa; font: 6px var(--mono); letter-spacing: .5px; margin-bottom: 9px; }
 .ad-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 13px; }
@@ -286,6 +281,27 @@ main { min-width: 0; }
 .guild-ad:hover .guild-ad-cta { background: #fff4bd; }
 .ad-fineprint { font: 6px/1.7 var(--mono); color: #9c8ba8; margin-top: 9px; }
 .offline { padding-top: 37px; }
+.strava-section { padding-top: 0; padding-bottom: 34px; }
+.strava-section .section-heading { border-top: 1px dashed #d0c2d9; padding-top: 29px; }
+.strava-brand { display: flex; align-items: center; gap: 7px; font: bold 8px var(--mono); letter-spacing: .6px; color: #bb704b; }
+.strava-brand > span { font: italic 25px/1 var(--sans); letter-spacing: -6px; padding-right: 6px; }
+.strava-intro { margin-top: 12px; font-size: 11px; line-height: 1.8; color: #8d7b98; }
+.strava-summary { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); margin-top: 22px; border: 1px solid #cdb8b0; background: linear-gradient(120deg, #f3e3d7, #eee4ed); box-shadow: inset 1px 1px #fff; }
+.strava-summary > div { padding: 17px 14px; }
+.strava-summary > div + div { border-left: 1px solid #d8c4c0; }
+.strava-summary strong { display: block; font-size: 25px; letter-spacing: -1px; color: #a26246; font-weight: 650; line-height: 1.2; }
+.strava-summary span { display: block; font: 6px var(--mono); letter-spacing: .7px; margin-top: 8px; color: #a58580; }
+.strava-activities { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 13px; list-style: none; padding: 0; margin: 17px 0 0; }
+.strava-session { padding: 15px; border: 1px solid #cfc0d8; box-shadow: 2px 2px #e1d7e9; background: #fbf8fb; }
+.strava-session-top { display: flex; align-items: center; justify-content: space-between; gap: 12px; font: 7px var(--mono); color: #ab7b65; letter-spacing: .4px; }
+.strava-session-top > span:last-child { color: #a08da8; letter-spacing: 0; }
+.strava-session h3 { font-size: 16px; font-weight: 600; line-height: 1.3; letter-spacing: -.4px; margin-top: 11px; }
+.strava-session-stats { display: flex; flex-wrap: wrap; gap: 14px 17px; margin-top: 17px; }
+.strava-session-stats strong { display: block; font: bold 10px var(--mono); color: #88718e; }
+.strava-session-stats span { display: block; font: 5px var(--mono); color: #ad99b6; letter-spacing: .3px; margin-top: 5px; }
+.strava-footer { display: flex; align-items: center; justify-content: space-between; gap: 15px; padding-top: 17px; font: 7px/1.7 var(--mono); color: #a38cae; }
+.strava-footer a { color: #a06f65; white-space: nowrap; }
+.strava-footer a:hover { text-decoration: underline; }
 .offline-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 23px; margin-top: 24px; }
 .running-card { position: relative; background: #ede7f6; border: 1px solid #c3b4d3; overflow: hidden; }
 .running-top { display: flex; align-items: center; justify-content: space-between; margin: 15px 17px; font: 8px var(--mono); color: #837095; }
@@ -388,7 +404,6 @@ main { min-width: 0; }
   .card-content p { font-size: 11px; }
   .card-meta { font-size: 6px; }
   .tags > span { font-size: 7px; }
-  .stack-strip { margin-inline: 27px; }
   .retro-ads { padding-inline: 27px; }
   .ad-grid { grid-template-columns: 1fr; }
   .retro-ad { min-height: 83px; gap: 18px; }
@@ -405,6 +420,17 @@ main { min-width: 0; }
   .footer-credit { display: none; }
 }
 @media (max-width: 860px) {
+  .strava-section .section-heading { align-items: flex-start; }
+  .strava-brand { font-size: 6px; gap: 5px; margin-top: 6px; }
+  .strava-brand > span { font-size: 19px; }
+  .strava-section h2 { max-width: 280px; }
+  .strava-summary strong { font-size: 21px; }
+  .strava-summary > div { padding-inline: 11px; }
+  .strava-activities { gap: 11px; }
+  .strava-session { padding: 12px; }
+  .strava-session h3 { font-size: 14px; }
+  .strava-session-stats { gap: 12px; }
+  .strava-session-stats strong { font-size: 9px; }
   .leaderboard-ad { gap: 15px; }
   .leaderboard-tag { display: none; }
   .leaderboard-copy { font-size: 6px; }
@@ -489,7 +515,6 @@ main { min-width: 0; }
   .file-front > span { font-size: 6px; }
   .file-front small { font-size: 4px; }
   .all-projects { font-size: 8px; }
-  .stack-strip { margin-inline: 23px; gap: 20px; }
   .retro-ads { padding-inline: 23px; }
   .ad-label { font-size: 5px; letter-spacing: 0; }
   .ad-label > span:last-child { display: none; }
@@ -498,8 +523,6 @@ main { min-width: 0; }
   .ad-message > span { font-size: 5px; }
   .ad-message small { font-size: 4px; }
   .ad-cta { font-size: 6px; padding: 5px 7px; }
-  .stack-strip > div { gap: 9px 15px; }
-  .stack-strip > div > span { font-size: 10px; }
   .offline-grid { grid-template-columns: 1fr; }
   .running-card { min-height: 290px; }
   .running-track { height: 65px; }
@@ -518,6 +541,22 @@ main { min-width: 0; }
   .browser-status { font-size: 6px; }
 }
 @media (max-width: 620px) {
+  .strava-section { padding-top: 0; padding-bottom: 27px; }
+  .strava-section .section-heading { padding-top: 24px; }
+  .strava-section h2 { max-width: 245px; font-size: 23px; }
+  .strava-intro { font-size: 11px; }
+  .strava-summary { margin-top: 18px; }
+  .strava-summary > div { padding: 14px 9px; }
+  .strava-summary strong { font-size: 20px; letter-spacing: -.7px; }
+  .strava-summary span { font-size: 5px; letter-spacing: 0; }
+  .strava-activities { grid-template-columns: 1fr; gap: 12px; }
+  .strava-session { padding: 16px; }
+  .strava-session-top { font-size: 9px; }
+  .strava-session h3 { font-size: 18px; }
+  .strava-session-stats { gap: 16px; }
+  .strava-session-stats strong { font-size: 11px; }
+  .strava-session-stats span { font-size: 6px; }
+  .strava-footer { align-items: flex-start; font-size: 6px; gap: 12px; }
   .leaderboard-ad { gap: 9px; min-height: 51px; padding: 9px 10px; }
   .leaderboard-ad > strong { font-size: 20px; letter-spacing: -1.1px; }
   .leaderboard-copy { display: none; }
@@ -652,10 +691,6 @@ main { min-width: 0; }
   .file-front > span { font-size: 9px; }
   .file-front small { font-size: 6px; }
   .all-projects { margin-top: 17px; font-size: 7px; gap: 9px; }
-  .stack-strip { flex-direction: column; align-items: flex-start; margin-inline: 18px; gap: 15px; }
-  .stack-strip h2 br { display: none; }
-  .stack-strip > div { gap: 11px 19px; }
-  .stack-strip > div > span { font-size: 11px; }
   .retro-ads { padding: 23px 18px 0; }
   .retro-ad { gap: 7px; padding: 10px 8px; }
   .ad-starburst { width: 47px; height: 47px; font-size: 6px; }
