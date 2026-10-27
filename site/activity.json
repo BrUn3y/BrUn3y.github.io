@@ -1,6 +1,162 @@
 {
-  "updated_at": "2026-10-27T02:00:39.196344+00:00",
+  "updated_at": "2026-10-27T12:38:38.262118+00:00",
   "events": [
+    {
+      "id": "25324545431",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/BrUn3y.github.io"
+      },
+      "created_at": "2026-10-27T03:30:37Z",
+      "payload": {
+        "ref": "refs/heads/main",
+        "head": "4d75375192e7be6d2ee8788bd75ead63ef50e9f1"
+      }
+    },
+    {
+      "id": "25319496934",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/BrUn3y.github.io"
+      },
+      "created_at": "2026-10-27T03:20:18Z",
+      "payload": {
+        "ref": "refs/heads/main",
+        "head": "c2f27db59a7e931685b185fb08c379859b6b98e0"
+      }
+    },
+    {
+      "id": "25315694781",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/BrUn3y.github.io"
+      },
+      "created_at": "2026-10-27T02:44:54Z",
+      "payload": {
+        "ref": "refs/heads/main",
+        "head": "9f37bccd314b52edb869c138b87ff6f73e1388fe"
+      }
+    },
+    {
+      "id": "25321463174",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/BrUn3y.github.io"
+      },
+      "created_at": "2026-10-27T02:35:23Z",
+      "payload": {
+        "ref": "refs/heads/main",
+        "head": "7ed6626705348b2258a315aca33460f47842400b"
+      }
+    },
+    {
+      "id": "25314599648",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/BrUn3y.github.io"
+      },
+      "created_at": "2026-10-27T02:30:24Z",
+      "payload": {
+        "ref": "refs/heads/main",
+        "head": "821fc2446ecd5e77d9a0770b60b44d0196fe8803"
+      }
+    },
+    {
+      "id": "25315346029",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/BrUn3y.github.io"
+      },
+      "created_at": "2026-10-27T02:21:10Z",
+      "payload": {
+        "ref": "refs/heads/main",
+        "head": "f303bb8992b9599d6cf0220014733701a3ae208f"
+      }
+    },
+    {
+      "id": "25319926952",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/BrUn3y.github.io"
+      },
+      "created_at": "2026-10-27T02:14:58Z",
+      "payload": {
+        "ref": "refs/heads/main",
+        "head": "ad6632e85b7fde3c68b9a14a0cc738a0d6bb516e"
+      }
+    },
+    {
+      "id": "25313939264",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/BrUn3y.github.io"
+      },
+      "created_at": "2026-10-27T02:01:07Z",
+      "payload": {
+        "ref": "refs/heads/main",
+        "head": "877b1e3c83a9b04c0563e880286e2fe87ed0e436"
+      }
+    },
+    {
+      "id": "25320570859",
+      "type": "PushEvent",
+      "repo": {
+        "name": "Quantum-Guild-GDL/qiskit_fall_fest_gdl"
+      },
+      "created_at": "2026-10-26T22:23:47Z",
+      "payload": {
+        "ref": "refs/heads/main",
+        "head": "db576c7ba6ee3aaf9c527f68775b75cda8f0b2ea"
+      }
+    },
+    {
+      "id": "25300997777",
+      "type": "PushEvent",
+      "repo": {
+        "name": "Quantum-Guild-GDL/qiskit_fall_fest_gdl"
+      },
+      "created_at": "2026-10-26T22:20:36Z",
+      "payload": {
+        "ref": "refs/heads/main",
+        "head": "628aa23b98eaf8ad3c1d60979fc7c0b25953c87d"
+      }
+    },
+    {
+      "id": "25320034247",
+      "type": "PushEvent",
+      "repo": {
+        "name": "Quantum-Guild-GDL/qiskit_fall_fest_gdl"
+      },
+      "created_at": "2026-10-26T22:18:04Z",
+      "payload": {
+        "ref": "refs/heads/main",
+        "head": "29f27bb9c4df64a45e5390358f380fc5af4d202e"
+      }
+    },
+    {
+      "id": "25298527641",
+      "type": "PushEvent",
+      "repo": {
+        "name": "Quantum-Guild-GDL/qiskit_fall_fest_gdl"
+      },
+      "created_at": "2026-10-26T22:17:48Z",
+      "payload": {
+        "ref": "refs/heads/main",
+        "head": "fb8bcdb6ea594d44c8791597673ffcc591a85f54"
+      }
+    },
+    {
+      "id": "25282465762",
+      "type": "PushEvent",
+      "repo": {
+        "name": "Quantum-Guild-GDL/qiskit_fall_fest_gdl"
+      },
+      "created_at": "2026-10-26T19:49:41Z",
+      "payload": {
+        "ref": "refs/heads/main",
+        "head": "a84a2274a0ee1eb7923af3863105a0062af14bfc"
+      }
+    },
     {
       "id": "25193162515",
       "type": "PushEvent",
@@ -35,6 +191,18 @@
       "payload": {
         "ref": "refs/heads/master",
         "head": "3acdafa0d84f0bc77fedae520c33f15e5a8cd1f0"
+      }
+    },
+    {
+      "id": "25285888198",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/BrUn3y.github.io"
+      },
+      "created_at": "2026-10-26T03:46:52Z",
+      "payload": {
+        "ref": "refs/heads/main",
+        "head": "c521fdc60735483e5ac6ce74d06686b5803c3b15"
       }
     },
     {
@@ -346,18 +514,6 @@
       }
     },
     {
-      "id": "24950517536",
-      "type": "PushEvent",
-      "repo": {
-        "name": "Quantum-Guild-GDL/qiskit_fall_fest_gdl"
-      },
-      "created_at": "2026-10-23T18:08:45Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "2366b764f0b913ba194e132fdbc036ce12665e2d"
-      }
-    },
-    {
       "id": "25063396687",
       "type": "PushEvent",
       "repo": {
@@ -440,161 +596,6 @@
         "ref": "main",
         "ref_type": "branch",
         "description": "Guía visual en español sobre skills de Claude Code, Codex e IBM Bob, creada con Archify."
-      }
-    },
-    {
-      "id": "24888325333",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/Brun3y"
-      },
-      "created_at": "2026-10-23T02:01:23Z",
-      "payload": {
-        "ref": "refs/heads/master",
-        "head": "056b4aea522254339b10ccd437811d2d6f7a69ee"
-      }
-    },
-    {
-      "id": "24955790363",
-      "type": "PushEvent",
-      "repo": {
-        "name": "Quantum-Guild-GDL/qiskit_fall_fest_gdl"
-      },
-      "created_at": "2026-10-22T22:14:11Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "9acaaf397697952a6a1ee7fb7773904152481bea"
-      }
-    },
-    {
-      "id": "24778792589",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/Brun3y"
-      },
-      "created_at": "2026-10-22T03:00:30Z",
-      "payload": {
-        "ref": "refs/heads/master",
-        "head": "5c79c63a12f51db7eee15747600cbe7bf6925d82"
-      }
-    },
-    {
-      "id": "24765903543",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/Brun3y"
-      },
-      "created_at": "2026-10-22T02:01:49Z",
-      "payload": {
-        "ref": "refs/heads/master",
-        "head": "fcc0fd7d7142d9a3daf132bd3a1466217a4f0162"
-      }
-    },
-    {
-      "id": "24749127979",
-      "type": "PushEvent",
-      "repo": {
-        "name": "Quantum-Guild-GDL/qiskit_fall_fest_gdl"
-      },
-      "created_at": "2026-10-21T21:29:09Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "2ccf03dcbd557b11dbdb61354260cb2a7e808386"
-      }
-    },
-    {
-      "id": "24673287198",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/Brun3y"
-      },
-      "created_at": "2026-10-21T02:01:50Z",
-      "payload": {
-        "ref": "refs/heads/master",
-        "head": "578996ecf808bce4171d8fa748ae2af2a1f08a68"
-      }
-    },
-    {
-      "id": "24733630441",
-      "type": "PushEvent",
-      "repo": {
-        "name": "Quantum-Guild-GDL/quantum-immersive-animation"
-      },
-      "created_at": "2026-10-20T20:30:35Z",
-      "payload": {
-        "ref": "refs/heads/feature/quantum-cat-journey",
-        "head": "8ab86e6b3c015676de730ff034f8ea326fb17e90"
-      }
-    },
-    {
-      "id": "24643016020",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/Brun3y"
-      },
-      "created_at": "2026-10-20T03:00:28Z",
-      "payload": {
-        "ref": "refs/heads/master",
-        "head": "0b8b33a7d265af829a33131ebf8eaee6649035b8"
-      }
-    },
-    {
-      "id": "24639165920",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/Brun3y"
-      },
-      "created_at": "2026-10-20T02:01:57Z",
-      "payload": {
-        "ref": "refs/heads/master",
-        "head": "76f078baaa9122ee3c3de9af6cb8f388a36f0fcf"
-      }
-    },
-    {
-      "id": "17651959553",
-      "type": "WatchEvent",
-      "repo": {
-        "name": "OpenCommunityEdition/OpenCE"
-      },
-      "created_at": "2026-10-19T22:13:12Z",
-      "payload": {
-        "action": "started"
-      }
-    },
-    {
-      "id": "24654504473",
-      "type": "PushEvent",
-      "repo": {
-        "name": "Quantum-Guild-GDL/qiskit_fall_fest_gdl"
-      },
-      "created_at": "2026-10-19T17:53:01Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "04087a677884f0d30d59618eb9b29e6e96afb296"
-      }
-    },
-    {
-      "id": "24485020067",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/Brun3y"
-      },
-      "created_at": "2026-10-19T02:03:19Z",
-      "payload": {
-        "ref": "refs/heads/master",
-        "head": "4e574d7f6032a31f2c572758e49bec797d3eba84"
-      }
-    },
-    {
-      "id": "24473386256",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/Brun3y"
-      },
-      "created_at": "2026-10-17T03:00:42Z",
-      "payload": {
-        "ref": "refs/heads/master",
-        "head": "4d7c20637dcf2def0e6314544e93ce4dfa906d36"
       }
     }
   ],
