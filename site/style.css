@@ -89,6 +89,13 @@ h1, h2, h3, h4, p { margin: 0; }
 .chat-room-note { font: 7px var(--mono); color: #94819f; padding: 9px 9px 7px; }
 .chat-log { list-style: none; margin: 0 7px; padding: 9px 7px; height: 195px; overflow-y: auto; overscroll-behavior: contain; scrollbar-width: thin; scrollbar-color: #bcb0c9 #f0ebf6; background: #eeebf2; border: 1px solid #d3c9df; box-shadow: inset 1px 1px #e3dbe9; }
 .chat-message + .chat-message { margin-top: 11px; }
+.chat-message.is-new { animation: chat-arrival 2s ease-out; }
+@keyframes chat-arrival {
+  from { background-color: #dff69399; }
+  to { background-color: transparent; }
+}
+.chat-unread { display: block; width: calc(100% - 14px); margin: 7px 7px 0; padding: 6px; border: 1px solid #a5b77c; box-shadow: inset 1px 1px #fff; background: #e3efbf; color: #46552f; font: bold 8px var(--mono); text-align: center; }
+.chat-unread:hover { background: #dff693; }
 .chat-nick { display: block; font: bold 8px var(--mono); color: #826298; overflow-wrap: anywhere; }
 .chat-message:nth-child(3n + 2) .chat-nick { color: #64826a; }
 .chat-message:nth-child(3n) .chat-nick { color: #9a7860; }

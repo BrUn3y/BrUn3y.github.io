@@ -19,7 +19,7 @@ This website repository is **public** at the user's explicit request so GitHub P
 | `scripts/refresh_site_data.py` | Repeatable GitHub and Strava refresh command |
 | `.github/workflows/refresh-data.yml` | Scheduled refresh of public GitHub and Strava snapshots |
 | `.github/workflows/pages.yml` | Deployment from this repository when Pages is supported and enabled |
-| `site/chat.js`, `site/chat-messages.json` | Ephemeral chat, 500 messages, greetings, and funny replies |
+| `site/chat.js`, `site/chat-messages.json` | Ephemeral chat, 550 messages including 50 generic radio comments, unread indicator, greetings, and funny replies |
 | `site/radio.js` | Controls BRUN3YAMP's direct HTTPS stream for The Cyber Music Lover Radio; playback starts only after Play |
 | `agent.md`, `AGENTS.md` | Website maintenance and credential-handling instructions |
 
@@ -31,7 +31,7 @@ This website repository is **public** at the user's explicit request so GitHub P
 - Keep GitHub activity on the right and the small chat on the left on desktop. Preserve the mobile layout.
 - The user removed the **MY TOOLBOX / FOR THE FUTURE** section; do not restore it.
 - Chat messages must remain local to the current tab and disappear on reload. Never add storage, analytics, API calls carrying user messages, or a backend to the chat. Keep the local submit handler and disabled-until-ready controls.
-- Keep the 500-message shuffled deck, irregular timing, welcome mentioning a visitor's nickname, and humorous replies. Render visitor text with `textContent`.
+- Keep the 550-message shuffled deck (including generic radio/song comments), irregular timing, welcome mentioning a visitor's nickname, and humorous replies. Render visitor text with `textContent`. Highlight new arrivals briefly; preserve the unread counter and jump-to-latest button when a visitor is reading older messages.
 - The user asked to omit fiction/demo/simulation labels from the visible chat. Keep the factual refresh notice. Do not invent online-user counts or claim real-time communication between visitors.
 - Project ads link to the owner's projects and community; preserve those destinations and avoid adding an ad network.
 

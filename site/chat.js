@@ -1,6 +1,7 @@
 (() => {
   const form = document.querySelector('#chat-form');
   const log = document.querySelector('#chat-log');
+  const unreadButton = document.querySelector('#chat-unread');
   const nicknameInput = document.querySelector('#chat-nickname');
   const messageInput = document.querySelector('#chat-message');
   const nicknames = ['pixel_kit', 'bytekid', 'qbit_99', 'luna.exe', 'staticcat', 'neonfox', 'bit_runner', 'cache_me', 'orbitkid', 'hexghost', 'dialupdan', 'miso.png', 'ctrl_z', 'cassette', 'async_amy', 'tape_drive', 'shellfish', 'softreset', 'noodlebit', 'retro_rai', 'vhs_club', 'null_panda', 'circuitbee', 'nightshift'];
@@ -17,7 +18,7 @@
     (name) => `@${name}! Good timing. We were just negotiating with a qubit.`,
     (name) => `Hey @${name}, pull up a pixel chair. The good kind with lumbar support.`,
     (name) => `Welcome, @${name}! Your nickname has passed the extremely unofficial vibe check.`,
-    (name) => `@${name} just joined the party. Somebody turn the imaginary Winamp up.`,
+    (name) => `@${name} just joined the party. Somebody turn BRUN3YAMP up.`,
   ];
   const funnyLines = [
     (name) => `@${name}, the quantum cat is both excited and asleep. We are not checking.`,
@@ -42,6 +43,22 @@
     (name) => `@${name}, a quantum computer walks into a bar. Also does not. Long story.`,
   ];
   const pick = (items) => items[Math.floor(Math.random() * items.length)];
+  let unreadCount = 0;
+
+  const nearBottom = () => log.scrollHeight - log.scrollTop - log.clientHeight < 40;
+  function clearUnread() {
+    unreadCount = 0;
+    unreadButton.hidden = true;
+  }
+
+  log.addEventListener('scroll', () => {
+    if (nearBottom()) clearUnread();
+  });
+  unreadButton.addEventListener('click', () => {
+    log.scrollTop = log.scrollHeight;
+    clearUnread();
+    log.focus({ preventScroll: true });
+  });
 
   function roomReply(nickname, lines) {
     const otherMembers = nicknames.filter((name) => name.toLowerCase() !== nickname.toLowerCase());
@@ -49,9 +66,9 @@
   }
 
   function appendMessage(nickname, message, visitor = false) {
-    const nearBottom = log.scrollHeight - log.scrollTop - log.clientHeight < 40;
+    const followMessages = nearBottom() || visitor;
     const item = document.createElement('li');
-    item.className = `chat-message${visitor ? ' visitor-message' : ''}`;
+    item.className = `chat-message is-new${visitor ? ' visitor-message' : ''}`;
     const name = document.createElement('span');
     name.className = 'chat-nick';
     name.textContent = nickname;
@@ -60,7 +77,14 @@
     item.append(name, text);
     log.append(item);
     while (log.children.length > 18) log.firstElementChild.remove();
-    if (nearBottom || visitor) log.scrollTop = log.scrollHeight;
+    if (followMessages) {
+      log.scrollTop = log.scrollHeight;
+      clearUnread();
+    } else {
+      unreadCount = Math.min(unreadCount + 1, log.children.length);
+      unreadButton.textContent = `↓ ${unreadCount} new message${unreadCount === 1 ? '' : 's'}`;
+      unreadButton.hidden = false;
+    }
   }
 
   form.addEventListener('submit', (event) => {
@@ -87,7 +111,7 @@
 
   async function startSimulation() {
     try {
-      const response = await fetch('site/chat-messages.json');
+      const response = await fetch('site/chat-messages.json?v=2');
       if (!response.ok) return;
       const messages = await response.json();
       if (!Array.isArray(messages) || messages.length < 4) return;

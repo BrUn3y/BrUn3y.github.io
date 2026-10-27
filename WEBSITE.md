@@ -6,7 +6,7 @@ A Y2K-inspired static website based on the profile README. Built with HTML, CSS,
 - `site/style.css`: desktop and mobile styles.
 - `site/app.js`: project filters, navigation, and the Mexico City clock.
 - `site/radio.js`: Play/Pause controls, current song from Icecast metadata, and playback indicator for The Cyber Music Lover Radio.
-- `site/chat.js` and `site/chat-messages.json`: local chat, 500 original English messages, randomized pacing, personalized greetings, and funny replies.
+- `site/chat.js` and `site/chat-messages.json`: local chat, 550 original English messages (including 50 generic radio/song comments), randomized pacing, unread indicator, personalized greetings, and funny replies.
 - `site/activity.js` and `site/activity.json`: public GitHub events and authored issues/PRs, with a saved fallback for network errors or API rate limits.
 - `site/strava.js` and `site/strava.json`: the latest six published workouts and totals, based on the existing profile Strava widget.
 - `scripts/refresh_site_data.py`: safe, repeatable GitHub and Strava refreshes. Run without flags to refresh both, or use `--github` / `--strava`.
@@ -26,7 +26,7 @@ Open http://127.0.0.1:8080. Editorial content is maintained manually; existing p
 
 Google Analytics uses the owner's Google tag, `G-GSG3QV8LMM`, loaded asynchronously in the document head. No custom analytics events send chat nicknames or messages.
 
-The project chat is entirely simulated. Visitors can add a nickname and a message to the current tab; messages are rendered with `textContent`, never sent over the network, and never stored in cookies, localStorage, sessionStorage, or a backend. Reloading resets the room. Fictional participants draw from 500 unique English messages shuffled without repeating a message until the deck is exhausted. Messages arrive at irregular intervals while the tab is visible. A nickname receives a welcome and a humorous reply on its first message in the current tab. The displayed log is limited to 18 messages. The UI only notes that messages clear on refresh.
+The project chat is entirely simulated. Visitors can add a nickname and a message to the current tab; messages are rendered with `textContent`, never sent over the network, and never stored in cookies, localStorage, sessionStorage, or a backend. Reloading resets the room. Fictional participants draw from 550 unique English messages shuffled without repeating a message until the deck is exhausted. Fifty comments refer generically to the radio and its music without assuming a particular artist, genre, or song. Messages arrive at irregular intervals while the tab is visible. New arrivals briefly highlight; if a visitor is reading older messages, an unread counter offers a button to jump to the latest messages. Reading to the bottom clears the counter. A nickname receives a welcome and a humorous reply on its first message in the current tab. The displayed log is limited to 18 messages. The UI only notes that messages clear on refresh.
 
 Last activity uses GitHub's public events and authored issue search APIs without authentication. It supports pushes, pull requests, reviews, issues, comments, repositories, forks, stars, and releases. A checked-in public snapshot remains available when the API fails or rate limits requests. The displayed source indicates whether the feed is live, saved, or mixed. All links point to the actual GitHub resources.
 

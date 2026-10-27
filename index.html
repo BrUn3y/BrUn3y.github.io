@@ -33,9 +33,9 @@
     <title>BRUN3Y — My little corner of the internet</title>
     <link rel="canonical" href="https://brun3y.github.io/">
     <link rel="icon" type="image/svg+xml" href="site/assets/favicon.svg">
-    <link rel="stylesheet" href="site/style.css?v=radio-2">
+    <link rel="stylesheet" href="site/style.css?v=chat-2">
     <script src="site/app.js" defer></script>
-    <script src="site/chat.js" defer></script>
+    <script src="site/chat.js?v=2" defer></script>
     <script src="site/activity.js" defer></script>
     <script src="site/strava.js" defer></script>
     <script src="site/radio.js?v=2" defer></script>
@@ -89,11 +89,12 @@
           <section class="chat-panel retro-panel" aria-labelledby="chat-title">
             <div class="panel-title"><h2 id="chat-title">IRC CHAT</h2><span class="chat-demo">#brun3y</span></div>
             <p class="chat-room-note">Project talk. Pixel-sized opinions.</p>
-            <ol class="chat-log" id="chat-log" role="log" aria-live="polite" aria-label="Project conversation" aria-relevant="additions">
+            <ol class="chat-log" id="chat-log" role="log" aria-live="polite" aria-label="Project conversation" aria-relevant="additions" tabindex="0">
               <li class="chat-message"><span class="chat-nick">pixel_kit</span><p>Five agents and real quantum hardware? Quantum Lab is wild.</p></li>
               <li class="chat-message"><span class="chat-nick">bytekid</span><p>TriForge is my favorite. Three brains, one build.</p></li>
               <li class="chat-message"><span class="chat-nick">qbit_99</span><p>Trying the Bell state workshop next!</p></li>
             </ol>
+            <button class="chat-unread" id="chat-unread" type="button" aria-controls="chat-log" hidden>↓ New messages</button>
             <form class="chat-form" id="chat-form" autocomplete="off">
               <label for="chat-nickname">YOUR NICKNAME</label>
               <input id="chat-nickname" name="nickname" type="text" placeholder="guest_2000" maxlength="18" required spellcheck="false" autocapitalize="off" disabled>
