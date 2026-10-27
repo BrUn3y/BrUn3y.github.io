@@ -33,12 +33,13 @@
     <title>BRUN3Y — My little corner of the internet</title>
     <link rel="canonical" href="https://brun3y.github.io/">
     <link rel="icon" type="image/svg+xml" href="site/assets/favicon.svg">
-    <link rel="stylesheet" href="site/style.css?v=chat-2">
+    <link rel="stylesheet" href="site/style.css?v=globe-1">
     <script src="site/app.js" defer></script>
     <script src="site/chat.js?v=2" defer></script>
     <script src="site/activity.js" defer></script>
     <script src="site/strava.js" defer></script>
     <script src="site/radio.js?v=2" defer></script>
+    <script src="site/globe.js?v=1" defer></script>
   </head>
   <body id="top">
     <a class="skip-link" href="#content">Skip to content</a>
@@ -182,6 +183,14 @@
             <ol class="activity-list" id="activity-list" aria-label="Recent public GitHub activity"><li class="activity-empty">Connecting to GitHub…</li></ol>
             <p class="activity-source" id="activity-source" role="status" aria-live="polite">PUBLIC ACTIVITY ONLY</p>
             <a class="activity-view-all" href="https://github.com/BrUn3y?tab=overview" target="_blank" rel="noopener noreferrer">More on GitHub <span aria-hidden="true">↗</span></a>
+          </section>
+          <section class="globe-panel retro-panel" aria-labelledby="globe-title">
+            <div class="panel-title"><h2 id="globe-title">WORLD WIDE WEB</h2><button id="globe-toggle" type="button" aria-label="Pause globe rotation">Ⅱ</button></div>
+            <div class="globe-stage"><canvas id="web-globe" width="320" height="320" role="img" aria-label="Rotating Earth with a few decorative dots around the world.">A small rotating Earth.</canvas></div>
+            <div class="globe-legend"><span><i class="globe-signal" aria-hidden="true"></i> Decorative dots</span><span id="globe-you" hidden><i class="globe-person" aria-hidden="true"></i> You</span></div>
+            <p class="globe-location" id="globe-location" role="status">A little world, always turning.</p>
+            <button class="globe-locate" id="globe-locate" type="button">Show my spot</button>
+            <p class="globe-privacy">Approximate location.<br>Stays in your browser.</p>
           </section>
           <a class="side-ad bob-ad" href="https://github.com/BrUn3y/IBM_Bob_Harness" target="_blank" rel="noopener noreferrer"><span class="side-ad-label">A SHELL WITH SUPERPOWERS</span><span class="bob-inside">bob<br><strong>inside.</strong></span><p>HEADLESS AGENT.<br>ENDLESS POSSIBILITIES.</p><span class="side-ad-button">EXPLORE THE HARNESS »</span></a>
           <a class="activity-web-badge" href="https://github.com/BrUn3y?tab=repositories" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">&lt;/&gt;</span><div><strong>OPEN SOURCE</strong><small>TAKE A LOOK UNDER THE HOOD ↗</small></div></a>

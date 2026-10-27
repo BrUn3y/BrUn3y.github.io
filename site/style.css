@@ -177,6 +177,21 @@ h1, h2, h3, h4, p { margin: 0; }
 .activity-source { font: 6px/1.6 var(--mono); padding: 11px 10px; color: #9784a3; border-top: 1px solid #ded5e6; }
 .activity-view-all { display: flex; justify-content: space-between; padding: 10px; background: #e8e0f1; border-top: 1px solid #c9bbd6; font: 8px var(--mono); color: #7f6591; }
 .activity-view-all:hover { background: #dfd1ed; }
+.globe-panel { margin-top: 20px; }
+.globe-panel .panel-title { align-items: center; padding-right: 5px; }
+.globe-panel h2 { font: inherit; }
+.globe-panel #globe-toggle { display: grid; place-items: center; width: 23px; height: 23px; border: 1px outset #eee7f5; background: #e5dced; font: 11px var(--mono); }
+.globe-stage { margin: 9px 8px 0; border: 1px inset #b8a5ca; background: radial-gradient(circle at 30% 20%, #3d334b, #211e2c 75%); }
+.globe-stage canvas { display: block; width: 100%; max-width: 240px; height: auto; margin-inline: auto; }
+.globe-legend { display: flex; justify-content: center; flex-wrap: wrap; gap: 9px; padding: 9px 7px 0; font: 7px var(--mono); color: #887198; }
+.globe-legend > span { display: flex; align-items: center; gap: 4px; }
+.globe-legend i { display: inline-block; width: 5px; height: 5px; border-radius: 50%; border: 1px solid #9b79bf; background: #d4b4ff; }
+.globe-legend .globe-person { background: #dff693; border-color: #8b9d64; }
+.globe-location { padding: 9px 8px 0; text-align: center; font: 8px/1.6 var(--mono); color: #776486; }
+.globe-locate { display: block; width: calc(100% - 16px); min-height: 32px; margin: 9px 8px 0; border: 1px outset #eadff2; background: linear-gradient(#eee7f6, #d8c9e6); font: 8px var(--mono); }
+.globe-locate:hover { background: #e3efbf; }
+.globe-locate:disabled { cursor: wait; opacity: .6; }
+.globe-privacy { padding: 7px 8px 10px; text-align: center; font: 6px/1.6 var(--mono); color: #9a86a6; }
 .activity-web-badge { display: flex; align-items: center; gap: 7px; margin-top: 24px; background: linear-gradient(#ddd4e8, #c5b7d4); border: 1px solid #a090b0; box-shadow: inset 1px 1px #fff, inset -1px -1px #baabc9; padding: 7px; }
 .activity-web-badge > span { font: bold 17px var(--mono); color: #7c648d; }
 .activity-web-badge strong { display: block; font: bold 8px var(--mono); color: #695378; }

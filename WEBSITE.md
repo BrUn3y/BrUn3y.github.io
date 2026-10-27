@@ -6,6 +6,7 @@ A Y2K-inspired static website based on the profile README. Built with HTML, CSS,
 - `site/style.css`: desktop and mobile styles.
 - `site/app.js`: project filters, navigation, and the Mexico City clock.
 - `site/radio.js`: Play/Pause controls, current song from Icecast metadata, and playback indicator for The Cyber Music Lover Radio.
+- `site/globe.js` and `site/globe-land.json`: a small Canvas Earth below Last activity. Four random decorative dots add atmosphere; they do not represent measured visitors. Show my spot requests browser geolocation only on click, rounds it to whole degrees, and highlights that approximate point in the current tab without storage, reverse geocoding, network transmission, or analytics events. Rotation pauses offscreen, in hidden tabs, and for reduced-motion preferences; a manual pause button is available.
 - `site/chat.js` and `site/chat-messages.json`: local chat, 550 original English messages (including 50 generic radio/song comments), randomized pacing, unread indicator, personalized greetings, and funny replies.
 - `site/activity.js` and `site/activity.json`: public GitHub events and authored issues/PRs, with a saved fallback for network errors or API rate limits.
 - `site/strava.js` and `site/strava.json`: the latest six published workouts and totals, based on the existing profile Strava widget.
@@ -13,6 +14,7 @@ A Y2K-inspired static website based on the profile README. Built with HTML, CSS,
 - `AGENTS.md` (also linked from `agent.md`): maintenance instructions for agents, including data sources, refresh commands, design constraints, validation, and publishing. Both guides live in this repository's root.
 - `site/assets/`: original SVG illustrations and the public GitHub avatar.
 - `site/assets/webspace-social-v1.png`: 1200 × 630 share image for Open Graph and large Twitter cards. Its editable source is `scripts/social-preview.html`; serve locally, open that page at a 1200 × 630 viewport, and capture the viewport to regenerate the PNG. Use a new image filename when changing the shared image to help refresh link-preview caches.
+- `scripts/build_globe_land.py`: regenerates the lightweight land-dot asset with Pillow from [Natural Earth's public-domain 1:110m land map](https://www.naturalearthdata.com/downloads/110m-physical-vectors/110m-land/). The page uses only the generated local JSON, with no globe library or map service.
 
 ## Local development
 
