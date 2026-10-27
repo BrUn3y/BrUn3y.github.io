@@ -39,7 +39,7 @@
     <script src="site/activity.js" defer></script>
     <script src="site/strava.js" defer></script>
     <script src="site/radio.js?v=2" defer></script>
-    <script src="site/globe.js?v=1" defer></script>
+    <script src="site/globe.js?v=2" defer></script>
   </head>
   <body id="top">
     <a class="skip-link" href="#content">Skip to content</a>
@@ -186,8 +186,8 @@
           </section>
           <section class="globe-panel retro-panel" aria-labelledby="globe-title">
             <div class="panel-title"><h2 id="globe-title">WORLD WIDE WEB</h2><button id="globe-toggle" type="button" aria-label="Pause globe rotation">Ⅱ</button></div>
-            <div class="globe-stage"><canvas id="web-globe" width="320" height="320" role="img" aria-label="Rotating Earth with a few decorative dots around the world.">A small rotating Earth.</canvas></div>
-            <div class="globe-legend"><span><i class="globe-signal" aria-hidden="true"></i> Decorative dots</span><span id="globe-you" hidden><i class="globe-person" aria-hidden="true"></i> You</span></div>
+            <div class="globe-stage"><canvas id="web-globe" width="320" height="320" role="img" aria-label="Rotating Earth with points around the world.">A small rotating Earth.</canvas></div>
+            <div class="globe-legend" id="globe-you" hidden><span><i class="globe-person" aria-hidden="true"></i> You</span></div>
             <p class="globe-location" id="globe-location" role="status">A little world, always turning.</p>
             <button class="globe-locate" id="globe-locate" type="button">Show my spot</button>
             <p class="globe-privacy">Approximate location.<br>Stays in your browser.</p>

@@ -39,10 +39,14 @@
 
   // A handful of decorative signals, never a claim about live visitors.
   const regions = [
-    [[19.4, -99.1], [40.7, -74]],
+    [[49.3, -123.1], [34.1, -118.2]],
+    [[19.4, -99.1], [20.7, -103.3]],
+    [[40.7, -74], [25.8, -80.2]],
     [[-23.6, -46.6], [-34.6, -58.4]],
-    [[51.5, -.1], [-1.3, 36.8]],
-    [[35.7, 139.7], [-33.9, 151.2], [19.1, 72.9]],
+    [[51.5, -.1], [52.5, 13.4]],
+    [[-1.3, 36.8], [-33.9, 18.4], [30, 31.2]],
+    [[35.7, 139.7], [1.4, 103.8], [19.1, 72.9]],
+    [[-33.9, 151.2], [-36.8, 174.8]],
   ];
   const signals = regions.map((cities) => {
     const [latitude, longitude] = cities[Math.floor(Math.random() * cities.length)];
@@ -165,7 +169,7 @@
       tilt = Math.max(-60, Math.min(60, latitude)) * radians;
       youLegend.hidden = false;
       status.textContent = 'Your approximate spot is highlighted.';
-      canvas.setAttribute('aria-label', 'Rotating Earth with decorative dots and your approximate location highlighted in lime.');
+      canvas.setAttribute('aria-label', 'Rotating Earth with your approximate location highlighted in lime.');
       locate.disabled = false;
       locate.textContent = 'Show my spot';
       update();

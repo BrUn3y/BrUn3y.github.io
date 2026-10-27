@@ -21,7 +21,7 @@ This website repository is **public** at the user's explicit request so GitHub P
 | `.github/workflows/pages.yml` | Deployment from this repository when Pages is supported and enabled |
 | `site/chat.js`, `site/chat-messages.json` | Ephemeral chat, 550 messages including 50 generic radio comments, unread indicator, greetings, and funny replies |
 | `site/radio.js` | Controls BRUN3YAMP's direct HTTPS stream for The Cyber Music Lover Radio; playback starts only after Play |
-| `site/globe.js`, `site/globe-land.json` | Small rotating globe, four decorative markers, and an optional approximate location kept only in the visitor's tab |
+| `site/globe.js`, `site/globe-land.json` | Small rotating globe, eight decorative markers, and an optional approximate location kept only in the visitor's tab |
 | `agent.md`, `AGENTS.md` | Website maintenance and credential-handling instructions |
 
 ## User preferences to preserve
@@ -35,7 +35,7 @@ This website repository is **public** at the user's explicit request so GitHub P
 - Keep the 550-message shuffled deck (including generic radio/song comments), irregular timing, welcome mentioning a visitor's nickname, and humorous replies. Render visitor text with `textContent`. Highlight new arrivals briefly; preserve the unread counter and jump-to-latest button when a visitor is reading older messages.
 - The user asked to omit fiction/demo/simulation labels from the visible chat. Keep the factual refresh notice. Do not invent online-user counts or claim real-time communication between visitors.
 - Project ads link to the owner's projects and community; preserve those destinations and avoid adding an ad network.
-- Keep the globe below Last activity. Its random dots are decorative, not live visitor records. Request geolocation only after the visitor clicks Show my spot; round coordinates to whole degrees, keep them in memory, and never store, transmit, or send them to analytics. Respect reduced motion and suspend rotation offscreen or in hidden tabs.
+- Keep the globe below Last activity. Its random dots are decorative, not live visitor records. The user asked to omit their visible legend; do not add a visitor count or claims of live connections. Request geolocation only after the visitor clicks Show my spot; round coordinates to whole degrees, keep them in memory, and never store, transmit, or send them to analytics. Respect reduced motion and suspend rotation offscreen or in hidden tabs.
 
 ## Credentials and secrets
 
