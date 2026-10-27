@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="88" height="31" viewBox="0 0 88 31">
+  <title>IRC chat — #brun3y</title>
+  <defs><linearGradient id="lime" x2="0" y2="1"><stop stop-color="#fbffc8"/><stop offset=".5" stop-color="#c9e964"/><stop offset="1" stop-color="#8ea742"/></linearGradient></defs>
+  <path fill="#343d20" d="M0 0h88v31H0z"/><path fill="url(#lime)" stroke="#f6ffd5" d="M1.5 1.5h85v28h-85z"/>
+  <path fill="#26312a" d="M3 3h23v25H3z"/><text x="14.5" y="24" fill="#dff693" font-family="Courier New,monospace" font-size="24" font-weight="bold" text-anchor="middle">#</text>
+  <text x="56" y="11" fill="#394925" font-family="Courier New,monospace" font-size="6" font-weight="bold" text-anchor="middle">IRC CHAT</text>
+  <text x="56" y="22" fill="#28331a" font-family="Courier New,monospace" font-size="9" font-weight="bold" text-anchor="middle">#brun3y</text>
+  <path stroke="#f8ffd9" d="M29 25.5h53"/>
+</svg>

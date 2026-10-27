@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="88" height="31" viewBox="0 0 88 31">
+  <title>HTML, CSS and JavaScript — old web energy</title>
+  <defs><linearGradient id="silver" x2="0" y2="1"><stop stop-color="#fff"/><stop offset=".5" stop-color="#e6e9db"/><stop offset="1" stop-color="#a7b99d"/></linearGradient></defs>
+  <path fill="#35483e" d="M0 0h88v31H0z"/><path fill="url(#silver)" stroke="#f7fff0" d="M1.5 1.5h85v28h-85z"/>
+  <path fill="#315f49" d="M3 3h25v25H3z"/><text x="15.5" y="20" fill="#e6ffbc" font-family="Courier New,monospace" font-size="12" font-weight="bold" text-anchor="middle">&lt;/&gt;</text>
+  <text x="57" y="11" fill="#326046" font-family="Courier New,monospace" font-size="6" font-weight="bold" text-anchor="middle">HTML + CSS + JS</text>
+  <text x="57" y="23" fill="#203f2e" font-family="Arial,sans-serif" font-size="9" font-weight="900" text-anchor="middle">OLD WEB</text>
+  <path stroke="#fff" d="M32 26h50"/>
+</svg>

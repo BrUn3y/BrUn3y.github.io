@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="88" height="31" viewBox="0 0 88 31">
+  <title>RSS — read my notes</title>
+  <defs><linearGradient id="paper" x2="0" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#a9bce8"/></linearGradient></defs>
+  <path fill="#34334a" d="M0 0h88v31H0z"/><path fill="url(#paper)" stroke="#fff" d="M1.5 1.5h85v28h-85z"/>
+  <path fill="#4b548b" d="M2 2h84v8H2z"/>
+  <text x="44" y="8" fill="#fff" font-family="Courier New,monospace" font-size="6" font-weight="bold" text-anchor="middle">READ MY NOTES</text>
+  <path fill="#ed7b24" d="M2 11h23v18H2z"/><g fill="none" stroke="#fff" stroke-width="2"><path d="M7 15a12 12 0 0 1 12 12M7 20a7 7 0 0 1 7 7"/></g><circle cx="8" cy="26" r="1.7" fill="#fff"/>
+  <text x="55" y="22" fill="#313b69" font-family="Arial,sans-serif" font-size="12" font-weight="900" text-anchor="middle">RSS</text>
+  <text x="55" y="28" fill="#424969" font-family="Courier New,monospace" font-size="5" font-weight="bold" text-anchor="middle">MEDIUM FEED</text>
+</svg>

@@ -197,6 +197,10 @@ h1, h2, h3, h4, p { margin: 0; }
 .activity-web-badge > span { font: bold 17px var(--mono); color: #7c648d; }
 .activity-web-badge strong { display: block; font: bold 8px var(--mono); color: #695378; }
 .activity-web-badge small { display: block; font: 4px var(--mono); color: #8e759f; margin-top: 3px; }
+.retro-buttons { display: grid; justify-items: center; gap: 9px; max-width: 220px; margin-top: 18px; }
+.retro-buttons a { display: block; width: 132px; max-width: 100%; box-shadow: 1px 1px #77658266; }
+.retro-buttons img { display: block; width: 100%; height: auto; }
+.retro-buttons a:hover { filter: brightness(1.1); }
 .activity-footnote { font: 7px/1.8 var(--mono); text-align: center; color: #9d89a9; margin-top: 15px; }
 main { min-width: 0; }
 .hero { position: relative; isolation: isolate; overflow: hidden; min-height: 514px; padding: 24px 34px 0; background: radial-gradient(ellipse at 91% 42%, #c5b6dd90 0, transparent 50%), linear-gradient(110deg, #f2f0f4 0, #e8e4ee 54%, #d5c8e7); border-bottom: 1px solid #9d90ad; }
