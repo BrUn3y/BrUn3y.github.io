@@ -115,9 +115,10 @@ h1, h2, h3, h4, p { margin: 0; }
 .equalizer i:nth-child(3n) { height: 100%; }
 .equalizer i:nth-child(3n + 1) { height: 40%; }
 .equalizer i:nth-child(4n) { height: 75%; }
-.player-track { font: 8px var(--mono); white-space: nowrap; margin-top: 10px; }
+.player-track { font: 8px/1.5 var(--mono); overflow-wrap: anywhere; margin-top: 10px; }
 .player-quality { margin-top: 7px; font: 6px var(--mono); color: #c7dca3; display: flex; justify-content: space-between; }
-.player-open { margin-top: 5px; padding: 6px 5px; border: 1px outset #eeebf5; background: linear-gradient(#efedf4, #c5bfcd); display: flex; align-items: center; justify-content: space-between; font: 9px var(--mono); }
+.music-player audio { display: block; width: 100%; margin-top: 5px; }
+.player-open { width: 100%; min-height: 36px; margin-top: 5px; padding: 6px 5px; border: 1px outset #eeebf5; background: linear-gradient(#efedf4, #c5bfcd); display: flex; align-items: center; justify-content: space-between; font: 9px var(--mono); }
 .player-open:hover { background: #e4d8f7; }
 .play-icon { font-size: 12px; }
 .music-player p { text-align: center; font-size: 8px; color: #595163; padding-top: 7px; padding-bottom: 2px; }
