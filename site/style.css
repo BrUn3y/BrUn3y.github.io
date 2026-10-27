@@ -111,10 +111,18 @@ h1, h2, h3, h4, p { margin: 0; }
 .player-title > span:last-child { margin-left: auto; }
 .player-display { color: var(--acid); background: #25272b; border: 2px inset #8a8198; padding: 10px 8px 7px; }
 .equalizer { display: flex; align-items: flex-end; gap: 3px; height: 33px; }
-.equalizer i { flex: 1; height: 60%; background: repeating-linear-gradient(to top, #b7d675 0 2px, transparent 2px 4px); }
+.equalizer i { flex: 1; height: 60%; opacity: .45; transform-origin: bottom; background: repeating-linear-gradient(to top, #b7d675 0 2px, transparent 2px 4px); }
 .equalizer i:nth-child(3n) { height: 100%; }
 .equalizer i:nth-child(3n + 1) { height: 40%; }
 .equalizer i:nth-child(4n) { height: 75%; }
+.music-player.is-playing .equalizer i { opacity: 1; animation: radio-bars .8s steps(4, end) infinite alternate; }
+.music-player.is-playing .equalizer i:nth-child(3n) { animation-duration: .65s; animation-delay: -.3s; }
+.music-player.is-playing .equalizer i:nth-child(3n + 1) { animation-duration: 1.1s; animation-delay: -.7s; }
+.music-player.is-playing .equalizer i:nth-child(4n) { animation-delay: -.5s; }
+@keyframes radio-bars {
+  from { transform: scaleY(.25); }
+  to { transform: scaleY(1); }
+}
 .player-track { font: 8px/1.5 var(--mono); overflow-wrap: anywhere; margin-top: 10px; }
 .player-quality { margin-top: 7px; font: 6px var(--mono); color: #c7dca3; display: flex; justify-content: space-between; }
 .music-player audio { display: block; width: 100%; margin-top: 5px; }

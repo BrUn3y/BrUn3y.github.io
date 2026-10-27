@@ -5,7 +5,7 @@ A Y2K-inspired static website based on the profile README. Built with HTML, CSS,
 - `index.html`: content, links, projects, and retro self-promotion banners.
 - `site/style.css`: desktop and mobile styles.
 - `site/app.js`: project filters, navigation, and the Mexico City clock.
-- `site/radio.js`: Play/Pause controls for The Cyber Music Lover Radio's direct HTTPS stream.
+- `site/radio.js`: Play/Pause controls, current song from Icecast metadata, and playback indicator for The Cyber Music Lover Radio.
 - `site/chat.js` and `site/chat-messages.json`: local chat, 500 original English messages, randomized pacing, personalized greetings, and funny replies.
 - `site/activity.js` and `site/activity.json`: public GitHub events and authored issues/PRs, with a saved fallback for network errors or API rate limits.
 - `site/strava.js` and `site/strava.json`: the latest six published workouts and totals, based on the existing profile Strava widget.
@@ -21,7 +21,7 @@ From the repository root:
 python3 -m http.server 8080 --bind 127.0.0.1
 ```
 
-Open http://127.0.0.1:8080. Editorial content is maintained manually; existing profile README automation runs independently. BRUN3YAMP plays The Cyber Music Lover Radio only after the visitor presses Play. Pause releases the live connection; Play rejoins the broadcast. The player shows connection, playback, and error states and links to the station on radio.net. Native audio controls remain available without JavaScript. Retro banners link to the owner's own projects and do not use an advertising network.
+Open http://127.0.0.1:8080. Editorial content is maintained manually; existing profile README automation runs independently. BRUN3YAMP plays The Cyber Music Lover Radio only after the visitor presses Play. Pause releases the live connection; Play rejoins the broadcast. The player shows connection, playback, and error states and links to the station on radio.net. While playing in a visible tab, it reads the station's public Icecast metadata every 30 seconds to display the current artist/song, falling back to the station name if unavailable. The bars use a simple CSS animation as a playback indicator, stop on pause/buffering, and respect reduced-motion preferences. Native audio controls remain available without JavaScript. Retro banners link to the owner's own projects and do not use an advertising network.
 
 Google Analytics uses the owner's Google tag, `G-GSG3QV8LMM`, loaded asynchronously in the document head. No custom analytics events send chat nicknames or messages.
 
