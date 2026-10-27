@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BRUN3Y social preview · 1200 × 630</title>
+<style>
+  * { box-sizing: border-box; }
+  body { width: 1200px; height: 630px; margin: 0; overflow: hidden; color: #30283e; font-family: Arial, sans-serif; background: radial-gradient(ellipse at 85% 0, #d6c9ed, transparent 55%), radial-gradient(circle, #b6a8c6 .8px, transparent 1px) 0 0 / 7px 7px, #e8e2ee; }
+  .desktop { position: absolute; left: 42px; right: 42px; top: 18px; display: flex; justify-content: space-between; font: 11px 'Courier New', monospace; letter-spacing: 1px; }
+  .window { position: absolute; inset: 48px 36px 38px; border: 1px solid #786a89; border-radius: 9px 9px 3px 3px; overflow: hidden; background: #f6f3fa; box-shadow: 7px 8px 0 #ac9bbe80, 0 16px 35px #77608020; }
+  .titlebar { height: 32px; display: flex; align-items: center; justify-content: space-between; padding: 0 10px 0 15px; background: linear-gradient(#f3eff8, #d2c8df); border-bottom: 1px solid #9b8baa; font: bold 12px 'Courier New', monospace; }
+  .controls { display: flex; gap: 4px; }
+  .controls span { display: grid; place-items: center; width: 21px; height: 21px; background: #e6dfee; border: 1px solid #a496b1; box-shadow: inset 1px 1px white; }
+  .address { height: 32px; display: flex; align-items: center; gap: 12px; padding: 5px 15px; background: #e6e0ed; border-bottom: 1px solid #c2b6cf; font: 10px 'Courier New', monospace; }
+  .url { flex: 1; background: #fff; padding: 3px 8px; border: 1px inset #cdc1d7; color: #796889; }
+  .hero { display: flex; align-items: center; justify-content: space-between; padding: 19px 25px 18px; }
+  .eyebrow { margin: 0 0 7px; font: 10px 'Courier New', monospace; letter-spacing: 2px; color: #7e678e; }
+  h1 { margin: 0 0 8px; font: italic 900 80px/.9 'Arial Black', Arial, sans-serif; letter-spacing: -7px; color: #8a759e; background: linear-gradient(#fff 0%, #bdb3ce 29%, #eee9f4 48%, #746380 51%, #a391b6 68%, #f7f4fb 89%, #7b698a 100%); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; filter: drop-shadow(1px 2px 0 #766383); }
+  .intro { margin: 10px 0 0; font-size: 21px; font-weight: bold; letter-spacing: -.5px; }
+  .profile { display: flex; align-items: center; gap: 13px; padding: 13px 15px; margin-top: 9px; border: 1px solid #b8a6cc; box-shadow: 3px 3px #ded4e9; background: #eee8f5; }
+  .profile img { width: 65px; height: 65px; object-fit: cover; image-rendering: pixelated; border: 4px solid white; outline: 1px solid #ad9cbd; }
+  .profile strong { font-size: 16px; line-height: 1.25; }
+  .profile p { margin: 6px 0 0; font: 10px/1.5 'Courier New', monospace; color: #7d668f; }
+  .content { display: grid; grid-template-columns: 1fr 244px; gap: 16px; margin: 0 24px; }
+  .forum { border: 1px solid #b5a3c9; box-shadow: 2px 2px #e0d7e9; }
+  .section-title { display: flex; justify-content: space-between; padding: 7px 12px; background: linear-gradient(#e7dff0, #d7c8e7); border-bottom: 1px solid #b5a3c9; font: bold 11px 'Courier New', monospace; letter-spacing: .8px; }
+  .board { display: grid; grid-template-columns: 39px 1fr 79px; gap: 11px; align-items: center; height: 62px; padding: 8px 12px; background: #faf8fd; border-bottom: 1px solid #ded4e8; }
+  .board:nth-child(odd) { background: #f0ebf5; }
+  .board:last-child { border-bottom: 0; }
+  .board-icon { display: grid; place-items: center; width: 35px; height: 32px; border: 1px solid #b09bc4; background: linear-gradient(#e7dbee, #cfb9e1); box-shadow: inset 1px 1px white; color: #72518e; font: bold 22px 'Courier New', monospace; }
+  .board h2 { margin: 0 0 4px; font-size: 16px; letter-spacing: -.3px; }
+  .board p { margin: 0; font-size: 12px; color: #7b6a89; }
+  .tag { text-align: right; font: 10px 'Courier New', monospace; color: #7e648e; }
+  .player { padding: 6px; background: #d0c8dc; border: 1px solid #83718f; box-shadow: inset 1px 1px white, 2px 2px #d9cfe3; }
+  .player-title { display: flex; justify-content: space-between; padding: 3px 3px 7px; font: bold 12px 'Courier New', monospace; letter-spacing: 2px; }
+  .display { padding: 12px 11px; border: 2px inset #8f819c; background: #26272b; color: #dff693; }
+  .bars { height: 41px; display: flex; align-items: flex-end; gap: 4px; }
+  .bars i { flex: 1; height: 65%; background: repeating-linear-gradient(to top, #bcd979 0 3px, transparent 3px 5px); }
+  .bars i:nth-child(3n) { height: 100%; }
+  .bars i:nth-child(3n + 1) { height: 40%; }
+  .bars i:nth-child(4n) { height: 80%; }
+  .station { margin: 11px 0 7px; font: 10px/1.4 'Courier New', monospace; }
+  .quality { display: flex; justify-content: space-between; font: 8px 'Courier New', monospace; }
+  .play { margin-top: 5px; display: flex; justify-content: space-between; padding: 7px; background: linear-gradient(#f5f1f9, #c5b8d4); border: 1px outset #eee7f7; font: 11px 'Courier New', monospace; }
+  .badges { display: flex; justify-content: center; gap: 8px; margin-top: 12px; }
+  .badges span { padding: 6px 8px; border: 1px solid #a8b487; box-shadow: inset 1px 1px white; background: #e2ecbc; font: bold 9px/1.35 'Courier New', monospace; }
+  .badges span:last-child { background: #dfd0ee; border-color: #b4a0c9; }
+  .footer { margin: 13px 24px 0; display: flex; justify-content: space-between; padding-top: 10px; border-top: 1px dashed #cbbbd9; font: 10px 'Courier New', monospace; color: #80658e; }
+</style>
+<div class="desktop"><span>✳ PERSONAL WEBSPACE / EST. 2013</span><span>A 2000s SOUL. A CURIOUS MIND.</span></div>
+<main class="window">
+  <div class="titlebar"><span>✳ brun3y.web — welcome to my little corner of the internet</span><div class="controls"><span>−</span><span>□</span><span>×</span></div></div>
+  <div class="address"><span>ADDRESS</span><span class="url">https://brun3y.github.io/</span><span>GO ↵</span></div>
+  <div class="hero">
+    <div><p class="eyebrow">CHAT / RADIO / CODE / PERSONAL PROJECTS</p><h1>BRUN3Y</h1><p class="intro">My little corner of the internet.</p></div>
+    <div class="profile"><img src="../site/assets/avatar-pixel.png" alt="Pixel portrait of Edgar"><div><strong>Edgar Bruney<br>Castañeda</strong><p>@BrUn3y · Zapopan, MX<br>AI / QUANTUM / OPEN SOURCE</p></div></div>
+  </div>
+  <div class="content">
+    <section class="forum">
+      <div class="section-title"><span>MY INTERNET HANGOUT</span><span>THE DIRECTORY ▾</span></div>
+      <div class="board"><span class="board-icon">#</span><div><h2>IRC chat / #brun3y</h2><p>Project talk. Pixel-sized opinions.</p></div><span class="tag">CHAT »</span></div>
+      <div class="board"><span class="board-icon">♫</span><div><h2>Internet radio</h2><p>Code sounds better with distortion.</p></div><span class="tag">TUNE IN »</span></div>
+      <div class="board"><span class="board-icon">&lt;/&gt;</span><div><h2>Code &amp; personal projects</h2><p>AI agents, quantum experiments &amp; open-source rabbit holes.</p></div><span class="tag">EXPLORE »</span></div>
+    </section>
+    <aside>
+      <div class="player"><div class="player-title"><span>ϟ BRUN3YAMP</span><span>− ▪</span></div><div class="display"><div class="bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><p class="station">THE CYBER MUSIC LOVER RADIO</p><div class="quality"><span>INTERNET RADIO</span><span>STEREO</span></div></div><div class="play"><span>▶ PLAY</span><span>TURN IT UP ↗</span></div></div>
+      <div class="badges"><span>100% HUMAN<br>CURIOSITY</span><span>MADE IN MX<br>WITH CURIOSITY</span></div>
+    </aside>
+  </div>
+  <div class="footer"><span>✦ BEST VIEWED WITH CURIOSITY. STAY A WHILE.</span><strong>brun3y.github.io</strong></div>
+</main>
+</html>

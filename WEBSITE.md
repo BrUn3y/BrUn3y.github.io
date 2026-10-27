@@ -12,6 +12,7 @@ A Y2K-inspired static website based on the profile README. Built with HTML, CSS,
 - `scripts/refresh_site_data.py`: safe, repeatable GitHub and Strava refreshes. Run without flags to refresh both, or use `--github` / `--strava`.
 - `AGENTS.md` (also linked from `agent.md`): maintenance instructions for agents, including data sources, refresh commands, design constraints, validation, and publishing. Both guides live in this repository's root.
 - `site/assets/`: original SVG illustrations and the public GitHub avatar.
+- `site/assets/webspace-social-v1.png`: 1200 × 630 share image for Open Graph and large Twitter cards. Its editable source is `scripts/social-preview.html`; serve locally, open that page at a 1200 × 630 viewport, and capture the viewport to regenerate the PNG. Use a new image filename when changing the shared image to help refresh link-preview caches.
 
 ## Local development
 
