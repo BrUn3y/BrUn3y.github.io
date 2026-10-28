@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T02:00:42.936386+00:00",
+  "updated_at": "2026-10-28T13:29:52.675497+00:00",
   "events": [
     {
       "id": "25328801814",
@@ -35,6 +35,30 @@
       "payload": {
         "ref": "refs/heads/main",
         "head": "c2f27db59a7e931685b185fb08c379859b6b98e0"
+      }
+    },
+    {
+      "id": "25409158094",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/BrUn3y.github.io"
+      },
+      "created_at": "2026-10-27T03:15:40Z",
+      "payload": {
+        "ref": "refs/heads/main",
+        "head": "930ed4a5a3ba9dd7a89858ee14175600781aea38"
+      }
+    },
+    {
+      "id": "25416903492",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/BrUn3y.github.io"
+      },
+      "created_at": "2026-10-27T02:55:41Z",
+      "payload": {
+        "ref": "refs/heads/main",
+        "head": "d0b486aac5ae7825a6ff37fe76f701b90b513822"
       }
     },
     {
@@ -502,18 +526,6 @@
       }
     },
     {
-      "id": "25017294928",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/Brun3y"
-      },
-      "created_at": "2026-10-24T03:00:56Z",
-      "payload": {
-        "ref": "refs/heads/master",
-        "head": "66cf3eb2cc296684c68130fc796735a2071754e9"
-      }
-    },
-    {
       "id": "25095491054",
       "type": "PushEvent",
       "repo": {
@@ -583,19 +595,6 @@
       "payload": {
         "ref": "refs/heads/main",
         "head": "38599c8d6d6dac5523c1b3ae45e2a19b1f27e482"
-      }
-    },
-    {
-      "id": "25035895732",
-      "type": "CreateEvent",
-      "repo": {
-        "name": "BrUn3y/skills-ai-week"
-      },
-      "created_at": "2026-10-23T14:36:09Z",
-      "payload": {
-        "ref": "main",
-        "ref_type": "branch",
-        "description": "Guía visual en español sobre skills de Claude Code, Codex e IBM Bob, creada con Archify."
       }
     }
   ],
