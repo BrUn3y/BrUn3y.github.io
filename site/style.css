@@ -311,7 +311,8 @@ main { min-width: 0; }
 .skills-ad .ad-cta { background: linear-gradient(#e5f6e9, #c1dacb); border-color: #779a89; color: #395e4c; box-shadow: inset 1px 1px #fff, inset -1px -1px #95b5a5, 2px 2px #865c7d; }
 .workflow-ad { color: #1e3a5f; background: repeating-linear-gradient(45deg, #e0f2fe 0 4px, #bae6fd 4px 8px); border-color: #3b82f6; }
 .workflow-ad .ad-message strong { font-size: 19px; text-shadow: 1px 1px #dbeafe; color: #1e40af; }
-.ad-mic { font-size: 40px; line-height: 1; flex-shrink: 0; }
+.ad-mic { display: grid; place-items: center; flex-shrink: 0; width: 48px; height: 57px; background: #f0f9ff; border: 1px solid #3b82f6; color: #1e40af; box-shadow: 3px 3px #1e40af44; transform: rotate(-8deg); }
+.ad-mic svg { width: 36px; height: 43px; }
 .workflow-ad .ad-cta { background: linear-gradient(#dbeafe, #93c5fd); border-color: #3b82f6; color: #1e3a8a; box-shadow: inset 1px 1px #fff, inset -1px -1px #60a5fa, 2px 2px #1e40af44; }
 .guild-ad { display: flex; align-items: center; justify-content: center; gap: 23px; margin: 0 34px 30px; padding: 17px 15px; color: #faf0ce; border: 2px solid #9b673d; background: radial-gradient(circle, #ffeabd18 1px, transparent 1.5px) 0 0 / 9px 9px, linear-gradient(110deg, #77503c, #ac7345); box-shadow: inset 0 0 0 1px #f1c58c, 2px 2px #c3b1b1; }
 .guild-ad-symbol { font-size: 44px; line-height: 1; color: #e2e9a0; }
