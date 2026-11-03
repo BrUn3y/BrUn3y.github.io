@@ -1,6 +1,55 @@
 {
-  "updated_at": "2026-11-03T02:00:58.260551+00:00",
+  "updated_at": "2026-11-03T14:38:31.267835+00:00",
   "events": [
+    {
+      "id": "26008131395",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/IBM_Bob_Harness"
+      },
+      "created_at": "2026-11-03T03:06:45Z",
+      "payload": {
+        "ref": "refs/heads/feat/google-drive-gemini-live",
+        "head": "b40691aa2503c2ffdf06e56183739beb90bd1d08"
+      }
+    },
+    {
+      "id": "26008056914",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/BrUn3y.github.io"
+      },
+      "created_at": "2026-11-03T03:05:48Z",
+      "payload": {
+        "ref": "refs/heads/main",
+        "head": "5ded7c5da729d6c6567e07fd3a76ad4bd7c4ec6b"
+      }
+    },
+    {
+      "id": "26007458955",
+      "type": "CreateEvent",
+      "repo": {
+        "name": "BrUn3y/IBM_Bob_Harness"
+      },
+      "created_at": "2026-11-03T02:58:55Z",
+      "payload": {
+        "ref": "feat/google-drive-gemini-live",
+        "ref_type": "branch",
+        "description": "Dockerized harness for IBM Bob Shell — runs Bob headless in an unrestricted YOLO mode and exposes it over a REST API with async jobs, live SSE streaming, and a verify-and-retry orchestration loop."
+      }
+    },
+    {
+      "id": "26004755781",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/Brun3y"
+      },
+      "created_at": "2026-11-03T02:02:51Z",
+      "payload": {
+        "ref": "refs/heads/master",
+        "head": "85fdfe93d8292aff4e28562436e3d5b862dc734b"
+      }
+    },
     {
       "id": "18947801934",
       "type": "IssueCommentEvent",
@@ -17,6 +66,18 @@
       }
     },
     {
+      "id": "25998773743",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/omnigent"
+      },
+      "created_at": "2026-11-03T00:40:47Z",
+      "payload": {
+        "ref": "refs/heads/feat/bob-native-harness",
+        "head": "ef2f0cd3580ad698a5590988c393160c989c8f58"
+      }
+    },
+    {
       "id": "18947253091",
       "type": "IssueCommentEvent",
       "repo": {
@@ -29,6 +90,18 @@
           "number": 2099,
           "title": "Fixes typos in SWODLR access method and tooltip text"
         }
+      }
+    },
+    {
+      "id": "25992345643",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/ica-learning"
+      },
+      "created_at": "2026-11-02T23:34:09Z",
+      "payload": {
+        "ref": "refs/heads/main",
+        "head": "93db760fd0e562b8c090ffdfea0a71eea174b8f5"
       }
     },
     {
@@ -484,30 +557,6 @@
       }
     },
     {
-      "id": "25193162515",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/BrUn3y.github.io"
-      },
-      "created_at": "2026-10-26T04:12:38Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "14a30cb50677f1a4805888ca131d06354bfd233a"
-      }
-    },
-    {
-      "id": "25192293696",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/Brun3y"
-      },
-      "created_at": "2026-10-26T04:00:27Z",
-      "payload": {
-        "ref": "refs/heads/master",
-        "head": "40d4619a7b5fc263db7d60214581ead529e34c0a"
-      }
-    },
-    {
       "id": "25285888198",
       "type": "PushEvent",
       "repo": {
@@ -544,54 +593,6 @@
       }
     },
     {
-      "id": "25209951481",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/Brun3y"
-      },
-      "created_at": "2026-10-26T03:29:29Z",
-      "payload": {
-        "ref": "refs/heads/master",
-        "head": "feb7899a7a13b0bfad85ea698b20a53296f43e2c"
-      }
-    },
-    {
-      "id": "25204588202",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/Brun3y"
-      },
-      "created_at": "2026-10-26T03:07:58Z",
-      "payload": {
-        "ref": "refs/heads/master",
-        "head": "b2f722fd79f587cd5af23ae63353f3679cb21f2f"
-      }
-    },
-    {
-      "id": "25277842669",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/Brun3y"
-      },
-      "created_at": "2026-10-26T03:07:09Z",
-      "payload": {
-        "ref": "refs/heads/master",
-        "head": "7031690c79a6eb2194bb2a727f495a92b19246ef"
-      }
-    },
-    {
-      "id": "25208066224",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/Brun3y"
-      },
-      "created_at": "2026-10-26T03:00:46Z",
-      "payload": {
-        "ref": "refs/heads/master",
-        "head": "c05218b07f9ebb5a905920e3468d2fc4d4721ab8"
-      }
-    },
-    {
       "id": "25278785706",
       "type": "PushEvent",
       "repo": {
@@ -606,12 +607,28 @@
   ],
   "issue_events": [
     {
+      "id": "issue-5683636456",
+      "type": "IssuesEvent",
+      "repo": {
+        "name": "omnigent-ai/omnigent"
+      },
+      "created_at": "2026-11-03T12:10:14Z",
+      "payload": {
+        "action": "Updated",
+        "number": 8882,
+        "issue": {
+          "number": 8882,
+          "title": "[Feature] Add IBM Bob Shell as a native TUI harness (bob-native)"
+        }
+      }
+    },
+    {
       "id": "issue-5684742578",
       "type": "PullRequestEvent",
       "repo": {
         "name": "omnigent-ai/omnigent"
       },
-      "created_at": "2026-11-03T00:41:02Z",
+      "created_at": "2026-11-03T02:36:23Z",
       "payload": {
         "action": "Updated",
         "number": 8902,
@@ -634,22 +651,6 @@
         "pull_request": {
           "number": 2099,
           "title": "Fixes typos in SWODLR access method and tooltip text"
-        }
-      }
-    },
-    {
-      "id": "issue-5683636456",
-      "type": "IssuesEvent",
-      "repo": {
-        "name": "omnigent-ai/omnigent"
-      },
-      "created_at": "2026-11-03T00:06:42Z",
-      "payload": {
-        "action": "Updated",
-        "number": 8882,
-        "issue": {
-          "number": 8882,
-          "title": "[Feature] Add IBM Bob Shell as a native TUI harness (bob-native)"
         }
       }
     },
