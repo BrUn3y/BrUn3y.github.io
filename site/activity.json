@@ -1,6 +1,126 @@
 {
-  "updated_at": "2026-11-03T14:38:31.267835+00:00",
+  "updated_at": "2026-11-04T02:00:41.441200+00:00",
   "events": [
+    {
+      "id": "19055663282",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "Quantum-Guild-GDL/qiskit_fall_fest_gdl"
+      },
+      "created_at": "2026-11-03T23:29:29Z",
+      "payload": {
+        "action": "merged",
+        "number": 33,
+        "pull_request": {
+          "number": 33
+        }
+      }
+    },
+    {
+      "id": "19055645482",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "Quantum-Guild-GDL/qiskit_fall_fest_gdl"
+      },
+      "created_at": "2026-11-03T23:29:17Z",
+      "payload": {
+        "action": "opened",
+        "number": 33,
+        "pull_request": {
+          "number": 33
+        }
+      }
+    },
+    {
+      "id": "19055535558",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "Quantum-Guild-GDL/qiskit_fall_fest_gdl"
+      },
+      "created_at": "2026-11-03T23:27:46Z",
+      "payload": {
+        "action": "merged",
+        "number": 32,
+        "pull_request": {
+          "number": 32
+        }
+      }
+    },
+    {
+      "id": "19055510460",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "Quantum-Guild-GDL/qiskit_fall_fest_gdl"
+      },
+      "created_at": "2026-11-03T23:27:26Z",
+      "payload": {
+        "action": "opened",
+        "number": 32,
+        "pull_request": {
+          "number": 32
+        }
+      }
+    },
+    {
+      "id": "19020327173",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "Quantum-Guild-GDL/qiskit_fall_fest_gdl"
+      },
+      "created_at": "2026-11-03T16:46:52Z",
+      "payload": {
+        "action": "merged",
+        "number": 31,
+        "pull_request": {
+          "number": 31
+        }
+      }
+    },
+    {
+      "id": "19020273666",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "Quantum-Guild-GDL/qiskit_fall_fest_gdl"
+      },
+      "created_at": "2026-11-03T16:46:21Z",
+      "payload": {
+        "action": "opened",
+        "number": 31,
+        "pull_request": {
+          "number": 31
+        }
+      }
+    },
+    {
+      "id": "19018151233",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "Quantum-Guild-GDL/qiskit_fall_fest_gdl"
+      },
+      "created_at": "2026-11-03T16:25:25Z",
+      "payload": {
+        "action": "merged",
+        "number": 30,
+        "pull_request": {
+          "number": 30
+        }
+      }
+    },
+    {
+      "id": "19018016543",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "Quantum-Guild-GDL/qiskit_fall_fest_gdl"
+      },
+      "created_at": "2026-11-03T16:24:09Z",
+      "payload": {
+        "action": "opened",
+        "number": 30,
+        "pull_request": {
+          "number": 30
+        }
+      }
+    },
     {
       "id": "26008131395",
       "type": "PushEvent",
@@ -485,18 +605,6 @@
       }
     },
     {
-      "id": "25313939264",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/BrUn3y.github.io"
-      },
-      "created_at": "2026-10-27T02:01:07Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "877b1e3c83a9b04c0563e880286e2fe87ed0e436"
-      }
-    },
-    {
       "id": "25320570859",
       "type": "PushEvent",
       "repo": {
@@ -506,18 +614,6 @@
       "payload": {
         "ref": "refs/heads/main",
         "head": "db576c7ba6ee3aaf9c527f68775b75cda8f0b2ea"
-      }
-    },
-    {
-      "id": "25300997777",
-      "type": "PushEvent",
-      "repo": {
-        "name": "Quantum-Guild-GDL/qiskit_fall_fest_gdl"
-      },
-      "created_at": "2026-10-26T22:20:36Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "628aa23b98eaf8ad3c1d60979fc7c0b25953c87d"
       }
     },
     {
@@ -531,81 +627,73 @@
         "ref": "refs/heads/main",
         "head": "29f27bb9c4df64a45e5390358f380fc5af4d202e"
       }
-    },
-    {
-      "id": "25298527641",
-      "type": "PushEvent",
-      "repo": {
-        "name": "Quantum-Guild-GDL/qiskit_fall_fest_gdl"
-      },
-      "created_at": "2026-10-26T22:17:48Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "fb8bcdb6ea594d44c8791597673ffcc591a85f54"
-      }
-    },
-    {
-      "id": "25282465762",
-      "type": "PushEvent",
-      "repo": {
-        "name": "Quantum-Guild-GDL/qiskit_fall_fest_gdl"
-      },
-      "created_at": "2026-10-26T19:49:41Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "a84a2274a0ee1eb7923af3863105a0062af14bfc"
-      }
-    },
-    {
-      "id": "25285888198",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/BrUn3y.github.io"
-      },
-      "created_at": "2026-10-26T03:46:52Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "c521fdc60735483e5ac6ce74d06686b5803c3b15"
-      }
-    },
-    {
-      "id": "25279443912",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/BrUn3y.github.io"
-      },
-      "created_at": "2026-10-26T03:45:06Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "0f06dbfe90b83b0eecb335cff6c1d9833c10678c"
-      }
-    },
-    {
-      "id": "25279103157",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/Brun3y"
-      },
-      "created_at": "2026-10-26T03:40:28Z",
-      "payload": {
-        "ref": "refs/heads/master",
-        "head": "ece1e23a9f792c41809bad0e090d043e46b151ec"
-      }
-    },
-    {
-      "id": "25278785706",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/Brun3y"
-      },
-      "created_at": "2026-10-26T02:00:54Z",
-      "payload": {
-        "ref": "refs/heads/master",
-        "head": "7a65600d36b90e617f13a4c6cab2110695643bbd"
-      }
     }
   ],
   "issue_events": [
+    {
+      "id": "issue-6193054947",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "Quantum-Guild-GDL/qiskit_fall_fest_gdl"
+      },
+      "created_at": "2026-11-03T23:29:30Z",
+      "payload": {
+        "action": "Updated",
+        "number": 33,
+        "pull_request": {
+          "number": 33,
+          "title": "Start Day 1 Part 1 at 1:00:00"
+        }
+      }
+    },
+    {
+      "id": "issue-6193033818",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "Quantum-Guild-GDL/qiskit_fall_fest_gdl"
+      },
+      "created_at": "2026-11-03T23:27:46Z",
+      "payload": {
+        "action": "Updated",
+        "number": 32,
+        "pull_request": {
+          "number": 32,
+          "title": "Add Day 1 recordings to Schedule"
+        }
+      }
+    },
+    {
+      "id": "issue-6187097719",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "Quantum-Guild-GDL/qiskit_fall_fest_gdl"
+      },
+      "created_at": "2026-11-03T16:46:53Z",
+      "payload": {
+        "action": "Updated",
+        "number": 31,
+        "pull_request": {
+          "number": 31,
+          "title": "Expand event gallery to 60 curated photos"
+        }
+      }
+    },
+    {
+      "id": "issue-6186718000",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "Quantum-Guild-GDL/qiskit_fall_fest_gdl"
+      },
+      "created_at": "2026-11-03T16:25:25Z",
+      "payload": {
+        "action": "Updated",
+        "number": 30,
+        "pull_request": {
+          "number": 30,
+          "title": "Add 40 curated event photos and an interactive gallery"
+        }
+      }
+    },
     {
       "id": "issue-5683636456",
       "type": "IssuesEvent",
@@ -731,70 +819,6 @@
         "pull_request": {
           "number": 3426,
           "title": "Expose timestamps in Session/Batch details()"
-        }
-      }
-    },
-    {
-      "id": "issue-5667771319",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "dam-agents/dam"
-      },
-      "created_at": "2026-10-07T07:16:46Z",
-      "payload": {
-        "action": "Updated",
-        "number": 4285,
-        "pull_request": {
-          "number": 4285,
-          "title": " fix(ui): keep dialog content through close animation"
-        }
-      }
-    },
-    {
-      "id": "issue-5682656030",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "Qiskit/qiskit-ibm-runtime"
-      },
-      "created_at": "2026-10-06T14:23:08Z",
-      "payload": {
-        "action": "Updated",
-        "number": 3425,
-        "pull_request": {
-          "number": 3425,
-          "title": "Reject nan angles in rzz validation"
-        }
-      }
-    },
-    {
-      "id": "issue-5671052622",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "dam-agents/dam"
-      },
-      "created_at": "2026-10-03T07:12:17Z",
-      "payload": {
-        "action": "Updated",
-        "number": 4287,
-        "pull_request": {
-          "number": 4287,
-          "title": "fix(ui): keep active session when deleting another"
-        }
-      }
-    },
-    {
-      "id": "issue-5683165085",
-      "type": "IssuesEvent",
-      "repo": {
-        "name": "omnigent-ai/omnigent"
-      },
-      "created_at": "2026-10-02T21:28:31Z",
-      "payload": {
-        "action": "Updated",
-        "number": 8876,
-        "issue": {
-          "number": 8876,
-          "title": "[Feature] Add IBM Bob Shell as a native TUI harness (bob-native)"
         }
       }
     }
