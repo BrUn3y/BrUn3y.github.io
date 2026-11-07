@@ -1,8 +1,18 @@
 {
-  "updated_at": "2026-11-02T03:00:35Z",
+  "updated_at": "2026-11-07T03:00:42Z",
   "source": "Published profile Strava widget",
   "source_url": "https://github.com/BrUn3y/Brun3y/blob/master/assets/strava-widget.svg",
   "activities": [
+    {
+      "title": "Workout",
+      "type": "Workout",
+      "date_label": "Nov 05",
+      "duration": "1h 8m",
+      "moving_time_seconds": 4080,
+      "distance_km": null,
+      "heart_rate": "147 bpm",
+      "calories": "711 kcal"
+    },
     {
       "title": "Run",
       "type": "Run",
@@ -52,16 +62,6 @@
       "distance_km": null,
       "heart_rate": "135 bpm",
       "calories": "608 kcal"
-    },
-    {
-      "title": "Morning workout",
-      "type": "Workout",
-      "date_label": "Oct 24",
-      "duration": "1h 8m",
-      "moving_time_seconds": 4080,
-      "distance_km": null,
-      "heart_rate": "157 bpm",
-      "calories": "807 kcal"
     }
   ],
   "summary": {
