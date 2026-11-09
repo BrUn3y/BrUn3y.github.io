@@ -1,6 +1,419 @@
 {
-  "updated_at": "2026-11-09T02:00:47.611845+00:00",
+  "updated_at": "2026-11-09T16:49:19.598004+00:00",
   "events": [
+    {
+      "id": "19571015474",
+      "type": "ReleaseEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-09T16:30:25Z",
+      "payload": {
+        "action": "published",
+        "release": {
+          "tag_name": "v0.3.4",
+          "name": "Qiskit Lab v0.3.4 - Reproducible setup and quality gates"
+        }
+      }
+    },
+    {
+      "id": "19570279843",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-09T16:22:15Z",
+      "payload": {
+        "action": "merged",
+        "number": 7,
+        "pull_request": {
+          "number": 7
+        }
+      }
+    },
+    {
+      "id": "19570096970",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-09T16:20:40Z",
+      "payload": {
+        "action": "opened",
+        "number": 7,
+        "pull_request": {
+          "number": 7
+        }
+      }
+    },
+    {
+      "id": "19570319466",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-09T16:14:56Z",
+      "payload": {
+        "action": "merged",
+        "number": 4,
+        "pull_request": {
+          "number": 4
+        }
+      }
+    },
+    {
+      "id": "19570210310",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-09T16:13:06Z",
+      "payload": {
+        "action": "merged",
+        "number": 3,
+        "pull_request": {
+          "number": 3
+        }
+      }
+    },
+    {
+      "id": "19569142826",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-09T16:08:48Z",
+      "payload": {
+        "action": "merged",
+        "number": 2,
+        "pull_request": {
+          "number": 2
+        }
+      }
+    },
+    {
+      "id": "19570503966",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-09T16:06:54Z",
+      "payload": {
+        "action": "merged",
+        "number": 1,
+        "pull_request": {
+          "number": 1
+        }
+      }
+    },
+    {
+      "id": "19563132882",
+      "type": "PullRequestReviewEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-09T14:56:06Z",
+      "payload": {
+        "action": "created",
+        "pull_request": {
+          "number": 2
+        }
+      }
+    },
+    {
+      "id": "19562902511",
+      "type": "PullRequestReviewEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-09T14:52:47Z",
+      "payload": {
+        "action": "created",
+        "pull_request": {
+          "number": 3
+        }
+      }
+    },
+    {
+      "id": "19562898974",
+      "type": "PullRequestReviewEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-09T14:52:46Z",
+      "payload": {
+        "action": "created",
+        "pull_request": {
+          "number": 1
+        }
+      }
+    },
+    {
+      "id": "19562872277",
+      "type": "PullRequestReviewEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-09T14:52:15Z",
+      "payload": {
+        "action": "created",
+        "pull_request": {
+          "number": 4
+        }
+      }
+    },
+    {
+      "id": "19540926852",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/IBM_Bob_Harness"
+      },
+      "created_at": "2026-11-09T10:05:48Z",
+      "payload": {
+        "action": "opened",
+        "number": 7,
+        "pull_request": {
+          "number": 7
+        }
+      }
+    },
+    {
+      "id": "26652628162",
+      "type": "CreateEvent",
+      "repo": {
+        "name": "BrUn3y/IBM_Bob_Harness"
+      },
+      "created_at": "2026-11-09T10:05:39Z",
+      "payload": {
+        "ref": "fix/reliable-job-lifecycle-20261109T1000",
+        "ref_type": "branch",
+        "description": "Dockerized harness for IBM Bob Shell — runs Bob headless in an unrestricted YOLO mode and exposes it over a REST API with async jobs, live SSE streaming, and a verify-and-retry orchestration loop."
+      }
+    },
+    {
+      "id": "19536831981",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-09T09:11:42Z",
+      "payload": {
+        "action": "opened",
+        "number": 4,
+        "pull_request": {
+          "number": 4
+        }
+      }
+    },
+    {
+      "id": "26641803888",
+      "type": "CreateEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-09T09:10:38Z",
+      "payload": {
+        "ref": "chore/reproducible-dependencies-20261109",
+        "ref_type": "branch",
+        "description": "DAM starter kit for Quantum Lab, Qiskit Runtime and IBM Quantum Platform"
+      }
+    },
+    {
+      "id": "19528410326",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-09T07:07:11Z",
+      "payload": {
+        "action": "opened",
+        "number": 3,
+        "pull_request": {
+          "number": 3
+        }
+      }
+    },
+    {
+      "id": "26635565113",
+      "type": "CreateEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-09T07:06:43Z",
+      "payload": {
+        "ref": "chore/incremental-quality-20261109",
+        "ref_type": "branch",
+        "description": "DAM starter kit for Quantum Lab, Qiskit Runtime and IBM Quantum Platform"
+      }
+    },
+    {
+      "id": "19524870406",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-09T06:06:53Z",
+      "payload": {
+        "action": "opened",
+        "number": 2,
+        "pull_request": {
+          "number": 2
+        }
+      }
+    },
+    {
+      "id": "26635026879",
+      "type": "CreateEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-09T06:06:45Z",
+      "payload": {
+        "ref": "test/job-tracking-coverage-20261109",
+        "ref_type": "branch",
+        "description": "DAM starter kit for Quantum Lab, Qiskit Runtime and IBM Quantum Platform"
+      }
+    },
+    {
+      "id": "19521642319",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-09T05:06:27Z",
+      "payload": {
+        "action": "opened",
+        "number": 1,
+        "pull_request": {
+          "number": 1
+        }
+      }
+    },
+    {
+      "id": "26649919994",
+      "type": "CreateEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-09T05:06:11Z",
+      "payload": {
+        "ref": "docs/reproducible-setup-20261109",
+        "ref_type": "branch",
+        "description": "DAM starter kit for Quantum Lab, Qiskit Runtime and IBM Quantum Platform"
+      }
+    },
+    {
+      "id": "26611391643",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/Brun3y"
+      },
+      "created_at": "2026-11-09T03:00:50Z",
+      "payload": {
+        "ref": "refs/heads/master",
+        "head": "45b6dc23a44060c7ff5d558439c47bc23c1d2fc0"
+      }
+    },
+    {
+      "id": "19515419100",
+      "type": "ReleaseEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-09T03:00:32Z",
+      "payload": {
+        "action": "published",
+        "release": {
+          "tag_name": "v0.3.3",
+          "name": "Qiskit Lab v0.3.3 — QAOA correctness and comparison validation"
+        }
+      }
+    },
+    {
+      "id": "26641421191",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-09T02:59:39Z",
+      "payload": {
+        "ref": "refs/heads/main",
+        "head": "5a25996140f79df7590f24e56e60f837153ee268"
+      }
+    },
+    {
+      "id": "26648940511",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-09T02:58:31Z",
+      "payload": {
+        "ref": "refs/heads/main",
+        "head": "97292c6e8690104f4f5fa59f898f4d8caaebbedf"
+      }
+    },
+    {
+      "id": "26664290826",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit-advocate-program"
+      },
+      "created_at": "2026-11-09T02:03:32Z",
+      "payload": {
+        "ref": "refs/heads/main",
+        "head": "7c9b08542450072dac3b8764fbd65b07ccb11660"
+      }
+    },
+    {
+      "id": "26645266939",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/Brun3y"
+      },
+      "created_at": "2026-11-09T02:01:36Z",
+      "payload": {
+        "ref": "refs/heads/master",
+        "head": "d62696ca45b1e193e8e7c35cb0c4d83a5f4238aa"
+      }
+    },
+    {
+      "id": "26619262587",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit-advocate-program"
+      },
+      "created_at": "2026-11-09T02:01:27Z",
+      "payload": {
+        "ref": "refs/heads/main",
+        "head": "641d91c8fb5112122f88361cc5f939d8908022e9"
+      }
+    },
+    {
+      "id": "26664119971",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/BrUn3y.github.io"
+      },
+      "created_at": "2026-11-09T02:01:03Z",
+      "payload": {
+        "ref": "refs/heads/main",
+        "head": "0637fbffeeb07cedaadae977adf0d6827fddfe01"
+      }
+    },
+    {
+      "id": "26628991755",
+      "type": "CreateEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit-advocate-program"
+      },
+      "created_at": "2026-11-09T01:49:36Z",
+      "payload": {
+        "ref": "main",
+        "ref_type": "branch",
+        "description": "Presentación en español sobre requisitos, insignias, tiers y puntos del Qiskit Advocate Program"
+      }
+    },
     {
       "id": "19510168168",
       "type": "ReleaseEvent",
@@ -26,6 +439,18 @@
       "payload": {
         "ref": "refs/heads/master",
         "head": "a84eabc65360c42d9459d4f70b88d607016ed9fd"
+      }
+    },
+    {
+      "id": "26665248201",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/Brun3y"
+      },
+      "created_at": "2026-11-08T15:40:56Z",
+      "payload": {
+        "ref": "refs/heads/master",
+        "head": "01ec246a37bfc633474bfcc0fa3ce63342d0fbe7"
       }
     },
     {
@@ -65,6 +490,30 @@
       }
     },
     {
+      "id": "26610878135",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/google-health-api-setup"
+      },
+      "created_at": "2026-11-08T14:07:23Z",
+      "payload": {
+        "ref": "refs/heads/master",
+        "head": "11f789988fe171fa63163fa99968a25b76465e91"
+      }
+    },
+    {
+      "id": "26658194099",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/google-health-api-setup"
+      },
+      "created_at": "2026-11-08T14:07:16Z",
+      "payload": {
+        "ref": "refs/heads/master",
+        "head": "da8611724bb47d144ffaa9713341941f9ae594cb"
+      }
+    },
+    {
       "id": "26564748772",
       "type": "PushEvent",
       "repo": {
@@ -98,6 +547,18 @@
       "payload": {
         "ref": "refs/heads/master",
         "head": "c2768eb08846fccb9107b20a43f0c3c719228b6a"
+      }
+    },
+    {
+      "id": "26656709108",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/Brun3y"
+      },
+      "created_at": "2026-11-08T13:44:27Z",
+      "payload": {
+        "ref": "refs/heads/master",
+        "head": "25eaece7aa61a91c2547ceefa76ccabd59ddcceb"
       }
     },
     {
@@ -149,15 +610,27 @@
       }
     },
     {
-      "id": "26456011802",
+      "id": "26613846250",
       "type": "PushEvent",
       "repo": {
         "name": "BrUn3y/Brun3y"
       },
-      "created_at": "2026-11-07T03:00:44Z",
+      "created_at": "2026-11-08T02:01:38Z",
       "payload": {
         "ref": "refs/heads/master",
-        "head": "f7feb6d14b837d5636c108a6984bab4aa02ebf27"
+        "head": "9427a177da65c143328c5dee03bb5f88796d085d"
+      }
+    },
+    {
+      "id": "26613794332",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/BrUn3y.github.io"
+      },
+      "created_at": "2026-11-08T02:00:56Z",
+      "payload": {
+        "ref": "refs/heads/main",
+        "head": "19d95c7eb89202a6efd033f5318bdebe3ce03888"
       }
     },
     {
@@ -173,54 +646,6 @@
       }
     },
     {
-      "id": "26434164858",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/BrUn3y.github.io"
-      },
-      "created_at": "2026-11-07T02:01:55Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "c7b14adbbfb91d72b823b8af49df12ee885d1e97"
-      }
-    },
-    {
-      "id": "26415387365",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/ai-journey"
-      },
-      "created_at": "2026-11-06T20:37:14Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "df34a3b48857a7d58d81431ba345b277c2866a17"
-      }
-    },
-    {
-      "id": "26416992913",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/ai-journey"
-      },
-      "created_at": "2026-11-06T20:34:45Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "8c06aef4edf8a6edcb553d71427d377445431ada"
-      }
-    },
-    {
-      "id": "26424589483",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/ai-journey"
-      },
-      "created_at": "2026-11-06T20:25:48Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "20b54e221ab3b47ead36ce0954cfb7f5cea06d38"
-      }
-    },
-    {
       "id": "26546319992",
       "type": "PushEvent",
       "repo": {
@@ -231,396 +656,105 @@
         "ref": "refs/heads/main",
         "head": "2ed8ec8cef94fe37a3e785de2236146e7925df2f"
       }
-    },
-    {
-      "id": "26397619309",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/ai-journey"
-      },
-      "created_at": "2026-11-06T20:16:23Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "fa737c441335a076d3f11cb262950ba8c582fdd3"
-      }
-    },
-    {
-      "id": "26437299519",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/ai-journey"
-      },
-      "created_at": "2026-11-06T20:14:32Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "86819aa5520c8ef33ce75f13985fe8e227434dab"
-      }
-    },
-    {
-      "id": "26396786835",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/ai-journey"
-      },
-      "created_at": "2026-11-06T20:08:29Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "8d28319fe228f50d480fe6b60fa92af442d72eef"
-      }
-    },
-    {
-      "id": "26544553587",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/ai-journey"
-      },
-      "created_at": "2026-11-06T20:02:43Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "869b2d51369b655b6383fef4526fe2740ae7f2a2"
-      }
-    },
-    {
-      "id": "26489304227",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/ai-journey"
-      },
-      "created_at": "2026-11-06T19:45:55Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "6b7df2bd99ca5ace4a8fa6e64355d7db94fd9b35"
-      }
-    },
-    {
-      "id": "26535574472",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/ai-journey"
-      },
-      "created_at": "2026-11-06T19:43:05Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "6d7a2ba923ad8b3b9cf604930daa150a3d7a2339"
-      }
-    },
-    {
-      "id": "26384854648",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/ai-journey"
-      },
-      "created_at": "2026-11-06T19:36:46Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "4a4ef65a9fd2ab94f0fdc8b30db77a9215c8bceb"
-      }
-    },
-    {
-      "id": "26409032253",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/ai-journey"
-      },
-      "created_at": "2026-11-06T19:35:02Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "5b40e05bfdd11b788159cecef0fbe3a5f39800e1"
-      }
-    },
-    {
-      "id": "26393078983",
-      "type": "CreateEvent",
-      "repo": {
-        "name": "BrUn3y/ai-journey"
-      },
-      "created_at": "2026-11-06T19:29:45Z",
-      "payload": {
-        "ref": "main",
-        "ref_type": "branch",
-        "description": "AI Journey: presentación sobre agentes de IA, soporte y DAM, con diseño inspirado en IBM Carbon."
-      }
-    },
-    {
-      "id": "26390134678",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/Brun3y"
-      },
-      "created_at": "2026-11-06T02:02:09Z",
-      "payload": {
-        "ref": "refs/heads/master",
-        "head": "1811fb06eadd33a0b37d80c9ea4d6476464cba4e"
-      }
-    },
-    {
-      "id": "26299871526",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/BrUn3y.github.io"
-      },
-      "created_at": "2026-11-06T02:00:51Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "64fe2ffefe1a7aabf0d1df543c473267684dfa7e"
-      }
-    },
-    {
-      "id": "19251981005",
-      "type": "ReleaseEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-05T17:44:15Z",
-      "payload": {
-        "action": "published",
-        "release": {
-          "tag_name": "v0.3.1",
-          "name": "Qiskit Lab v0.3.1 — Automatic result visualization"
-        }
-      }
-    },
-    {
-      "id": "26270368364",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-05T17:43:15Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "e217f8eeb1118bb614321781191a99f05d489cf1"
-      }
-    },
-    {
-      "id": "26273522192",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-05T17:36:58Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "b7080192c19aadaee1cbaa59d901fc1b74833383"
-      }
-    },
-    {
-      "id": "19249576407",
-      "type": "ReleaseEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-05T17:19:14Z",
-      "payload": {
-        "action": "published",
-        "release": {
-          "tag_name": "v0.3.0",
-          "name": "Qiskit Lab v0.3.0 — Initial release"
-        }
-      }
-    },
-    {
-      "id": "19248327831",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "dam-agents/dam-starter-kits"
-      },
-      "created_at": "2026-11-05T17:06:37Z",
-      "payload": {
-        "action": "opened",
-        "number": 18,
-        "pull_request": {
-          "number": 18
-        }
-      }
-    },
-    {
-      "id": "19248169074",
-      "type": "ForkEvent",
-      "repo": {
-        "name": "dam-agents/dam-starter-kits"
-      },
-      "created_at": "2026-11-05T17:05:00Z",
-      "payload": {
-        "action": "forked"
-      }
-    },
-    {
-      "id": "26381721864",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-05T16:27:34Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "c9c053d4fa20d70116f7029b3fb19ec94860869e"
-      }
-    },
-    {
-      "id": "19183219547",
-      "type": "IssueCommentEvent",
-      "repo": {
-        "name": "microsoft/qdk"
-      },
-      "created_at": "2026-11-05T02:56:59Z",
-      "payload": {
-        "action": "created",
-        "issue": {
-          "number": 3899,
-          "title": "Add notebook dependency completion coverage"
-        }
-      }
-    },
-    {
-      "id": "26290776187",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/qdk"
-      },
-      "created_at": "2026-11-05T02:56:55Z",
-      "payload": {
-        "ref": "refs/heads/test/notebook-dependency-completions-1768",
-        "head": "65b0607f3c732abdfbede225e2d8e4130bac8b43"
-      }
-    },
-    {
-      "id": "19182912879",
-      "type": "IssueCommentEvent",
-      "repo": {
-        "name": "Qiskit/qiskit-ibm-runtime"
-      },
-      "created_at": "2026-11-05T02:51:57Z",
-      "payload": {
-        "action": "created",
-        "issue": {
-          "number": 3425,
-          "title": "Reject nan angles in rzz validation"
-        }
-      }
-    },
-    {
-      "id": "26250012302",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit-ibm-runtime"
-      },
-      "created_at": "2026-11-05T02:51:44Z",
-      "payload": {
-        "ref": "refs/heads/rzz-nan-validation",
-        "head": "ba53881e1e1e2dabd23e8e240426385912ea5f8b"
-      }
-    },
-    {
-      "id": "26255667364",
-      "type": "PushEvent",
-      "repo": {
-        "name": "Quantum-Guild-GDL/qiskit_fall_fest_gdl"
-      },
-      "created_at": "2026-11-03T16:25:27Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "3ec4b2923704dacb9b26e4b0a9eadf83a06326da"
-      }
-    },
-    {
-      "id": "26197210374",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/gemini-live-to-pages-workflow"
-      },
-      "created_at": "2026-11-03T04:05:46Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "396de3356a7678e51defa323477d1d576f75f71d"
-      }
-    },
-    {
-      "id": "26197790506",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/BrUn3y.github.io"
-      },
-      "created_at": "2026-11-03T03:11:19Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "b4ff872d957384a1ed078fb20467bf1a41214522"
-      }
-    },
-    {
-      "id": "26193000054",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/gemini-live-to-pages-workflow"
-      },
-      "created_at": "2026-11-03T03:09:25Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "0e3ee3118173aa879e51e5901cd7c946a851e423"
-      }
-    },
-    {
-      "id": "26192547723",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/BrUn3y.github.io"
-      },
-      "created_at": "2026-11-03T02:51:00Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "1bfe5b8f2a0dd1bfa93442f66fc243de351c00d1"
-      }
-    },
-    {
-      "id": "26196905513",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/omnigent"
-      },
-      "created_at": "2026-11-03T02:36:09Z",
-      "payload": {
-        "ref": "refs/heads/feat/bob-native-harness",
-        "head": "57ba1319eb9bac9e24f01c52177d055e39331afe"
-      }
-    },
-    {
-      "id": "26179068014",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/BrUn3y.github.io"
-      },
-      "created_at": "2026-11-03T02:01:27Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "e8cca3b2d51167903e5ae6d160107e76470b6fc6"
-      }
-    },
-    {
-      "id": "26175695140",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/ica-learning"
-      },
-      "created_at": "2026-11-02T23:27:03Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "df538c9724d56ffe6f95a0b2af8164a34b3fae5d"
-      }
-    },
-    {
-      "id": "26179896670",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/ica-learning"
-      },
-      "created_at": "2026-11-02T23:25:22Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "f640bcbfbb1cb65341b12028bf973729bf413c2d"
-      }
     }
   ],
   "issue_events": [
+    {
+      "id": "issue-6289996741",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-09T16:22:15Z",
+      "payload": {
+        "action": "Updated",
+        "number": 7,
+        "pull_request": {
+          "number": 7,
+          "title": "chore: release Qiskit Lab v0.3.4"
+        }
+      }
+    },
+    {
+      "id": "issue-6283213912",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-09T16:14:56Z",
+      "payload": {
+        "action": "Updated",
+        "number": 4,
+        "pull_request": {
+          "number": 4,
+          "title": "chore: refresh patch dependencies and verify builds"
+        }
+      }
+    },
+    {
+      "id": "issue-6281589841",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-09T16:13:07Z",
+      "payload": {
+        "action": "Updated",
+        "number": 3,
+        "pull_request": {
+          "number": 3,
+          "title": "chore: enable targeted Ruff rules and incremental mypy"
+        }
+      }
+    },
+    {
+      "id": "issue-6280922996",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-09T16:08:48Z",
+      "payload": {
+        "action": "Updated",
+        "number": 2,
+        "pull_request": {
+          "number": 2,
+          "title": "test: cover job tracking and supported Python versions"
+        }
+      }
+    },
+    {
+      "id": "issue-6280304539",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-09T16:06:54Z",
+      "payload": {
+        "action": "Updated",
+        "number": 1,
+        "pull_request": {
+          "number": 1,
+          "title": "docs: make local setup and contribution workflows reproducible"
+        }
+      }
+    },
+    {
+      "id": "issue-6283999010",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/IBM_Bob_Harness"
+      },
+      "created_at": "2026-11-09T10:05:48Z",
+      "payload": {
+        "action": "Updated",
+        "number": 7,
+        "pull_request": {
+          "number": 7,
+          "title": "fix(api): preserve active jobs and finish process launch failures"
+        }
+      }
+    },
     {
       "id": "issue-5736588250",
       "type": "PullRequestEvent",
@@ -714,102 +848,6 @@
         "pull_request": {
           "number": 31,
           "title": "Expand event gallery to 60 curated photos"
-        }
-      }
-    },
-    {
-      "id": "issue-6186718000",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "Quantum-Guild-GDL/qiskit_fall_fest_gdl"
-      },
-      "created_at": "2026-11-03T16:25:25Z",
-      "payload": {
-        "action": "Updated",
-        "number": 30,
-        "pull_request": {
-          "number": 30,
-          "title": "Add 40 curated event photos and an interactive gallery"
-        }
-      }
-    },
-    {
-      "id": "issue-5683636456",
-      "type": "IssuesEvent",
-      "repo": {
-        "name": "omnigent-ai/omnigent"
-      },
-      "created_at": "2026-11-03T12:10:14Z",
-      "payload": {
-        "action": "Updated",
-        "number": 8882,
-        "issue": {
-          "number": 8882,
-          "title": "[Feature] Add IBM Bob Shell as a native TUI harness (bob-native)"
-        }
-      }
-    },
-    {
-      "id": "issue-5684742578",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "omnigent-ai/omnigent"
-      },
-      "created_at": "2026-11-03T02:36:23Z",
-      "payload": {
-        "action": "Updated",
-        "number": 8902,
-        "pull_request": {
-          "number": 8902,
-          "title": "feat(harness): add IBM Bob native TUI integration"
-        }
-      }
-    },
-    {
-      "id": "issue-5806902384",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "nasa/earthdata-search"
-      },
-      "created_at": "2026-11-03T00:32:57Z",
-      "payload": {
-        "action": "Updated",
-        "number": 2099,
-        "pull_request": {
-          "number": 2099,
-          "title": "Fixes typos in SWODLR access method and tooltip text"
-        }
-      }
-    },
-    {
-      "id": "issue-4536123072",
-      "type": "IssuesEvent",
-      "repo": {
-        "name": "BrUn3y/x_trends_agent_BeeAI"
-      },
-      "created_at": "2026-10-12T13:28:56Z",
-      "payload": {
-        "action": "Updated",
-        "number": 1,
-        "issue": {
-          "number": 1,
-          "title": "DuckDuckGoSearchTool Returns \"No Results Found\" - Possible Rate Limiting or Blocking"
-        }
-      }
-    },
-    {
-      "id": "issue-5806871594",
-      "type": "IssuesEvent",
-      "repo": {
-        "name": "nasa/earthdata-search"
-      },
-      "created_at": "2026-10-12T01:02:01Z",
-      "payload": {
-        "action": "Updated",
-        "number": 2098,
-        "issue": {
-          "number": 2098,
-          "title": "Fix typos in SWODLR access method and tooltip text"
         }
       }
     }
