@@ -1,6 +1,107 @@
 {
-  "updated_at": "2026-11-09T16:49:19.598004+00:00",
+  "updated_at": "2026-11-10T02:00:49.009001+00:00",
   "events": [
+    {
+      "id": "19606762632",
+      "type": "WatchEvent",
+      "repo": {
+        "name": "BrUn3y/remote_bob"
+      },
+      "created_at": "2026-11-09T22:58:32Z",
+      "payload": {
+        "action": "started"
+      }
+    },
+    {
+      "id": "19605692018",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/remote_bob"
+      },
+      "created_at": "2026-11-09T22:46:07Z",
+      "payload": {
+        "action": "merged",
+        "number": 9,
+        "pull_request": {
+          "number": 9
+        }
+      }
+    },
+    {
+      "id": "19602870562",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/remote_bob"
+      },
+      "created_at": "2026-11-09T22:15:51Z",
+      "payload": {
+        "action": "opened",
+        "number": 9,
+        "pull_request": {
+          "number": 9
+        }
+      }
+    },
+    {
+      "id": "19600451327",
+      "type": "ReleaseEvent",
+      "repo": {
+        "name": "BrUn3y/remote_bob"
+      },
+      "created_at": "2026-11-09T21:49:27Z",
+      "payload": {
+        "action": "published",
+        "release": {
+          "tag_name": "v1.0.4",
+          "name": "Remote Bob v1.0.4"
+        }
+      }
+    },
+    {
+      "id": "19600376963",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/remote_bob"
+      },
+      "created_at": "2026-11-09T21:48:36Z",
+      "payload": {
+        "action": "merged",
+        "number": 7,
+        "pull_request": {
+          "number": 7
+        }
+      }
+    },
+    {
+      "id": "19600006568",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/remote_bob"
+      },
+      "created_at": "2026-11-09T21:44:30Z",
+      "payload": {
+        "action": "merged",
+        "number": 8,
+        "pull_request": {
+          "number": 8
+        }
+      }
+    },
+    {
+      "id": "19599822124",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/remote_bob"
+      },
+      "created_at": "2026-11-09T21:42:23Z",
+      "payload": {
+        "action": "opened",
+        "number": 8,
+        "pull_request": {
+          "number": 8
+        }
+      }
+    },
     {
       "id": "19571015474",
       "type": "ReleaseEvent",
@@ -47,6 +148,18 @@
       }
     },
     {
+      "id": "26695073386",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-09T16:14:58Z",
+      "payload": {
+        "ref": "refs/heads/main",
+        "head": "a41b51999e250899498c60fd5a02709df28cbaa3"
+      }
+    },
+    {
       "id": "19570319466",
       "type": "PullRequestEvent",
       "repo": {
@@ -59,6 +172,18 @@
         "pull_request": {
           "number": 4
         }
+      }
+    },
+    {
+      "id": "26694922318",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-09T16:13:33Z",
+      "payload": {
+        "ref": "refs/heads/chore/reproducible-dependencies-20261109",
+        "head": "b02004af06522a780b327a65895f90ed31e6ce79"
       }
     },
     {
@@ -77,6 +202,21 @@
       }
     },
     {
+      "id": "19600149910",
+      "type": "IssueCommentEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-09T16:11:37Z",
+      "payload": {
+        "action": "created",
+        "issue": {
+          "number": 3,
+          "title": "chore: enable targeted Ruff rules and incremental mypy"
+        }
+      }
+    },
+    {
       "id": "19569142826",
       "type": "PullRequestEvent",
       "repo": {
@@ -89,6 +229,18 @@
         "pull_request": {
           "number": 2
         }
+      }
+    },
+    {
+      "id": "26689549012",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-09T16:06:55Z",
+      "payload": {
+        "ref": "refs/heads/main",
+        "head": "3e8b29f17423c4f3e1bf946391262ef951ad3fbc"
       }
     },
     {
@@ -166,7 +318,7 @@
       "id": "19540926852",
       "type": "PullRequestEvent",
       "repo": {
-        "name": "BrUn3y/IBM_Bob_Harness"
+        "name": "BrUn3y/remote_bob"
       },
       "created_at": "2026-11-09T10:05:48Z",
       "payload": {
@@ -181,13 +333,13 @@
       "id": "26652628162",
       "type": "CreateEvent",
       "repo": {
-        "name": "BrUn3y/IBM_Bob_Harness"
+        "name": "BrUn3y/remote_bob"
       },
       "created_at": "2026-11-09T10:05:39Z",
       "payload": {
         "ref": "fix/reliable-job-lifecycle-20261109T1000",
         "ref_type": "branch",
-        "description": "Dockerized harness for IBM Bob Shell — runs Bob headless in an unrestricted YOLO mode and exposes it over a REST API with async jobs, live SSE streaming, and a verify-and-retry orchestration loop."
+        "description": "Remote Bob: run IBM Bob Shell remotely in a container with a REST API, Slack bot, async jobs, live streaming, scheduled tasks, and verify-and-retry orchestration."
       }
     },
     {
@@ -454,30 +606,6 @@
       }
     },
     {
-      "id": "26564897366",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/google-health-api-setup"
-      },
-      "created_at": "2026-11-08T14:08:40Z",
-      "payload": {
-        "ref": "refs/heads/master",
-        "head": "e0a6307701e1ba83a58f90a7e0302ee4a40db2eb"
-      }
-    },
-    {
-      "id": "26553113655",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/google-health-api-setup"
-      },
-      "created_at": "2026-11-08T14:07:41Z",
-      "payload": {
-        "ref": "refs/heads/master",
-        "head": "a5420402a0782b0a7e50f10d78dc1ed4a15dfaac"
-      }
-    },
-    {
       "id": "26594277173",
       "type": "PushEvent",
       "repo": {
@@ -514,42 +642,6 @@
       }
     },
     {
-      "id": "26564748772",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/google-health-api-setup"
-      },
-      "created_at": "2026-11-08T14:05:51Z",
-      "payload": {
-        "ref": "refs/heads/master",
-        "head": "cab0579bb31abf979f91c1929b00b082542c02f7"
-      }
-    },
-    {
-      "id": "26573860981",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/Brun3y"
-      },
-      "created_at": "2026-11-08T13:46:58Z",
-      "payload": {
-        "ref": "refs/heads/master",
-        "head": "d5b7c164a82566a1aec8b71f1fe1b9618dc68a59"
-      }
-    },
-    {
-      "id": "26573782015",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/Brun3y"
-      },
-      "created_at": "2026-11-08T13:45:47Z",
-      "payload": {
-        "ref": "refs/heads/master",
-        "head": "c2768eb08846fccb9107b20a43f0c3c719228b6a"
-      }
-    },
-    {
       "id": "26656709108",
       "type": "PushEvent",
       "repo": {
@@ -559,54 +651,6 @@
       "payload": {
         "ref": "refs/heads/master",
         "head": "25eaece7aa61a91c2547ceefa76ccabd59ddcceb"
-      }
-    },
-    {
-      "id": "26568178050",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/Brun3y"
-      },
-      "created_at": "2026-11-08T13:44:14Z",
-      "payload": {
-        "ref": "refs/heads/master",
-        "head": "f4cb6c3d139b5cb65499a6d521004ba92e3c2647"
-      }
-    },
-    {
-      "id": "26568166985",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/Brun3y"
-      },
-      "created_at": "2026-11-08T13:44:06Z",
-      "payload": {
-        "ref": "refs/heads/master",
-        "head": "c54da57851fd0e1ee090de8aa1665a4551e294d9"
-      }
-    },
-    {
-      "id": "26559251061",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/Brun3y"
-      },
-      "created_at": "2026-11-08T13:43:46Z",
-      "payload": {
-        "ref": "refs/heads/master",
-        "head": "42b09ddfcff5344e3c8e1617c044895b03b5b214"
-      }
-    },
-    {
-      "id": "26567726194",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/Brun3y"
-      },
-      "created_at": "2026-11-08T03:00:54Z",
-      "payload": {
-        "ref": "refs/heads/master",
-        "head": "3a2da780c1d53641868730645bfdcc0805f4727f"
       }
     },
     {
@@ -632,33 +676,57 @@
         "ref": "refs/heads/main",
         "head": "19d95c7eb89202a6efd033f5318bdebe3ce03888"
       }
-    },
-    {
-      "id": "26568816127",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/Brun3y"
-      },
-      "created_at": "2026-11-07T02:04:45Z",
-      "payload": {
-        "ref": "refs/heads/master",
-        "head": "bb310bd2d4ac116ae50ff7ccf6f291a157df140b"
-      }
-    },
-    {
-      "id": "26546319992",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/ai-journey"
-      },
-      "created_at": "2026-11-06T20:21:35Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "2ed8ec8cef94fe37a3e785de2236146e7925df2f"
-      }
     }
   ],
   "issue_events": [
+    {
+      "id": "issue-6295808170",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/remote_bob"
+      },
+      "created_at": "2026-11-09T22:46:07Z",
+      "payload": {
+        "action": "Updated",
+        "number": 9,
+        "pull_request": {
+          "number": 9,
+          "title": "docs: add English Slack tutorial video with HyperFrames"
+        }
+      }
+    },
+    {
+      "id": "issue-6283999010",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/remote_bob"
+      },
+      "created_at": "2026-11-09T21:48:36Z",
+      "payload": {
+        "action": "Updated",
+        "number": 7,
+        "pull_request": {
+          "number": 7,
+          "title": "fix(api): preserve active jobs and finish process launch failures"
+        }
+      }
+    },
+    {
+      "id": "issue-6295302475",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/remote_bob"
+      },
+      "created_at": "2026-11-09T21:44:30Z",
+      "payload": {
+        "action": "Updated",
+        "number": 8,
+        "pull_request": {
+          "number": 8,
+          "title": "chore: rename project to Remote Bob"
+        }
+      }
+    },
     {
       "id": "issue-6289996741",
       "type": "PullRequestEvent",
@@ -740,22 +808,6 @@
       }
     },
     {
-      "id": "issue-6283999010",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/IBM_Bob_Harness"
-      },
-      "created_at": "2026-11-09T10:05:48Z",
-      "payload": {
-        "action": "Updated",
-        "number": 7,
-        "pull_request": {
-          "number": 7,
-          "title": "fix(api): preserve active jobs and finish process launch failures"
-        }
-      }
-    },
-    {
       "id": "issue-5736588250",
       "type": "PullRequestEvent",
       "repo": {
@@ -816,38 +868,6 @@
         "pull_request": {
           "number": 33,
           "title": "Start Day 1 Part 1 at 1:00:00"
-        }
-      }
-    },
-    {
-      "id": "issue-6193033818",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "Quantum-Guild-GDL/qiskit_fall_fest_gdl"
-      },
-      "created_at": "2026-11-03T23:27:46Z",
-      "payload": {
-        "action": "Updated",
-        "number": 32,
-        "pull_request": {
-          "number": 32,
-          "title": "Add Day 1 recordings to Schedule"
-        }
-      }
-    },
-    {
-      "id": "issue-6187097719",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "Quantum-Guild-GDL/qiskit_fall_fest_gdl"
-      },
-      "created_at": "2026-11-03T16:46:53Z",
-      "payload": {
-        "action": "Updated",
-        "number": 31,
-        "pull_request": {
-          "number": 31,
-          "title": "Expand event gallery to 60 curated photos"
         }
       }
     }
