@@ -1,6 +1,141 @@
 {
-  "updated_at": "2026-11-11T02:00:51.511093+00:00",
+  "updated_at": "2026-11-11T14:41:26.219737+00:00",
   "events": [
+    {
+      "id": "19786160110",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-11T13:48:31Z",
+      "payload": {
+        "action": "opened",
+        "number": 19,
+        "pull_request": {
+          "number": 19
+        }
+      }
+    },
+    {
+      "id": "19786147516",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-11T13:48:23Z",
+      "payload": {
+        "action": "opened",
+        "number": 18,
+        "pull_request": {
+          "number": 18
+        }
+      }
+    },
+    {
+      "id": "19786142801",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-11T13:48:18Z",
+      "payload": {
+        "action": "opened",
+        "number": 17,
+        "pull_request": {
+          "number": 17
+        }
+      }
+    },
+    {
+      "id": "19786130792",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-11T13:48:13Z",
+      "payload": {
+        "action": "opened",
+        "number": 16,
+        "pull_request": {
+          "number": 16
+        }
+      }
+    },
+    {
+      "id": "19786118275",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-11T13:48:05Z",
+      "payload": {
+        "action": "opened",
+        "number": 15,
+        "pull_request": {
+          "number": 15
+        }
+      }
+    },
+    {
+      "id": "19783702928",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-11T13:18:57Z",
+      "payload": {
+        "action": "opened",
+        "number": 14,
+        "pull_request": {
+          "number": 14
+        }
+      }
+    },
+    {
+      "id": "19783599273",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-11T13:17:45Z",
+      "payload": {
+        "action": "opened",
+        "number": 13,
+        "pull_request": {
+          "number": 13
+        }
+      }
+    },
+    {
+      "id": "19783562092",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-11T13:17:21Z",
+      "payload": {
+        "action": "opened",
+        "number": 12,
+        "pull_request": {
+          "number": 12
+        }
+      }
+    },
+    {
+      "id": "19783552390",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-11T13:17:11Z",
+      "payload": {
+        "action": "opened",
+        "number": 11,
+        "pull_request": {
+          "number": 11
+        }
+      }
+    },
     {
       "id": "19721839615",
       "type": "PullRequestEvent",
@@ -138,6 +273,18 @@
       }
     },
     {
+      "id": "26828831092",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/remote_bob"
+      },
+      "created_at": "2026-11-09T22:46:08Z",
+      "payload": {
+        "ref": "refs/heads/main",
+        "head": "fec8e092242e10fd3140afb0f5eed2cfde3bcc7c"
+      }
+    },
+    {
       "id": "19605692018",
       "type": "PullRequestEvent",
       "repo": {
@@ -162,6 +309,18 @@
       "payload": {
         "ref": "refs/heads/docs/slack-video-hyperframes",
         "head": "75d444359b1d0b8be6fce6b691099c902757fefb"
+      }
+    },
+    {
+      "id": "26827966186",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/remote_bob"
+      },
+      "created_at": "2026-11-09T22:35:35Z",
+      "payload": {
+        "ref": "refs/heads/docs/slack-video-hyperframes",
+        "head": "c4a64c886dafa430bcfc9a7f2387e2ef1225e31e"
       }
     },
     {
@@ -247,6 +406,18 @@
       }
     },
     {
+      "id": "26823126275",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/remote_bob"
+      },
+      "created_at": "2026-11-09T21:44:31Z",
+      "payload": {
+        "ref": "refs/heads/main",
+        "head": "6eb9415ed1833015eb76ceb6f27c3115abee8c5d"
+      }
+    },
+    {
       "id": "19600006568",
       "type": "PullRequestEvent",
       "repo": {
@@ -259,6 +430,18 @@
         "pull_request": {
           "number": 8
         }
+      }
+    },
+    {
+      "id": "26823092733",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/remote_bob"
+      },
+      "created_at": "2026-11-09T21:44:12Z",
+      "payload": {
+        "ref": "refs/heads/chore/rename-remote-bob",
+        "head": "c6e1b16a9d1c3cf74477c373cc3a637ad2657718"
       }
     },
     {
@@ -305,33 +488,15 @@
       }
     },
     {
-      "id": "19570279843",
-      "type": "PullRequestEvent",
+      "id": "26836950972",
+      "type": "PushEvent",
       "repo": {
         "name": "BrUn3y/qiskit_lab"
       },
-      "created_at": "2026-11-09T16:22:15Z",
+      "created_at": "2026-11-09T16:22:17Z",
       "payload": {
-        "action": "merged",
-        "number": 7,
-        "pull_request": {
-          "number": 7
-        }
-      }
-    },
-    {
-      "id": "19570096970",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-09T16:20:40Z",
-      "payload": {
-        "action": "opened",
-        "number": 7,
-        "pull_request": {
-          "number": 7
-        }
+        "ref": "refs/heads/main",
+        "head": "9d7564eb4bddab66ccc24af417066c56d9d53602"
       }
     },
     {
@@ -360,21 +525,6 @@
       }
     },
     {
-      "id": "19570319466",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-09T16:14:56Z",
-      "payload": {
-        "action": "merged",
-        "number": 4,
-        "pull_request": {
-          "number": 4
-        }
-      }
-    },
-    {
       "id": "26694922318",
       "type": "PushEvent",
       "repo": {
@@ -387,18 +537,15 @@
       }
     },
     {
-      "id": "19570210310",
-      "type": "PullRequestEvent",
+      "id": "26835941276",
+      "type": "PushEvent",
       "repo": {
         "name": "BrUn3y/qiskit_lab"
       },
-      "created_at": "2026-11-09T16:13:06Z",
+      "created_at": "2026-11-09T16:13:08Z",
       "payload": {
-        "action": "merged",
-        "number": 3,
-        "pull_request": {
-          "number": 3
-        }
+        "ref": "refs/heads/main",
+        "head": "3287fd4457047ee929c3868cc8e7d9809f470869"
       }
     },
     {
@@ -441,21 +588,6 @@
       }
     },
     {
-      "id": "19569142826",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-09T16:08:48Z",
-      "payload": {
-        "action": "merged",
-        "number": 2,
-        "pull_request": {
-          "number": 2
-        }
-      }
-    },
-    {
       "id": "26719958000",
       "type": "PushEvent",
       "repo": {
@@ -477,103 +609,6 @@
       "payload": {
         "ref": "refs/heads/main",
         "head": "3e8b29f17423c4f3e1bf946391262ef951ad3fbc"
-      }
-    },
-    {
-      "id": "19570503966",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-09T16:06:54Z",
-      "payload": {
-        "action": "merged",
-        "number": 1,
-        "pull_request": {
-          "number": 1
-        }
-      }
-    },
-    {
-      "id": "19563132882",
-      "type": "PullRequestReviewEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-09T14:56:06Z",
-      "payload": {
-        "action": "created",
-        "pull_request": {
-          "number": 2
-        }
-      }
-    },
-    {
-      "id": "19562902511",
-      "type": "PullRequestReviewEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-09T14:52:47Z",
-      "payload": {
-        "action": "created",
-        "pull_request": {
-          "number": 3
-        }
-      }
-    },
-    {
-      "id": "19562898974",
-      "type": "PullRequestReviewEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-09T14:52:46Z",
-      "payload": {
-        "action": "created",
-        "pull_request": {
-          "number": 1
-        }
-      }
-    },
-    {
-      "id": "19562872277",
-      "type": "PullRequestReviewEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-09T14:52:15Z",
-      "payload": {
-        "action": "created",
-        "pull_request": {
-          "number": 4
-        }
-      }
-    },
-    {
-      "id": "26652628162",
-      "type": "CreateEvent",
-      "repo": {
-        "name": "BrUn3y/remote_bob"
-      },
-      "created_at": "2026-11-09T10:05:39Z",
-      "payload": {
-        "ref": "fix/reliable-job-lifecycle-20261109T1000",
-        "ref_type": "branch",
-        "description": "Remote Bob: run IBM Bob Shell remotely in a container with a REST API, Slack bot, async jobs, live streaming, scheduled tasks, and verify-and-retry orchestration."
-      }
-    },
-    {
-      "id": "26649919994",
-      "type": "CreateEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-09T05:06:11Z",
-      "payload": {
-        "ref": "docs/reproducible-setup-20261109",
-        "ref_type": "branch",
-        "description": "DAM starter kit for Quantum Lab, Qiskit Runtime and IBM Quantum Platform"
       }
     },
     {
@@ -601,18 +636,6 @@
       }
     },
     {
-      "id": "26664119971",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/BrUn3y.github.io"
-      },
-      "created_at": "2026-11-09T02:01:03Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "0637fbffeeb07cedaadae977adf0d6827fddfe01"
-      }
-    },
-    {
       "id": "26755681658",
       "type": "PushEvent",
       "repo": {
@@ -637,30 +660,6 @@
       }
     },
     {
-      "id": "26658194099",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/google-health-api-setup"
-      },
-      "created_at": "2026-11-08T14:07:16Z",
-      "payload": {
-        "ref": "refs/heads/master",
-        "head": "da8611724bb47d144ffaa9713341941f9ae594cb"
-      }
-    },
-    {
-      "id": "26656709108",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/Brun3y"
-      },
-      "created_at": "2026-11-08T13:44:27Z",
-      "payload": {
-        "ref": "refs/heads/master",
-        "head": "25eaece7aa61a91c2547ceefa76ccabd59ddcceb"
-      }
-    },
-    {
       "id": "26708853739",
       "type": "PushEvent",
       "repo": {
@@ -674,6 +673,166 @@
     }
   ],
   "issue_events": [
+    {
+      "id": "issue-6329834651",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-11T13:48:40Z",
+      "payload": {
+        "action": "Updated",
+        "number": 17,
+        "pull_request": {
+          "number": 17,
+          "title": "fix: classify failures with safe actionable diagnostics"
+        }
+      }
+    },
+    {
+      "id": "issue-6329831261",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-11T13:48:38Z",
+      "payload": {
+        "action": "Updated",
+        "number": 15,
+        "pull_request": {
+          "number": 15,
+          "title": "feat: isolate locked optional quantum capabilities"
+        }
+      }
+    },
+    {
+      "id": "issue-6329318434",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-11T13:48:36Z",
+      "payload": {
+        "action": "Updated",
+        "number": 14,
+        "pull_request": {
+          "number": 14,
+          "title": "feat: add a native local CHSH command and reports"
+        }
+      }
+    },
+    {
+      "id": "issue-6329295291",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-11T13:48:35Z",
+      "payload": {
+        "action": "Updated",
+        "number": 13,
+        "pull_request": {
+          "number": 13,
+          "title": "fix: add finite-sample CHSH confidence bounds"
+        }
+      }
+    },
+    {
+      "id": "issue-6329288613",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-11T13:48:34Z",
+      "payload": {
+        "action": "Updated",
+        "number": 12,
+        "pull_request": {
+          "number": 12,
+          "title": "fix: durably track and recover ambiguous submissions"
+        }
+      }
+    },
+    {
+      "id": "issue-6329285885",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-11T13:48:33Z",
+      "payload": {
+        "action": "Updated",
+        "number": 11,
+        "pull_request": {
+          "number": 11,
+          "title": "fix: persist scientific results before dashboard rendering"
+        }
+      }
+    },
+    {
+      "id": "issue-6329838403",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-11T13:48:31Z",
+      "payload": {
+        "action": "Updated",
+        "number": 19,
+        "pull_request": {
+          "number": 19,
+          "title": "test: cover backend dashboards and report interactions"
+        }
+      }
+    },
+    {
+      "id": "issue-6329836151",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-11T13:48:23Z",
+      "payload": {
+        "action": "Updated",
+        "number": 18,
+        "pull_request": {
+          "number": 18,
+          "title": "test: add skill evaluations and review-only update workflow"
+        }
+      }
+    },
+    {
+      "id": "issue-6329833249",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-11T13:48:39Z",
+      "payload": {
+        "action": "Updated",
+        "number": 16,
+        "pull_request": {
+          "number": 16,
+          "title": "feat: version receipts and share runtime validation"
+        }
+      }
+    },
+    {
+      "id": "issue-5806902384",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "nasa/earthdata-search"
+      },
+      "created_at": "2026-11-11T13:37:53Z",
+      "payload": {
+        "action": "Updated",
+        "number": 2099,
+        "pull_request": {
+          "number": 2099,
+          "title": "Fixes typos in SWODLR access method and tooltip text"
+        }
+      }
+    },
     {
       "id": "issue-6317490305",
       "type": "PullRequestEvent",
@@ -703,166 +862,6 @@
         "pull_request": {
           "number": 9,
           "title": "Remove Carbon references from README"
-        }
-      }
-    },
-    {
-      "id": "issue-6315922187",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-10T21:27:56Z",
-      "payload": {
-        "action": "Updated",
-        "number": 8,
-        "pull_request": {
-          "number": 8,
-          "title": "Fix CHSH report metadata and independent simulation sampling"
-        }
-      }
-    },
-    {
-      "id": "issue-6295808170",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/remote_bob"
-      },
-      "created_at": "2026-11-09T22:46:07Z",
-      "payload": {
-        "action": "Updated",
-        "number": 9,
-        "pull_request": {
-          "number": 9,
-          "title": "docs: add English Slack tutorial video with HyperFrames"
-        }
-      }
-    },
-    {
-      "id": "issue-6283999010",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/remote_bob"
-      },
-      "created_at": "2026-11-09T21:48:36Z",
-      "payload": {
-        "action": "Updated",
-        "number": 7,
-        "pull_request": {
-          "number": 7,
-          "title": "fix(api): preserve active jobs and finish process launch failures"
-        }
-      }
-    },
-    {
-      "id": "issue-6295302475",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/remote_bob"
-      },
-      "created_at": "2026-11-09T21:44:30Z",
-      "payload": {
-        "action": "Updated",
-        "number": 8,
-        "pull_request": {
-          "number": 8,
-          "title": "chore: rename project to Remote Bob"
-        }
-      }
-    },
-    {
-      "id": "issue-6289996741",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-09T16:22:15Z",
-      "payload": {
-        "action": "Updated",
-        "number": 7,
-        "pull_request": {
-          "number": 7,
-          "title": "chore: release Qiskit Lab v0.3.4"
-        }
-      }
-    },
-    {
-      "id": "issue-6283213912",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-09T16:14:56Z",
-      "payload": {
-        "action": "Updated",
-        "number": 4,
-        "pull_request": {
-          "number": 4,
-          "title": "chore: refresh patch dependencies and verify builds"
-        }
-      }
-    },
-    {
-      "id": "issue-6281589841",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-09T16:13:07Z",
-      "payload": {
-        "action": "Updated",
-        "number": 3,
-        "pull_request": {
-          "number": 3,
-          "title": "chore: enable targeted Ruff rules and incremental mypy"
-        }
-      }
-    },
-    {
-      "id": "issue-6280922996",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-09T16:08:48Z",
-      "payload": {
-        "action": "Updated",
-        "number": 2,
-        "pull_request": {
-          "number": 2,
-          "title": "test: cover job tracking and supported Python versions"
-        }
-      }
-    },
-    {
-      "id": "issue-6280304539",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-09T16:06:54Z",
-      "payload": {
-        "action": "Updated",
-        "number": 1,
-        "pull_request": {
-          "number": 1,
-          "title": "docs: make local setup and contribution workflows reproducible"
-        }
-      }
-    },
-    {
-      "id": "issue-5736588250",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "microsoft/qdk"
-      },
-      "created_at": "2026-11-06T18:07:32Z",
-      "payload": {
-        "action": "Updated",
-        "number": 3899,
-        "pull_request": {
-          "number": 3899,
-          "title": "Add notebook dependency completion coverage"
         }
       }
     }
