@@ -1,6 +1,107 @@
 {
-  "updated_at": "2026-11-10T15:12:41.830679+00:00",
+  "updated_at": "2026-11-11T02:00:51.511093+00:00",
   "events": [
+    {
+      "id": "19721839615",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-10T22:49:33Z",
+      "payload": {
+        "action": "merged",
+        "number": 10,
+        "pull_request": {
+          "number": 10
+        }
+      }
+    },
+    {
+      "id": "19721732633",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-10T22:48:13Z",
+      "payload": {
+        "action": "opened",
+        "number": 10,
+        "pull_request": {
+          "number": 10
+        }
+      }
+    },
+    {
+      "id": "19721345896",
+      "type": "WatchEvent",
+      "repo": {
+        "name": "Qiskit/skills"
+      },
+      "created_at": "2026-11-10T22:43:29Z",
+      "payload": {
+        "action": "started"
+      }
+    },
+    {
+      "id": "19718134841",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-10T22:06:13Z",
+      "payload": {
+        "action": "merged",
+        "number": 9,
+        "pull_request": {
+          "number": 9
+        }
+      }
+    },
+    {
+      "id": "19718036142",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-10T22:05:05Z",
+      "payload": {
+        "action": "opened",
+        "number": 9,
+        "pull_request": {
+          "number": 9
+        }
+      }
+    },
+    {
+      "id": "19714751574",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-10T21:27:55Z",
+      "payload": {
+        "action": "merged",
+        "number": 8,
+        "pull_request": {
+          "number": 8
+        }
+      }
+    },
+    {
+      "id": "19712996396",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-10T21:10:04Z",
+      "payload": {
+        "action": "opened",
+        "number": 8,
+        "pull_request": {
+          "number": 8
+        }
+      }
+    },
     {
       "id": "26747507830",
       "type": "PushEvent",
@@ -11,6 +112,18 @@
       "payload": {
         "ref": "refs/heads/master",
         "head": "d761891941f6f9b9c6620c73512a43da5ee17423"
+      }
+    },
+    {
+      "id": "26771416310",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/BrUn3y.github.io"
+      },
+      "created_at": "2026-11-10T02:01:55Z",
+      "payload": {
+        "ref": "refs/heads/main",
+        "head": "af88843654e1ab7e1fa9938dc53513fb4f70942b"
       }
     },
     {
@@ -37,6 +150,18 @@
         "pull_request": {
           "number": 9
         }
+      }
+    },
+    {
+      "id": "26784456654",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/remote_bob"
+      },
+      "created_at": "2026-11-09T22:45:10Z",
+      "payload": {
+        "ref": "refs/heads/docs/slack-video-hyperframes",
+        "head": "75d444359b1d0b8be6fce6b691099c902757fefb"
       }
     },
     {
@@ -107,6 +232,18 @@
         "pull_request": {
           "number": 7
         }
+      }
+    },
+    {
+      "id": "26784245623",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/remote_bob"
+      },
+      "created_at": "2026-11-09T21:47:53Z",
+      "payload": {
+        "ref": "refs/heads/fix/reliable-job-lifecycle-20261109T1000",
+        "head": "1e16d9d70315dc5f8a580094bd2c25c7b1b7a822"
       }
     },
     {
@@ -414,21 +551,6 @@
       }
     },
     {
-      "id": "19540926852",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/remote_bob"
-      },
-      "created_at": "2026-11-09T10:05:48Z",
-      "payload": {
-        "action": "opened",
-        "number": 7,
-        "pull_request": {
-          "number": 7
-        }
-      }
-    },
-    {
       "id": "26652628162",
       "type": "CreateEvent",
       "repo": {
@@ -439,90 +561,6 @@
         "ref": "fix/reliable-job-lifecycle-20261109T1000",
         "ref_type": "branch",
         "description": "Remote Bob: run IBM Bob Shell remotely in a container with a REST API, Slack bot, async jobs, live streaming, scheduled tasks, and verify-and-retry orchestration."
-      }
-    },
-    {
-      "id": "19536831981",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-09T09:11:42Z",
-      "payload": {
-        "action": "opened",
-        "number": 4,
-        "pull_request": {
-          "number": 4
-        }
-      }
-    },
-    {
-      "id": "26641803888",
-      "type": "CreateEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-09T09:10:38Z",
-      "payload": {
-        "ref": "chore/reproducible-dependencies-20261109",
-        "ref_type": "branch",
-        "description": "DAM starter kit for Quantum Lab, Qiskit Runtime and IBM Quantum Platform"
-      }
-    },
-    {
-      "id": "19528410326",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-09T07:07:11Z",
-      "payload": {
-        "action": "opened",
-        "number": 3,
-        "pull_request": {
-          "number": 3
-        }
-      }
-    },
-    {
-      "id": "26635565113",
-      "type": "CreateEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-09T07:06:43Z",
-      "payload": {
-        "ref": "chore/incremental-quality-20261109",
-        "ref_type": "branch",
-        "description": "DAM starter kit for Quantum Lab, Qiskit Runtime and IBM Quantum Platform"
-      }
-    },
-    {
-      "id": "19524870406",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-09T06:06:53Z",
-      "payload": {
-        "action": "opened",
-        "number": 2,
-        "pull_request": {
-          "number": 2
-        }
-      }
-    },
-    {
-      "id": "26635026879",
-      "type": "CreateEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-09T06:06:45Z",
-      "payload": {
-        "ref": "test/job-tracking-coverage-20261109",
-        "ref_type": "branch",
-        "description": "DAM starter kit for Quantum Lab, Qiskit Runtime and IBM Quantum Platform"
       }
     },
     {
@@ -539,27 +577,15 @@
       }
     },
     {
-      "id": "26641421191",
+      "id": "26767654563",
       "type": "PushEvent",
       "repo": {
-        "name": "BrUn3y/qiskit_lab"
+        "name": "BrUn3y/qiskit-advocate-program"
       },
-      "created_at": "2026-11-09T02:59:39Z",
+      "created_at": "2026-11-09T02:07:12Z",
       "payload": {
         "ref": "refs/heads/main",
-        "head": "5a25996140f79df7590f24e56e60f837153ee268"
-      }
-    },
-    {
-      "id": "26648940511",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-09T02:58:31Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "97292c6e8690104f4f5fa59f898f4d8caaebbedf"
+        "head": "97aa47cce1f3d6a4f39361168248efc452a80611"
       }
     },
     {
@@ -575,18 +601,6 @@
       }
     },
     {
-      "id": "26645266939",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/Brun3y"
-      },
-      "created_at": "2026-11-09T02:01:36Z",
-      "payload": {
-        "ref": "refs/heads/master",
-        "head": "d62696ca45b1e193e8e7c35cb0c4d83a5f4238aa"
-      }
-    },
-    {
       "id": "26664119971",
       "type": "PushEvent",
       "repo": {
@@ -596,19 +610,6 @@
       "payload": {
         "ref": "refs/heads/main",
         "head": "0637fbffeeb07cedaadae977adf0d6827fddfe01"
-      }
-    },
-    {
-      "id": "26628991755",
-      "type": "CreateEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit-advocate-program"
-      },
-      "created_at": "2026-11-09T01:49:36Z",
-      "payload": {
-        "ref": "main",
-        "ref_type": "branch",
-        "description": "Presentación en español sobre requisitos, insignias, tiers y puntos del Qiskit Advocate Program"
       }
     },
     {
@@ -673,6 +674,54 @@
     }
   ],
   "issue_events": [
+    {
+      "id": "issue-6317490305",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-10T22:49:33Z",
+      "payload": {
+        "action": "Updated",
+        "number": 10,
+        "pull_request": {
+          "number": 10,
+          "title": "Bundle official Qiskit skills and document agent task routing"
+        }
+      }
+    },
+    {
+      "id": "issue-6316811511",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-10T22:06:13Z",
+      "payload": {
+        "action": "Updated",
+        "number": 9,
+        "pull_request": {
+          "number": 9,
+          "title": "Remove Carbon references from README"
+        }
+      }
+    },
+    {
+      "id": "issue-6315922187",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-10T21:27:56Z",
+      "payload": {
+        "action": "Updated",
+        "number": 8,
+        "pull_request": {
+          "number": 8,
+          "title": "Fix CHSH report metadata and independent simulation sampling"
+        }
+      }
+    },
     {
       "id": "issue-6295808170",
       "type": "PullRequestEvent",
@@ -814,54 +863,6 @@
         "pull_request": {
           "number": 3899,
           "title": "Add notebook dependency completion coverage"
-        }
-      }
-    },
-    {
-      "id": "issue-6227904580",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "dam-agents/dam-starter-kits"
-      },
-      "created_at": "2026-11-05T17:45:33Z",
-      "payload": {
-        "action": "Updated",
-        "number": 18,
-        "pull_request": {
-          "number": 18,
-          "title": "Add Qiskit Lab starter kit to catalog.yaml"
-        }
-      }
-    },
-    {
-      "id": "issue-5682656030",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "Qiskit/qiskit-ibm-runtime"
-      },
-      "created_at": "2026-11-05T02:51:57Z",
-      "payload": {
-        "action": "Updated",
-        "number": 3425,
-        "pull_request": {
-          "number": 3425,
-          "title": "Reject nan angles in rzz validation"
-        }
-      }
-    },
-    {
-      "id": "issue-6193054947",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "Quantum-Guild-GDL/qiskit_fall_fest_gdl"
-      },
-      "created_at": "2026-11-03T23:29:30Z",
-      "payload": {
-        "action": "Updated",
-        "number": 33,
-        "pull_request": {
-          "number": 33,
-          "title": "Start Day 1 Part 1 at 1:00:00"
         }
       }
     }
