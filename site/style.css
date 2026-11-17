@@ -263,6 +263,7 @@ main { min-width: 0; }
 .strava-art { background-color: #ebc9b7; color: #78452f; }
 .skills-art { background-color: #e3e0c8; color: #655d3a; }
 .workflow-art { background-color: #bcd4e6; color: #23395b; }
+.vertical-art { background-color: #c6dcf0; color: #253549; }
 .mini-terminal { position: absolute; inset: 32px 17px 22px; border: 1px solid #4e535c; box-shadow: 4px 4px 0 #4b566222; background: #30323c; }
 .mini-terminal-bar { display: flex; align-items: center; justify-content: space-between; font: 6px var(--mono); color: #b6b4c3; padding: 4px 6px; border-bottom: 1px solid #646271; background: #41414e; }
 .mini-terminal-bar > span { font-size: 5px; letter-spacing: 1px; color: #b8a7cf; }
