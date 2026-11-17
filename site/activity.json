@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-11-16T16:22:07.553319+00:00",
+  "updated_at": "2026-11-17T16:27:13.642893+00:00",
   "events": [
+    {
+      "id": "20340034078",
+      "type": "PublicEvent",
+      "repo": {
+        "name": "BrUn3y/gemini_cli_remote"
+      },
+      "created_at": "2026-11-17T01:47:04Z",
+      "payload": {}
+    },
     {
       "id": "27311200882",
       "type": "PushEvent",
@@ -509,19 +518,6 @@
       "payload": {
         "ref": "refs/heads/main",
         "head": "d6a8018cebdbbaa50d20bad45ba7d26a4f1bd6aa"
-      }
-    },
-    {
-      "id": "26873305625",
-      "type": "CreateEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-10T22:48:12Z",
-      "payload": {
-        "ref": "feat/official-qiskit-skills",
-        "ref_type": "branch",
-        "description": "DAM starter kit for Quantum Lab, Qiskit Runtime and IBM Quantum Platform"
       }
     },
     {
