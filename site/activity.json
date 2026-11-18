@@ -1,6 +1,79 @@
 {
-  "updated_at": "2026-11-17T16:27:13.642893+00:00",
+  "updated_at": "2026-11-18T15:56:55.646919+00:00",
   "events": [
+    {
+      "id": "27539311388",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/quantum_lab_agent"
+      },
+      "created_at": "2026-11-17T18:12:46Z",
+      "payload": {
+        "ref": "refs/heads/main",
+        "head": "b3c64dc1c736ecdfb0a3be4db9fabe16b0e9182a"
+      }
+    },
+    {
+      "id": "27465683589",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/BrUn3y.github.io"
+      },
+      "created_at": "2026-11-17T17:01:23Z",
+      "payload": {
+        "ref": "refs/heads/main",
+        "head": "2ec5943d44501bdf42567345d8654f231cb7ae8c"
+      }
+    },
+    {
+      "id": "27531010579",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/remote_bob"
+      },
+      "created_at": "2026-11-17T16:54:53Z",
+      "payload": {
+        "ref": "refs/heads/anin",
+        "head": "96d79558d4982a7f1895b400999daca8dc0fb8fe"
+      }
+    },
+    {
+      "id": "27463585789",
+      "type": "CreateEvent",
+      "repo": {
+        "name": "BrUn3y/remote_bob"
+      },
+      "created_at": "2026-11-17T16:45:03Z",
+      "payload": {
+        "ref": "anin",
+        "ref_type": "branch",
+        "description": "Remote Bob: run IBM Bob Shell remotely in a container with a REST API, Slack bot, async jobs, live streaming, scheduled tasks, and verify-and-retry orchestration."
+      }
+    },
+    {
+      "id": "27533525111",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/quantum_lab_agent"
+      },
+      "created_at": "2026-11-17T16:21:45Z",
+      "payload": {
+        "ref": "refs/heads/main",
+        "head": "bdacea3d0344278eb3a60cba5f7b2e439c456733"
+      }
+    },
+    {
+      "id": "27522062099",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/BrUn3y.github.io"
+      },
+      "created_at": "2026-11-17T16:10:36Z",
+      "payload": {
+        "ref": "refs/heads/main",
+        "head": "a999a510e2ba26b5c55e42cf5c2effa374731d38"
+      }
+    },
     {
       "id": "20340034078",
       "type": "PublicEvent",
@@ -9,6 +82,18 @@
       },
       "created_at": "2026-11-17T01:47:04Z",
       "payload": {}
+    },
+    {
+      "id": "27468185520",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/Brun3y"
+      },
+      "created_at": "2026-11-17T01:33:43Z",
+      "payload": {
+        "ref": "refs/heads/master",
+        "head": "56d43af73bf904fef7308ccd1dda1060619f7d1f"
+      }
     },
     {
       "id": "27311200882",
@@ -99,36 +184,6 @@
       }
     },
     {
-      "id": "19831056386",
-      "type": "IssueCommentEvent",
-      "repo": {
-        "name": "dam-agents/dam-starter-kits"
-      },
-      "created_at": "2026-11-11T22:03:59Z",
-      "payload": {
-        "action": "created",
-        "issue": {
-          "number": 18,
-          "title": "Add Qiskit Lab starter kit to catalog.yaml"
-        }
-      }
-    },
-    {
-      "id": "19829957634",
-      "type": "ReleaseEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-11T21:50:55Z",
-      "payload": {
-        "action": "published",
-        "release": {
-          "tag_name": "v0.4.0",
-          "name": "Qiskit Lab v0.4.0 - CHSH experiments and durable results"
-        }
-      }
-    },
-    {
       "id": "27063013086",
       "type": "PushEvent",
       "repo": {
@@ -138,49 +193,6 @@
       "payload": {
         "ref": "refs/heads/main",
         "head": "68088730dae433071949d571ab867d4979ede9b5"
-      }
-    },
-    {
-      "id": "19829780264",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-11T21:48:50Z",
-      "payload": {
-        "action": "merged",
-        "number": 20,
-        "pull_request": {
-          "number": 20
-        }
-      }
-    },
-    {
-      "id": "19829628344",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-11T21:47:03Z",
-      "payload": {
-        "action": "opened",
-        "number": 20,
-        "pull_request": {
-          "number": 20
-        }
-      }
-    },
-    {
-      "id": "26878545343",
-      "type": "CreateEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-11T21:47:02Z",
-      "payload": {
-        "ref": "release/v0.4.0",
-        "ref_type": "branch",
-        "description": "DAM starter kit for Quantum Lab, Qiskit Runtime and IBM Quantum Platform"
       }
     },
     {
@@ -546,18 +558,6 @@
       }
     },
     {
-      "id": "26879785697",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-10T22:03:48Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "05ba4d426a7e3d92cb045343969b7c92d5461c8b"
-      }
-    },
-    {
       "id": "26924581549",
       "type": "PushEvent",
       "repo": {
@@ -594,18 +594,6 @@
       }
     },
     {
-      "id": "26875535245",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-10T21:27:57Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "63795573b30864edf512252126a5ce779e394861"
-      }
-    },
-    {
       "id": "26898522124",
       "type": "PushEvent",
       "repo": {
@@ -632,6 +620,22 @@
     }
   ],
   "issue_events": [
+    {
+      "id": "issue-5683636456",
+      "type": "IssuesEvent",
+      "repo": {
+        "name": "omnigent-ai/omnigent"
+      },
+      "created_at": "2026-11-18T00:06:36Z",
+      "payload": {
+        "action": "Updated",
+        "number": 8882,
+        "issue": {
+          "number": 8882,
+          "title": "[Feature] Add IBM Bob Shell as a native TUI harness (bob-native)"
+        }
+      }
+    },
     {
       "id": "issue-5806871594",
       "type": "IssuesEvent",
@@ -805,22 +809,6 @@
         "pull_request": {
           "number": 11,
           "title": "fix: persist scientific results before dashboard rendering"
-        }
-      }
-    },
-    {
-      "id": "issue-6329831261",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-11T15:12:09Z",
-      "payload": {
-        "action": "Updated",
-        "number": 15,
-        "pull_request": {
-          "number": 15,
-          "title": "feat: isolate locked optional quantum capabilities"
         }
       }
     }
