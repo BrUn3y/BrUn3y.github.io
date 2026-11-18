@@ -1,6 +1,139 @@
 {
-  "updated_at": "2026-11-18T15:56:55.646919+00:00",
+  "updated_at": "2026-11-18T22:43:52.087609+00:00",
   "events": [
+    {
+      "id": "20572863380",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "dam-agents/dam-starter-kits"
+      },
+      "created_at": "2026-11-18T22:13:12Z",
+      "payload": {
+        "action": "merged",
+        "number": 18,
+        "pull_request": {
+          "number": 18
+        }
+      }
+    },
+    {
+      "id": "20572195820",
+      "type": "IssueCommentEvent",
+      "repo": {
+        "name": "dam-agents/dam-starter-kits"
+      },
+      "created_at": "2026-11-18T22:05:59Z",
+      "payload": {
+        "action": "created",
+        "issue": {
+          "number": 18,
+          "title": "Add Qiskit Lab starter kit to catalog.yaml"
+        }
+      }
+    },
+    {
+      "id": "20571777649",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-18T22:01:31Z",
+      "payload": {
+        "action": "merged",
+        "number": 26,
+        "pull_request": {
+          "number": 26
+        }
+      }
+    },
+    {
+      "id": "20571566670",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-18T21:59:16Z",
+      "payload": {
+        "action": "opened",
+        "number": 26,
+        "pull_request": {
+          "number": 26
+        }
+      }
+    },
+    {
+      "id": "20568543123",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-18T21:27:31Z",
+      "payload": {
+        "action": "merged",
+        "number": 25,
+        "pull_request": {
+          "number": 25
+        }
+      }
+    },
+    {
+      "id": "20568373730",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-18T21:25:47Z",
+      "payload": {
+        "action": "opened",
+        "number": 25,
+        "pull_request": {
+          "number": 25
+        }
+      }
+    },
+    {
+      "id": "20567222363",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-18T21:13:55Z",
+      "payload": {
+        "action": "merged",
+        "number": 24,
+        "pull_request": {
+          "number": 24
+        }
+      }
+    },
+    {
+      "id": "20566661643",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-18T21:08:07Z",
+      "payload": {
+        "action": "opened",
+        "number": 24,
+        "pull_request": {
+          "number": 24
+        }
+      }
+    },
+    {
+      "id": "27570524250",
+      "type": "CreateEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-18T21:07:08Z",
+      "payload": {
+        "ref": "fix/starter-kit-publisher-20261118",
+        "ref_type": "branch",
+        "description": "DAM starter kit for Quantum Lab, Qiskit Runtime and IBM Quantum Platform"
+      }
+    },
     {
       "id": "27539311388",
       "type": "PushEvent",
@@ -256,21 +389,6 @@
       }
     },
     {
-      "id": "19840986215",
-      "type": "IssueCommentEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-11T16:39:07Z",
-      "payload": {
-        "action": "created",
-        "issue": {
-          "number": 19,
-          "title": "test: cover backend dashboards and report interactions"
-        }
-      }
-    },
-    {
       "id": "27004603984",
       "type": "PushEvent",
       "repo": {
@@ -391,21 +509,6 @@
       }
     },
     {
-      "id": "19834143439",
-      "type": "IssueCommentEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-11T14:53:04Z",
-      "payload": {
-        "action": "created",
-        "issue": {
-          "number": 18,
-          "title": "test: add skill evaluations and review-only update workflow"
-        }
-      }
-    },
-    {
       "id": "27011431803",
       "type": "CreateEvent",
       "repo": {
@@ -497,54 +600,6 @@
       }
     },
     {
-      "id": "26888674277",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/Brun3y"
-      },
-      "created_at": "2026-11-11T02:02:01Z",
-      "payload": {
-        "ref": "refs/heads/master",
-        "head": "90a8c198fbdc259baa19066159e852cbd5d5a777"
-      }
-    },
-    {
-      "id": "26909908952",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/BrUn3y.github.io"
-      },
-      "created_at": "2026-11-11T02:01:07Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "1993700d188290ab60639049657ec4373cb10e61"
-      }
-    },
-    {
-      "id": "26909102595",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-10T22:49:34Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "d6a8018cebdbbaa50d20bad45ba7d26a4f1bd6aa"
-      }
-    },
-    {
-      "id": "26895655321",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-10T22:06:14Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "4d40dee00c34f15353c3a3cfb28f9cfbefca563c"
-      }
-    },
-    {
       "id": "26924741332",
       "type": "CreateEvent",
       "repo": {
@@ -570,18 +625,6 @@
       }
     },
     {
-      "id": "26904143224",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-10T22:02:43Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "1470b7255f5b847ac7b233e88629609ee763e3e1"
-      }
-    },
-    {
       "id": "26924486691",
       "type": "PushEvent",
       "repo": {
@@ -592,34 +635,73 @@
         "ref": "refs/heads/dependabot/npm_and_yarn/tools/report-assets/report-assets-compatible-a76e81937d",
         "head": "8af00a7ef733ed8db54c1cdba8d8417d76cb8a64"
       }
-    },
-    {
-      "id": "26898522124",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-10T21:11:26Z",
-      "payload": {
-        "ref": "refs/heads/fix/chsh-report-metadata",
-        "head": "27caed1d296fb89989c30ada05383f64c8b79afa"
-      }
-    },
-    {
-      "id": "26898360456",
-      "type": "CreateEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-10T21:09:56Z",
-      "payload": {
-        "ref": "fix/chsh-report-metadata",
-        "ref_type": "branch",
-        "description": "DAM starter kit for Quantum Lab, Qiskit Runtime and IBM Quantum Platform"
-      }
     }
   ],
   "issue_events": [
+    {
+      "id": "issue-6227904580",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "dam-agents/dam-starter-kits"
+      },
+      "created_at": "2026-11-18T22:13:12Z",
+      "payload": {
+        "action": "Updated",
+        "number": 18,
+        "pull_request": {
+          "number": 18,
+          "title": "Add Qiskit Lab starter kit to catalog.yaml"
+        }
+      }
+    },
+    {
+      "id": "issue-6477570761",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-18T22:01:31Z",
+      "payload": {
+        "action": "Updated",
+        "number": 26,
+        "pull_request": {
+          "number": 26,
+          "title": "fix: display Edgar Bruney as the kit publisher"
+        }
+      }
+    },
+    {
+      "id": "issue-6477049818",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-18T21:27:31Z",
+      "payload": {
+        "action": "Updated",
+        "number": 25,
+        "pull_request": {
+          "number": 25,
+          "title": "docs: explain direct DAM starter kit import"
+        }
+      }
+    },
+    {
+      "id": "issue-6476761464",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-18T21:13:55Z",
+      "payload": {
+        "action": "Updated",
+        "number": 24,
+        "pull_request": {
+          "number": 24,
+          "title": "fix: identify Qiskit Lab publisher in DAM catalogs"
+        }
+      }
+    },
     {
       "id": "issue-5683636456",
       "type": "IssuesEvent",
@@ -665,22 +747,6 @@
         "pull_request": {
           "number": 2099,
           "title": "Fixes typos in SWODLR access method and tooltip text"
-        }
-      }
-    },
-    {
-      "id": "issue-6227904580",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "dam-agents/dam-starter-kits"
-      },
-      "created_at": "2026-11-11T22:03:59Z",
-      "payload": {
-        "action": "Updated",
-        "number": 18,
-        "pull_request": {
-          "number": 18,
-          "title": "Add Qiskit Lab starter kit to catalog.yaml"
         }
       }
     },
@@ -761,54 +827,6 @@
         "pull_request": {
           "number": 19,
           "title": "test: cover backend dashboards and report interactions"
-        }
-      }
-    },
-    {
-      "id": "issue-6329295291",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-11T15:16:49Z",
-      "payload": {
-        "action": "Updated",
-        "number": 13,
-        "pull_request": {
-          "number": 13,
-          "title": "fix: add finite-sample CHSH confidence bounds"
-        }
-      }
-    },
-    {
-      "id": "issue-6329288613",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-11T15:15:01Z",
-      "payload": {
-        "action": "Updated",
-        "number": 12,
-        "pull_request": {
-          "number": 12,
-          "title": "fix: durably track and recover ambiguous submissions"
-        }
-      }
-    },
-    {
-      "id": "issue-6329285885",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-11T15:13:36Z",
-      "payload": {
-        "action": "Updated",
-        "number": 11,
-        "pull_request": {
-          "number": 11,
-          "title": "fix: persist scientific results before dashboard rendering"
         }
       }
     }
