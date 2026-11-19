@@ -1,8 +1,18 @@
 {
-  "updated_at": "2026-11-17T01:33:40Z",
+  "updated_at": "2026-11-18T22:43:55Z",
   "source": "Published profile Strava widget",
   "source_url": "https://github.com/BrUn3y/Brun3y/blob/master/assets/strava-widget.svg",
   "activities": [
+    {
+      "title": "Morning workout",
+      "type": "Workout",
+      "date_label": "Nov 16",
+      "duration": "55m 46s",
+      "moving_time_seconds": 3346,
+      "distance_km": null,
+      "heart_rate": "126 bpm",
+      "calories": "434 kcal"
+    },
     {
       "title": "Afternoon CrossFit",
       "type": "Workout",
@@ -52,21 +62,11 @@
       "distance_km": null,
       "heart_rate": "147 bpm",
       "calories": "769 kcal"
-    },
-    {
-      "title": "Workout",
-      "type": "Workout",
-      "date_label": "Nov 05",
-      "duration": "1h 8m",
-      "moving_time_seconds": 4080,
-      "distance_km": null,
-      "heart_rate": "147 bpm",
-      "calories": "711 kcal"
     }
   ],
   "summary": {
     "activity_count": 6,
     "distance_km": 6.95,
-    "moving_time_seconds": 21961
+    "moving_time_seconds": 21227
   }
 }
