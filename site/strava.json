@@ -1,8 +1,18 @@
 {
-  "updated_at": "2026-11-22T03:00:44Z",
+  "updated_at": "2026-11-23T03:00:19Z",
   "source": "Published profile Strava widget",
   "source_url": "https://github.com/BrUn3y/Brun3y/blob/master/assets/strava-widget.svg",
   "activities": [
+    {
+      "title": "Workout",
+      "type": "Workout",
+      "date_label": "Nov 22",
+      "duration": "49m 55s",
+      "moving_time_seconds": 2995,
+      "distance_km": null,
+      "heart_rate": "127 bpm",
+      "calories": "391 kcal"
+    },
     {
       "title": "Workout",
       "type": "Workout",
@@ -52,21 +62,11 @@
       "distance_km": null,
       "heart_rate": "144 bpm",
       "calories": "496 kcal"
-    },
-    {
-      "title": "Walk",
-      "type": "Walk",
-      "date_label": "Nov 08",
-      "duration": "1h 7m",
-      "moving_time_seconds": 4020,
-      "distance_km": 6.95,
-      "heart_rate": "118 bpm",
-      "calories": "438 kcal"
     }
   ],
   "summary": {
     "activity_count": 6,
-    "distance_km": 6.95,
-    "moving_time_seconds": 20432
+    "distance_km": 0,
+    "moving_time_seconds": 19407
   }
 }
