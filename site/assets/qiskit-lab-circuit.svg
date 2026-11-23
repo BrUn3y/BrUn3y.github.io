@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 160" fill="none">
+  <g stroke="#49333e" stroke-width="1.5">
+    <path d="M38 48h136M38 100h136M102 48v52"/>
+    <rect x="52" y="34" width="28" height="28" rx="2" fill="#fff8fa"/>
+    <circle cx="102" cy="48" r="4" fill="#49333e"/>
+    <circle cx="102" cy="100" r="12" fill="#fff8fa"/>
+    <path d="M94 100h16M102 92v16"/>
+    <rect x="138" y="34" width="28" height="28" rx="2" fill="#dff693"/>
+    <rect x="138" y="86" width="28" height="28" rx="2" fill="#dff693"/>
+    <path d="M143 52a9 9 0 0 1 18 0m-9 0 5-8M143 104a9 9 0 0 1 18 0m-9 0 5-8"/>
+    <path d="M184 74h18m-5-5 5 5-5 5" stroke-dasharray="2 2"/>
+    <rect x="211" y="26" width="72" height="99" rx="3" fill="#fff8fa"/>
+    <path d="M211 40h72M223 102h48" stroke="#b897a4"/>
+    <rect x="225" y="57" width="16" height="45" fill="#a27db0" stroke="none"/>
+    <rect x="253" y="57" width="16" height="45" fill="#839e55" stroke="none"/>
+  </g>
+  <g fill="#49333e" font-family="monospace" text-anchor="middle">
+    <text x="22" y="51" font-size="10">q0</text>
+    <text x="22" y="103" font-size="10">q1</text>
+    <text x="66" y="52" font-size="12">H</text>
+    <text x="247" y="35" font-size="6">REPORT.HTML</text>
+    <text x="233" y="114" font-size="7">00</text>
+    <text x="261" y="114" font-size="7">11</text>
+    <text x="102" y="140" font-size="7">BELL STATE</text>
+    <text x="247" y="140" font-size="7">IDEAL: 50 / 50</text>
+  </g>
+</svg>

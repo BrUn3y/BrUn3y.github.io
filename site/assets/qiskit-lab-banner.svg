@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360">
+  <defs>
+    <pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#fff" opacity=".4"/>
+    </pattern>
+  </defs>
+  <path fill="#f0d1d8" d="M0 0h1200v360H0z"/>
+  <path fill="url(#dots)" d="M0 0h1200v360H0z"/>
+  <path fill="none" stroke="#fff8fa" stroke-width="2" d="M8 8h1184v344H8z"/>
+  <path fill="none" stroke="#b58c9b" d="M336 38v284"/>
+  <g transform="translate(28 65)" fill="none" stroke="#49333e" stroke-width="4">
+    <path d="M36 66h236M36 172h236M154 66v106"/>
+    <rect x="64" y="41" width="50" height="50" rx="3" fill="#fff8fa"/>
+    <circle cx="154" cy="66" r="8" fill="#49333e"/>
+    <circle cx="154" cy="172" r="23" fill="#fff8fa"/>
+    <path d="M139 172h30M154 157v30"/>
+    <rect x="219" y="41" width="50" height="50" rx="3" fill="#dff693"/>
+    <rect x="219" y="147" width="50" height="50" rx="3" fill="#dff693"/>
+    <path d="M228 74a16 16 0 0 1 32 0m-16 0 9-14M228 180a16 16 0 0 1 32 0m-16 0 9-14"/>
+  </g>
+  <g fill="#49333e" font-family="Courier New, monospace">
+    <text x="48" y="57" font-size="20">EXPERIMENT / BELL STATE</text>
+    <text x="41" y="138" font-size="21">q0</text>
+    <text x="41" y="244" font-size="21">q1</text>
+    <text x="117" y="141" text-anchor="middle" font-size="30" font-weight="700">H</text>
+    <text x="48" y="315" font-size="16">TWO QUBITS. ONE SHARED STATE.</text>
+    <text x="377" y="62" font-size="21">YOUR NEXT EXPERIMENT STARTS HERE</text>
+    <text x="377" y="270" font-size="23">DEVELOP / SIMULATE / REPORT</text>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="900">
+    <text x="380" y="161" fill="#fff8fa" font-size="88" font-style="italic">QISKIT LAB</text>
+    <text x="377" y="157" fill="#49333e" font-size="88" font-style="italic">QISKIT LAB</text>
+    <text x="377" y="217" fill="#795564" font-size="36">THINK QUANTUM. BUILD REAL.</text>
+  </g>
+  <g transform="translate(1022 110)">
+    <path fill="#dff693" stroke="#7d8f54" stroke-width="3" d="M0 0h138v138H0z"/>
+    <path fill="none" stroke="#49333e" stroke-width="7" d="M37 92 99 30M49 30h50v50"/>
+  </g>
+  <text x="1091" y="280" fill="#49333e" text-anchor="middle" font-family="Courier New, monospace" font-size="21" font-weight="700">ENTER THE LAB</text>
+  <path fill="#49333e" d="M377 305h783v2H377z"/>
+  <text x="377" y="333" fill="#795564" font-family="Courier New, monospace" font-size="18">BRUN3Y.GITHUB.IO/QISKIT_LAB</text>
+</svg>

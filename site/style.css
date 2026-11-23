@@ -264,6 +264,8 @@ main { min-width: 0; }
 .skills-art { background-color: #e3e0c8; color: #655d3a; }
 .workflow-art { background-color: #bcd4e6; color: #23395b; }
 .vertical-art { background-color: #c6dcf0; color: #253549; }
+.qiskit-art { background-color: #f0d1d8; color: #49333e; }
+.qiskit-circuit { position: absolute; inset: 27px 0 20px; width: 100%; height: calc(100% - 47px); object-fit: contain; }
 .mini-terminal { position: absolute; inset: 32px 17px 22px; border: 1px solid #4e535c; box-shadow: 4px 4px 0 #4b566222; background: #30323c; }
 .mini-terminal-bar { display: flex; align-items: center; justify-content: space-between; font: 6px var(--mono); color: #b6b4c3; padding: 4px 6px; border-bottom: 1px solid #646271; background: #41414e; }
 .mini-terminal-bar > span { font-size: 5px; letter-spacing: 1px; color: #b8a7cf; }
@@ -291,6 +293,9 @@ main { min-width: 0; }
 .ad-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 13px; }
 .retro-ad { min-height: 96px; position: relative; display: flex; align-items: center; gap: 10px; padding: 12px; border: 2px solid #45416e; box-shadow: inset 0 0 0 1px #ffffff8c, 2px 2px 0 #a193b4; transition: transform .15s; overflow: hidden; }
 .retro-ad:hover { transform: translateY(-2px); }
+.retro-ad.qiskit-ad { display: block; padding: 0; min-height: 0; border-color: #916775; background: #f0d1d8; }
+.qiskit-ad > img { width: 100%; height: auto; }
+.qiskit-ad:hover { filter: brightness(1.03); }
 .quantum-ad { color: #fffab5; background: radial-gradient(circle, #c6a6ff 1px, transparent 1.5px) 0 0 / 14px 14px, linear-gradient(125deg, #322383, #7161b4); }
 .ad-starburst { display: grid; place-content: center; flex-shrink: 0; width: 61px; height: 61px; clip-path: polygon(50% 0%,61% 12%,76% 4%,80% 22%,98% 24%,89% 42%,100% 54%,85% 64%,91% 82%,72% 84%,63% 100%,49% 88%,32% 98%,27% 80%,8% 80%,15% 61%,0% 49%,16% 37%,8% 20%,28% 19%,36% 3%); background: #e9ff71; color: #38266b; text-align: center; font: italic 900 8px/1.1 Arial, sans-serif; transform: rotate(-12deg); }
 .ad-message { flex: 1; position: relative; }
