@@ -1,6 +1,141 @@
 {
-  "updated_at": "2026-11-23T18:42:34.413147+00:00",
+  "updated_at": "2026-11-24T02:00:48.708563+00:00",
   "events": [
+    {
+      "id": "21070812913",
+      "type": "IssuesEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-23T23:37:54Z",
+      "payload": {
+        "action": "labeled",
+        "issue": {
+          "number": 4,
+          "title": "Use IBM Bob artwork instead of the b_ monogram in the harness card"
+        }
+      }
+    },
+    {
+      "id": "21070812556",
+      "type": "IssuesEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-23T23:37:54Z",
+      "payload": {
+        "action": "opened",
+        "issue": {
+          "number": 4,
+          "title": "Use IBM Bob artwork instead of the b_ monogram in the harness card"
+        }
+      }
+    },
+    {
+      "id": "21070320937",
+      "type": "IssuesEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-23T23:31:37Z",
+      "payload": {
+        "action": "labeled",
+        "issue": {
+          "number": 3,
+          "title": "Show SSH connection details in the sidebar card"
+        }
+      }
+    },
+    {
+      "id": "21070320685",
+      "type": "IssuesEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-23T23:31:37Z",
+      "payload": {
+        "action": "opened",
+        "issue": {
+          "number": 3,
+          "title": "Show SSH connection details in the sidebar card"
+        }
+      }
+    },
+    {
+      "id": "21070152447",
+      "type": "IssuesEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-23T23:29:26Z",
+      "payload": {
+        "action": "labeled",
+        "issue": {
+          "number": 2,
+          "title": "Shift+Enter submits harness prompts instead of inserting a newline"
+        }
+      }
+    },
+    {
+      "id": "21070152179",
+      "type": "IssuesEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-23T23:29:25Z",
+      "payload": {
+        "action": "opened",
+        "issue": {
+          "number": 2,
+          "title": "Shift+Enter submits harness prompts instead of inserting a newline"
+        }
+      }
+    },
+    {
+      "id": "21070144224",
+      "type": "IssuesEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-23T23:29:19Z",
+      "payload": {
+        "action": "labeled",
+        "issue": {
+          "number": 1,
+          "title": "Show a GitHub icon and repository link next to the theme toggle"
+        }
+      }
+    },
+    {
+      "id": "21070143937",
+      "type": "IssuesEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-23T23:29:19Z",
+      "payload": {
+        "action": "opened",
+        "issue": {
+          "number": 1,
+          "title": "Show a GitHub icon and repository link next to the theme toggle"
+        }
+      }
+    },
+    {
+      "id": "21068855595",
+      "type": "ReleaseEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-23T23:13:22Z",
+      "payload": {
+        "action": "published",
+        "release": {
+          "tag_name": "v0.4.0",
+          "name": "xTerm v0.4.0"
+        }
+      }
+    },
     {
       "id": "28002089465",
       "type": "PushEvent",
@@ -399,6 +534,18 @@
       }
     },
     {
+      "id": "28070690185",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/BrUn3y.github.io"
+      },
+      "created_at": "2026-11-23T02:01:16Z",
+      "payload": {
+        "ref": "refs/heads/main",
+        "head": "4228b6ba8c0781cae8115c183dd095db41467ef2"
+      }
+    },
+    {
       "id": "28012459765",
       "type": "PushEvent",
       "repo": {
@@ -459,21 +606,6 @@
       }
     },
     {
-      "id": "20682985681",
-      "type": "IssueCommentEvent",
-      "repo": {
-        "name": "HKUDS/CLI-Anything"
-      },
-      "created_at": "2026-11-19T16:55:07Z",
-      "payload": {
-        "action": "created",
-        "issue": {
-          "number": 529,
-          "title": "feat(registry): add IBM Bob Shell to public catalog"
-        }
-      }
-    },
-    {
       "id": "27733436301",
       "type": "PushEvent",
       "repo": {
@@ -483,51 +615,6 @@
       "payload": {
         "ref": "refs/heads/main",
         "head": "ce4bd1ad29fd055564ff85b7d408e6a3c0a85168"
-      }
-    },
-    {
-      "id": "20572863380",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "dam-agents/dam-starter-kits"
-      },
-      "created_at": "2026-11-18T22:13:12Z",
-      "payload": {
-        "action": "merged",
-        "number": 18,
-        "pull_request": {
-          "number": 18
-        }
-      }
-    },
-    {
-      "id": "20572195820",
-      "type": "IssueCommentEvent",
-      "repo": {
-        "name": "dam-agents/dam-starter-kits"
-      },
-      "created_at": "2026-11-18T22:05:59Z",
-      "payload": {
-        "action": "created",
-        "issue": {
-          "number": 18,
-          "title": "Add Qiskit Lab starter kit to catalog.yaml"
-        }
-      }
-    },
-    {
-      "id": "20571777649",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-18T22:01:31Z",
-      "payload": {
-        "action": "merged",
-        "number": 26,
-        "pull_request": {
-          "number": 26
-        }
       }
     },
     {
@@ -541,30 +628,6 @@
         "ref": "fix/publisher-full-name-20261118",
         "ref_type": "branch",
         "description": "DAM starter kit for Quantum Lab, Qiskit Runtime and IBM Quantum Platform"
-      }
-    },
-    {
-      "id": "27575512092",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/dam-starter-kits"
-      },
-      "created_at": "2026-11-18T21:58:40Z",
-      "payload": {
-        "ref": "refs/heads/add-qiskit-lab-starter-kit",
-        "head": "a4066906ce6dc8027f0b78d5878389f87afddfb8"
-      }
-    },
-    {
-      "id": "27664767754",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-18T21:27:32Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "35b70f49d8ed543087ca7077b96b2977110cc378"
       }
     },
     {
@@ -629,19 +692,6 @@
       }
     },
     {
-      "id": "27570524250",
-      "type": "CreateEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-18T21:07:08Z",
-      "payload": {
-        "ref": "fix/starter-kit-publisher-20261118",
-        "ref_type": "branch",
-        "description": "DAM starter kit for Quantum Lab, Qiskit Runtime and IBM Quantum Platform"
-      }
-    },
-    {
       "id": "27725318001",
       "type": "PushEvent",
       "repo": {
@@ -652,45 +702,73 @@
         "ref": "refs/heads/dependabot/npm_and_yarn/tools/report-assets/report-assets-compatible-6e7c18c866",
         "head": "cbf16055761e4e8263e6bb4ac14b56ef63065d44"
       }
-    },
-    {
-      "id": "27706685324",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-18T21:04:19Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "462e62be04a798cadfe66a313926aaae4591ea2c"
-      }
-    },
-    {
-      "id": "27573322910",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/remote_bob"
-      },
-      "created_at": "2026-11-17T17:01:16Z",
-      "payload": {
-        "ref": "refs/heads/anin",
-        "head": "924d6ff9f9518f0273987f78685ea4e994a2432a"
-      }
-    },
-    {
-      "id": "27607210173",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/BrUn3y.github.io"
-      },
-      "created_at": "2026-11-17T16:24:45Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "bfc0ccf08feac07bc8e7d136519ebc9ee2300474"
-      }
     }
   ],
   "issue_events": [
+    {
+      "id": "issue-6571128262",
+      "type": "IssuesEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-23T23:37:52Z",
+      "payload": {
+        "action": "Updated",
+        "number": 4,
+        "issue": {
+          "number": 4,
+          "title": "Use IBM Bob artwork instead of the b_ monogram in the harness card"
+        }
+      }
+    },
+    {
+      "id": "issue-6571043736",
+      "type": "IssuesEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-23T23:31:35Z",
+      "payload": {
+        "action": "Updated",
+        "number": 3,
+        "issue": {
+          "number": 3,
+          "title": "Show SSH connection details in the sidebar card"
+        }
+      }
+    },
+    {
+      "id": "issue-6571014430",
+      "type": "IssuesEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-23T23:31:26Z",
+      "payload": {
+        "action": "Updated",
+        "number": 2,
+        "issue": {
+          "number": 2,
+          "title": "Shift+Enter submits harness prompts instead of inserting a newline"
+        }
+      }
+    },
+    {
+      "id": "issue-6571012956",
+      "type": "IssuesEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-23T23:31:20Z",
+      "payload": {
+        "action": "Updated",
+        "number": 1,
+        "issue": {
+          "number": 1,
+          "title": "Show a GitHub icon and repository link next to the theme toggle"
+        }
+      }
+    },
     {
       "id": "issue-6552217781",
       "type": "PullRequestEvent",
@@ -816,70 +894,6 @@
         "issue": {
           "number": 30,
           "title": "[P2] Improve Hardware Execution, Credentials, and Job Recovery Guidance"
-        }
-      }
-    },
-    {
-      "id": "issue-6551347397",
-      "type": "IssuesEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-23T03:00:31Z",
-      "payload": {
-        "action": "Updated",
-        "number": 29,
-        "issue": {
-          "number": 29,
-          "title": "[P1] Strengthen Reproducibility and Independent Validation of Quantum Experiments"
-        }
-      }
-    },
-    {
-      "id": "issue-6551347139",
-      "type": "IssuesEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-23T03:00:30Z",
-      "payload": {
-        "action": "Updated",
-        "number": 28,
-        "issue": {
-          "number": 28,
-          "title": "[P1] Add a Short End-to-End Qiskit Lab Demo"
-        }
-      }
-    },
-    {
-      "id": "issue-6551346869",
-      "type": "IssuesEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-23T03:00:28Z",
-      "payload": {
-        "action": "Updated",
-        "number": 27,
-        "issue": {
-          "number": 27,
-          "title": "[P1] Improve the First-Time User Experience"
-        }
-      }
-    },
-    {
-      "id": "issue-5683531822",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "HKUDS/CLI-Anything"
-      },
-      "created_at": "2026-11-19T16:55:07Z",
-      "payload": {
-        "action": "Updated",
-        "number": 529,
-        "pull_request": {
-          "number": 529,
-          "title": "feat(registry): add IBM Bob Shell to public catalog"
         }
       }
     }
