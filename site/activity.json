@@ -1,6 +1,628 @@
 {
-  "updated_at": "2026-11-24T02:00:48.708563+00:00",
+  "updated_at": "2026-11-24T18:15:48.205916+00:00",
   "events": [
+    {
+      "id": "21164437496",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T18:13:52Z",
+      "payload": {
+        "action": "merged",
+        "number": 17,
+        "pull_request": {
+          "number": 17
+        }
+      }
+    },
+    {
+      "id": "21164433260",
+      "type": "ReleaseEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T18:13:50Z",
+      "payload": {
+        "action": "published",
+        "release": {
+          "tag_name": "v0.5.1",
+          "name": "xTerm v0.5.1"
+        }
+      }
+    },
+    {
+      "id": "21163886541",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T18:08:36Z",
+      "payload": {
+        "action": "opened",
+        "number": 17,
+        "pull_request": {
+          "number": 17
+        }
+      }
+    },
+    {
+      "id": "21163510141",
+      "type": "IssuesEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T18:04:56Z",
+      "payload": {
+        "action": "closed",
+        "issue": {
+          "number": 15,
+          "title": "Clipboard text paste reaches harness image shortcut instead of inserting text"
+        }
+      }
+    },
+    {
+      "id": "21163507957",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T18:04:53Z",
+      "payload": {
+        "action": "merged",
+        "number": 16,
+        "pull_request": {
+          "number": 16
+        }
+      }
+    },
+    {
+      "id": "21158732546",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T17:19:25Z",
+      "payload": {
+        "action": "opened",
+        "number": 16,
+        "pull_request": {
+          "number": 16
+        }
+      }
+    },
+    {
+      "id": "21158046678",
+      "type": "IssuesEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T17:13:08Z",
+      "payload": {
+        "action": "opened",
+        "issue": {
+          "number": 15,
+          "title": "Clipboard text paste reaches harness image shortcut instead of inserting text"
+        }
+      }
+    },
+    {
+      "id": "21157408045",
+      "type": "IssuesEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T17:07:13Z",
+      "payload": {
+        "action": "labeled",
+        "issue": {
+          "number": 15,
+          "title": "Clipboard text paste reaches harness image shortcut instead of inserting text"
+        }
+      }
+    },
+    {
+      "id": "21144747043",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T15:07:03Z",
+      "payload": {
+        "action": "merged",
+        "number": 14,
+        "pull_request": {
+          "number": 14
+        }
+      }
+    },
+    {
+      "id": "21144735831",
+      "type": "ReleaseEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T15:07:00Z",
+      "payload": {
+        "action": "published",
+        "release": {
+          "tag_name": "v0.5.0",
+          "name": "xTerm v0.5.0"
+        }
+      }
+    },
+    {
+      "id": "21144289481",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T15:02:30Z",
+      "payload": {
+        "action": "opened",
+        "number": 14,
+        "pull_request": {
+          "number": 14
+        }
+      }
+    },
+    {
+      "id": "28153900221",
+      "type": "CreateEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T15:02:14Z",
+      "payload": {
+        "ref": "release/v0.5.0",
+        "ref_type": "branch",
+        "description": "A desktop terminal built with Electron, React, and TypeScript, featuring split panes, a file explorer, and live coding agent activity."
+      }
+    },
+    {
+      "id": "21142880500",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T14:48:37Z",
+      "payload": {
+        "action": "merged",
+        "number": 13,
+        "pull_request": {
+          "number": 13
+        }
+      }
+    },
+    {
+      "id": "21142837083",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T14:48:16Z",
+      "payload": {
+        "action": "opened",
+        "number": 13,
+        "pull_request": {
+          "number": 13
+        }
+      }
+    },
+    {
+      "id": "21142819441",
+      "type": "IssuesEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T14:48:10Z",
+      "payload": {
+        "action": "closed",
+        "issue": {
+          "number": 3,
+          "title": "Show SSH connection details in the sidebar card"
+        }
+      }
+    },
+    {
+      "id": "21142815533",
+      "type": "IssuesEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T14:48:04Z",
+      "payload": {
+        "action": "closed",
+        "issue": {
+          "number": 1,
+          "title": "Show a GitHub icon and repository link next to the theme toggle"
+        }
+      }
+    },
+    {
+      "id": "21142815061",
+      "type": "IssuesEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T14:48:03Z",
+      "payload": {
+        "action": "closed",
+        "issue": {
+          "number": 2,
+          "title": "Shift+Enter submits harness prompts instead of inserting a newline"
+        }
+      }
+    },
+    {
+      "id": "21161374948",
+      "type": "IssueCommentEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T14:48:02Z",
+      "payload": {
+        "action": "created",
+        "issue": {
+          "number": 2,
+          "title": "Shift+Enter submits harness prompts instead of inserting a newline"
+        }
+      }
+    },
+    {
+      "id": "21161373813",
+      "type": "IssueCommentEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T14:48:02Z",
+      "payload": {
+        "action": "created",
+        "issue": {
+          "number": 1,
+          "title": "Show a GitHub icon and repository link next to the theme toggle"
+        }
+      }
+    },
+    {
+      "id": "21145002166",
+      "type": "IssueCommentEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T14:48:02Z",
+      "payload": {
+        "action": "created",
+        "issue": {
+          "number": 4,
+          "title": "Use IBM Bob artwork instead of the b_ monogram in the harness card"
+        }
+      }
+    },
+    {
+      "id": "21142523394",
+      "type": "IssuesEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T14:45:16Z",
+      "payload": {
+        "action": "closed",
+        "issue": {
+          "number": 4,
+          "title": "Use IBM Bob artwork instead of the b_ monogram in the harness card"
+        }
+      }
+    },
+    {
+      "id": "21142524640",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T14:45:10Z",
+      "payload": {
+        "action": "merged",
+        "number": 7,
+        "pull_request": {
+          "number": 7
+        }
+      }
+    },
+    {
+      "id": "28151126829",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T14:44:25Z",
+      "payload": {
+        "ref": "refs/heads/fix/issue-4-bob-artwork",
+        "head": "40feb6f280a862fb061cd48c6d15be3b8ecc0625"
+      }
+    },
+    {
+      "id": "21137399721",
+      "type": "IssueCommentEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T13:54:00Z",
+      "payload": {
+        "action": "created",
+        "issue": {
+          "number": 7,
+          "title": "fix: show bundled official IBM Bob artwork in harness card"
+        }
+      }
+    },
+    {
+      "id": "21137398247",
+      "type": "IssueCommentEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T13:53:59Z",
+      "payload": {
+        "action": "created",
+        "issue": {
+          "number": 6,
+          "title": "feat: consent-driven release notifications and in-app updates"
+        }
+      }
+    },
+    {
+      "id": "21156376009",
+      "type": "IssueCommentEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T13:53:21Z",
+      "payload": {
+        "action": "created",
+        "issue": {
+          "number": 2,
+          "title": "Shift+Enter submits harness prompts instead of inserting a newline"
+        }
+      }
+    },
+    {
+      "id": "21156373987",
+      "type": "IssueCommentEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T13:53:20Z",
+      "payload": {
+        "action": "created",
+        "issue": {
+          "number": 3,
+          "title": "Show SSH connection details in the sidebar card"
+        }
+      }
+    },
+    {
+      "id": "21137141264",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T13:51:28Z",
+      "payload": {
+        "action": "merged",
+        "number": 12,
+        "pull_request": {
+          "number": 12
+        }
+      }
+    },
+    {
+      "id": "21137085505",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T13:50:54Z",
+      "payload": {
+        "action": "opened",
+        "number": 12,
+        "pull_request": {
+          "number": 12
+        }
+      }
+    },
+    {
+      "id": "21136515383",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T13:45:18Z",
+      "payload": {
+        "action": "merged",
+        "number": 11,
+        "pull_request": {
+          "number": 11
+        }
+      }
+    },
+    {
+      "id": "21136476648",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T13:44:56Z",
+      "payload": {
+        "action": "opened",
+        "number": 11,
+        "pull_request": {
+          "number": 11
+        }
+      }
+    },
+    {
+      "id": "21136188171",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T13:41:54Z",
+      "payload": {
+        "action": "merged",
+        "number": 9,
+        "pull_request": {
+          "number": 9
+        }
+      }
+    },
+    {
+      "id": "21135796213",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T13:37:32Z",
+      "payload": {
+        "action": "merged",
+        "number": 10,
+        "pull_request": {
+          "number": 10
+        }
+      }
+    },
+    {
+      "id": "21135532075",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T13:35:11Z",
+      "payload": {
+        "action": "merged",
+        "number": 8,
+        "pull_request": {
+          "number": 8
+        }
+      }
+    },
+    {
+      "id": "21123493399",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T11:23:00Z",
+      "payload": {
+        "action": "opened",
+        "number": 10,
+        "pull_request": {
+          "number": 10
+        }
+      }
+    },
+    {
+      "id": "21118015984",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T10:21:38Z",
+      "payload": {
+        "action": "opened",
+        "number": 9,
+        "pull_request": {
+          "number": 9
+        }
+      }
+    },
+    {
+      "id": "21111869811",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T09:11:32Z",
+      "payload": {
+        "action": "opened",
+        "number": 8,
+        "pull_request": {
+          "number": 8
+        }
+      }
+    },
+    {
+      "id": "21106771874",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T08:09:46Z",
+      "payload": {
+        "action": "opened",
+        "number": 7,
+        "pull_request": {
+          "number": 7
+        }
+      }
+    },
+    {
+      "id": "21103631559",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T07:29:45Z",
+      "payload": {
+        "action": "opened",
+        "number": 6,
+        "pull_request": {
+          "number": 6
+        }
+      }
+    },
+    {
+      "id": "21086373312",
+      "type": "IssuesEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T03:19:11Z",
+      "payload": {
+        "action": "labeled",
+        "issue": {
+          "number": 5,
+          "title": "Notify about new releases and update xTerm from inside the app"
+        }
+      }
+    },
+    {
+      "id": "21086373043",
+      "type": "IssuesEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T03:19:11Z",
+      "payload": {
+        "action": "opened",
+        "issue": {
+          "number": 5,
+          "title": "Notify about new releases and update xTerm from inside the app"
+        }
+      }
+    },
+    {
+      "id": "28130086379",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/Brun3y"
+      },
+      "created_at": "2026-11-24T02:01:17Z",
+      "payload": {
+        "ref": "refs/heads/master",
+        "head": "fc50caaf2542f2ec4da063cf8e6a9eaaa5964480"
+      }
+    },
     {
       "id": "21070812913",
       "type": "IssuesEvent",
@@ -32,708 +654,156 @@
       }
     },
     {
-      "id": "21070320937",
-      "type": "IssuesEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-23T23:31:37Z",
-      "payload": {
-        "action": "labeled",
-        "issue": {
-          "number": 3,
-          "title": "Show SSH connection details in the sidebar card"
-        }
-      }
-    },
-    {
-      "id": "21070320685",
-      "type": "IssuesEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-23T23:31:37Z",
-      "payload": {
-        "action": "opened",
-        "issue": {
-          "number": 3,
-          "title": "Show SSH connection details in the sidebar card"
-        }
-      }
-    },
-    {
-      "id": "21070152447",
-      "type": "IssuesEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-23T23:29:26Z",
-      "payload": {
-        "action": "labeled",
-        "issue": {
-          "number": 2,
-          "title": "Shift+Enter submits harness prompts instead of inserting a newline"
-        }
-      }
-    },
-    {
-      "id": "21070152179",
-      "type": "IssuesEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-23T23:29:25Z",
-      "payload": {
-        "action": "opened",
-        "issue": {
-          "number": 2,
-          "title": "Shift+Enter submits harness prompts instead of inserting a newline"
-        }
-      }
-    },
-    {
-      "id": "21070144224",
-      "type": "IssuesEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-23T23:29:19Z",
-      "payload": {
-        "action": "labeled",
-        "issue": {
-          "number": 1,
-          "title": "Show a GitHub icon and repository link next to the theme toggle"
-        }
-      }
-    },
-    {
-      "id": "21070143937",
-      "type": "IssuesEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-23T23:29:19Z",
-      "payload": {
-        "action": "opened",
-        "issue": {
-          "number": 1,
-          "title": "Show a GitHub icon and repository link next to the theme toggle"
-        }
-      }
-    },
-    {
-      "id": "21068855595",
-      "type": "ReleaseEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-23T23:13:22Z",
-      "payload": {
-        "action": "published",
-        "release": {
-          "tag_name": "v0.4.0",
-          "name": "xTerm v0.4.0"
-        }
-      }
-    },
-    {
-      "id": "28002089465",
+      "id": "28134267371",
       "type": "PushEvent",
       "repo": {
-        "name": "BrUn3y/qiskit_lab"
+        "name": "BrUn3y/xTerm"
       },
-      "created_at": "2026-11-23T04:27:57Z",
+      "created_at": "2026-11-23T23:24:16Z",
       "payload": {
         "ref": "refs/heads/main",
-        "head": "ee7ab34c2a5c58919aa46bba330f5d4c3808af13"
+        "head": "a12132df1791d4d21ab89bb450e3578b4910de53"
       }
     },
     {
-      "id": "20968443837",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-23T04:27:56Z",
-      "payload": {
-        "action": "merged",
-        "number": 37,
-        "pull_request": {
-          "number": 37
-        }
-      }
-    },
-    {
-      "id": "20968142700",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-23T04:22:33Z",
-      "payload": {
-        "action": "opened",
-        "number": 37,
-        "pull_request": {
-          "number": 37
-        }
-      }
-    },
-    {
-      "id": "20967785343",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-23T04:16:13Z",
-      "payload": {
-        "action": "merged",
-        "number": 36,
-        "pull_request": {
-          "number": 36
-        }
-      }
-    },
-    {
-      "id": "20967581287",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-23T04:12:39Z",
-      "payload": {
-        "action": "opened",
-        "number": 36,
-        "pull_request": {
-          "number": 36
-        }
-      }
-    },
-    {
-      "id": "20967325960",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-23T04:08:06Z",
-      "payload": {
-        "action": "merged",
-        "number": 35,
-        "pull_request": {
-          "number": 35
-        }
-      }
-    },
-    {
-      "id": "20967122735",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-23T04:04:28Z",
-      "payload": {
-        "action": "opened",
-        "number": 35,
-        "pull_request": {
-          "number": 35
-        }
-      }
-    },
-    {
-      "id": "20967006005",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-23T04:02:18Z",
-      "payload": {
-        "action": "merged",
-        "number": 34,
-        "pull_request": {
-          "number": 34
-        }
-      }
-    },
-    {
-      "id": "20966908559",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-23T04:00:29Z",
-      "payload": {
-        "action": "opened",
-        "number": 34,
-        "pull_request": {
-          "number": 34
-        }
-      }
-    },
-    {
-      "id": "20966624203",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-23T03:55:08Z",
-      "payload": {
-        "action": "merged",
-        "number": 33,
-        "pull_request": {
-          "number": 33
-        }
-      }
-    },
-    {
-      "id": "20966519476",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-23T03:53:11Z",
-      "payload": {
-        "action": "opened",
-        "number": 33,
-        "pull_request": {
-          "number": 33
-        }
-      }
-    },
-    {
-      "id": "28004379508",
-      "type": "CreateEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-23T03:52:25Z",
-      "payload": {
-        "ref": "feat/project-website",
-        "ref_type": "branch",
-        "description": "DAM starter kit for Quantum Lab, Qiskit Runtime and IBM Quantum Platform"
-      }
-    },
-    {
-      "id": "20963661143",
-      "type": "IssuesEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-23T03:00:37Z",
-      "payload": {
-        "action": "labeled",
-        "issue": {
-          "number": 32,
-          "title": "[P3] Publish a Technical Introduction and Share Qiskit Lab with Relevant Communities"
-        }
-      }
-    },
-    {
-      "id": "20963660961",
-      "type": "IssuesEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-23T03:00:37Z",
-      "payload": {
-        "action": "opened",
-        "issue": {
-          "number": 32,
-          "title": "[P3] Publish a Technical Introduction and Share Qiskit Lab with Relevant Communities"
-        }
-      }
-    },
-    {
-      "id": "20963659709",
-      "type": "IssuesEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-23T03:00:35Z",
-      "payload": {
-        "action": "labeled",
-        "issue": {
-          "number": 31,
-          "title": "[P2] Extend the Contributor Guide and Publish a Prioritized Project Roadmap"
-        }
-      }
-    },
-    {
-      "id": "20963659519",
-      "type": "IssuesEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-23T03:00:35Z",
-      "payload": {
-        "action": "labeled",
-        "issue": {
-          "number": 31,
-          "title": "[P2] Extend the Contributor Guide and Publish a Prioritized Project Roadmap"
-        }
-      }
-    },
-    {
-      "id": "20963659298",
-      "type": "IssuesEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-23T03:00:35Z",
-      "payload": {
-        "action": "opened",
-        "issue": {
-          "number": 31,
-          "title": "[P2] Extend the Contributor Guide and Publish a Prioritized Project Roadmap"
-        }
-      }
-    },
-    {
-      "id": "20963658157",
-      "type": "IssuesEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-23T03:00:33Z",
-      "payload": {
-        "action": "labeled",
-        "issue": {
-          "number": 30,
-          "title": "[P2] Improve Hardware Execution, Credentials, and Job Recovery Guidance"
-        }
-      }
-    },
-    {
-      "id": "20963657980",
-      "type": "IssuesEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-23T03:00:33Z",
-      "payload": {
-        "action": "opened",
-        "issue": {
-          "number": 30,
-          "title": "[P2] Improve Hardware Execution, Credentials, and Job Recovery Guidance"
-        }
-      }
-    },
-    {
-      "id": "20963657932",
-      "type": "IssuesEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-23T03:00:33Z",
-      "payload": {
-        "action": "labeled",
-        "issue": {
-          "number": 29,
-          "title": "[P1] Strengthen Reproducibility and Independent Validation of Quantum Experiments"
-        }
-      }
-    },
-    {
-      "id": "20963657756",
-      "type": "IssuesEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-23T03:00:33Z",
-      "payload": {
-        "action": "labeled",
-        "issue": {
-          "number": 29,
-          "title": "[P1] Strengthen Reproducibility and Independent Validation of Quantum Experiments"
-        }
-      }
-    },
-    {
-      "id": "20963657551",
-      "type": "IssuesEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-23T03:00:33Z",
-      "payload": {
-        "action": "opened",
-        "issue": {
-          "number": 29,
-          "title": "[P1] Strengthen Reproducibility and Independent Validation of Quantum Experiments"
-        }
-      }
-    },
-    {
-      "id": "20963655665",
-      "type": "IssuesEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-23T03:00:31Z",
-      "payload": {
-        "action": "labeled",
-        "issue": {
-          "number": 28,
-          "title": "[P1] Add a Short End-to-End Qiskit Lab Demo"
-        }
-      }
-    },
-    {
-      "id": "20963655440",
-      "type": "IssuesEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-23T03:00:30Z",
-      "payload": {
-        "action": "opened",
-        "issue": {
-          "number": 28,
-          "title": "[P1] Add a Short End-to-End Qiskit Lab Demo"
-        }
-      }
-    },
-    {
-      "id": "20963654622",
-      "type": "IssuesEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-23T03:00:29Z",
-      "payload": {
-        "action": "labeled",
-        "issue": {
-          "number": 27,
-          "title": "[P1] Improve the First-Time User Experience"
-        }
-      }
-    },
-    {
-      "id": "20963654364",
-      "type": "IssuesEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-23T03:00:29Z",
-      "payload": {
-        "action": "opened",
-        "issue": {
-          "number": 27,
-          "title": "[P1] Improve the First-Time User Experience"
-        }
-      }
-    },
-    {
-      "id": "27996113224",
+      "id": "28133000108",
       "type": "PushEvent",
       "repo": {
-        "name": "BrUn3y/Brun3y"
+        "name": "BrUn3y/xTerm"
       },
-      "created_at": "2026-11-23T02:02:23Z",
+      "created_at": "2026-11-23T23:07:07Z",
       "payload": {
-        "ref": "refs/heads/master",
-        "head": "469f45485e8fd21db4bb2bd6067cd134a0616712"
+        "ref": "refs/heads/main",
+        "head": "b95ee6ca542c650f020b43e8abcdf4ca71127ff5"
       }
     },
     {
-      "id": "28070690185",
+      "id": "28131337639",
       "type": "PushEvent",
       "repo": {
         "name": "BrUn3y/BrUn3y.github.io"
       },
-      "created_at": "2026-11-23T02:01:16Z",
+      "created_at": "2026-11-23T04:46:13Z",
       "payload": {
         "ref": "refs/heads/main",
-        "head": "4228b6ba8c0781cae8115c183dd095db41467ef2"
+        "head": "3fda6e7c00a63920b1319946e1525ea7ecced701"
       }
     },
     {
-      "id": "28012459765",
+      "id": "28133570142",
       "type": "PushEvent",
       "repo": {
-        "name": "BrUn3y/Brun3y"
+        "name": "BrUn3y/qiskit_lab"
       },
-      "created_at": "2026-11-22T03:00:47Z",
-      "payload": {
-        "ref": "refs/heads/master",
-        "head": "7cbaade9ddb6e1749778d24370f34b7ea07cc2a3"
-      }
-    },
-    {
-      "id": "28008351490",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/Brun3y"
-      },
-      "created_at": "2026-11-22T02:01:09Z",
-      "payload": {
-        "ref": "refs/heads/master",
-        "head": "7d3a0ca652344a19563da4b49779aea958d10929"
-      }
-    },
-    {
-      "id": "27796058655",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/Brun3y"
-      },
-      "created_at": "2026-11-21T03:00:44Z",
-      "payload": {
-        "ref": "refs/heads/master",
-        "head": "28dc23358d19e50b64c527010c38322a42089527"
-      }
-    },
-    {
-      "id": "27882682426",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/Brun3y"
-      },
-      "created_at": "2026-11-20T02:01:51Z",
-      "payload": {
-        "ref": "refs/heads/master",
-        "head": "41cfd1137e24dab44abcd8003ec912a563ceebbc"
-      }
-    },
-    {
-      "id": "27913462476",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/BrUn3y.github.io"
-      },
-      "created_at": "2026-11-20T02:01:20Z",
+      "created_at": "2026-11-23T04:16:14Z",
       "payload": {
         "ref": "refs/heads/main",
-        "head": "81bf56b7ade13fe1de65decd28babdff50f17098"
+        "head": "bf8e8717b13ca87973dc3ba33a3afab4a1c51c21"
       }
     },
     {
-      "id": "27733436301",
+      "id": "28132332203",
       "type": "PushEvent",
       "repo": {
-        "name": "BrUn3y/BrUn3y.github.io"
+        "name": "BrUn3y/qiskit_lab"
       },
-      "created_at": "2026-11-19T02:01:38Z",
+      "created_at": "2026-11-23T04:02:19Z",
       "payload": {
         "ref": "refs/heads/main",
-        "head": "ce4bd1ad29fd055564ff85b7d408e6a3c0a85168"
+        "head": "52ba42f58c35a599c9252503e2e8653bb15fab7d"
       }
     },
     {
-      "id": "27731608399",
-      "type": "CreateEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-18T21:59:03Z",
-      "payload": {
-        "ref": "fix/publisher-full-name-20261118",
-        "ref_type": "branch",
-        "description": "DAM starter kit for Quantum Lab, Qiskit Runtime and IBM Quantum Platform"
-      }
-    },
-    {
-      "id": "27730243253",
-      "type": "CreateEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-18T21:25:45Z",
-      "payload": {
-        "ref": "docs/import-from-link-20261118",
-        "ref_type": "branch",
-        "description": "DAM starter kit for Quantum Lab, Qiskit Runtime and IBM Quantum Platform"
-      }
-    },
-    {
-      "id": "27715821763",
+      "id": "28131890484",
       "type": "PushEvent",
       "repo": {
         "name": "BrUn3y/qiskit_lab"
       },
-      "created_at": "2026-11-18T21:11:55Z",
-      "payload": {
-        "ref": "refs/heads/fix/starter-kit-publisher-20261118",
-        "head": "6aacd57ec24b5a376d02b8479a3d5a54f42506a3"
-      }
-    },
-    {
-      "id": "27745753793",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-18T21:11:42Z",
+      "created_at": "2026-11-23T03:55:09Z",
       "payload": {
         "ref": "refs/heads/main",
-        "head": "ba7a0155462a3f84a06f8be53bf8f2ae0b520d74"
-      }
-    },
-    {
-      "id": "27716291946",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-18T21:09:47Z",
-      "payload": {
-        "ref": "refs/heads/dependabot/uv/python-compatible-05366f7b5c",
-        "head": "13f5f8c22d13104be7623ca2ad359fa581d10221"
-      }
-    },
-    {
-      "id": "27728428573",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-18T21:08:49Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "63790114c2c52268b36964f7654e348366e3e570"
-      }
-    },
-    {
-      "id": "27725318001",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-18T21:05:39Z",
-      "payload": {
-        "ref": "refs/heads/dependabot/npm_and_yarn/tools/report-assets/report-assets-compatible-6e7c18c866",
-        "head": "cbf16055761e4e8263e6bb4ac14b56ef63065d44"
+        "head": "07771f3ee10ea809ef5f421dd07899b539bcbc47"
       }
     }
   ],
   "issue_events": [
     {
-      "id": "issue-6571128262",
-      "type": "IssuesEvent",
+      "id": "issue-6588316822",
+      "type": "PullRequestEvent",
       "repo": {
         "name": "BrUn3y/xTerm"
       },
-      "created_at": "2026-11-23T23:37:52Z",
+      "created_at": "2026-11-24T18:13:52Z",
       "payload": {
         "action": "Updated",
-        "number": 4,
-        "issue": {
-          "number": 4,
-          "title": "Use IBM Bob artwork instead of the b_ monogram in the harness card"
+        "number": 17,
+        "pull_request": {
+          "number": 17,
+          "title": "release: v0.5.1 fixes macOS bundle integrity and terminal paste"
         }
       }
     },
     {
-      "id": "issue-6571043736",
+      "id": "issue-6587228474",
       "type": "IssuesEvent",
       "repo": {
         "name": "BrUn3y/xTerm"
       },
-      "created_at": "2026-11-23T23:31:35Z",
+      "created_at": "2026-11-24T18:04:55Z",
       "payload": {
         "action": "Updated",
-        "number": 3,
+        "number": 15,
         "issue": {
-          "number": 3,
-          "title": "Show SSH connection details in the sidebar card"
+          "number": 15,
+          "title": "Clipboard text paste reaches harness image shortcut instead of inserting text"
+        }
+      }
+    },
+    {
+      "id": "issue-6587450549",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T18:04:53Z",
+      "payload": {
+        "action": "Updated",
+        "number": 16,
+        "pull_request": {
+          "number": 16,
+          "title": "Fix text clipboard paste in coding harness terminals"
+        }
+      }
+    },
+    {
+      "id": "issue-6584775923",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T15:07:03Z",
+      "payload": {
+        "action": "Updated",
+        "number": 14,
+        "pull_request": {
+          "number": 14,
+          "title": "release: xTerm v0.5.0"
+        }
+      }
+    },
+    {
+      "id": "issue-6584477585",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T14:48:38Z",
+      "payload": {
+        "action": "Updated",
+        "number": 13,
+        "pull_request": {
+          "number": 13,
+          "title": "release: prepare v0.5.0-beta.2"
         }
       }
     },
@@ -743,7 +813,7 @@
       "repo": {
         "name": "BrUn3y/xTerm"
       },
-      "created_at": "2026-11-23T23:31:26Z",
+      "created_at": "2026-11-24T14:48:03Z",
       "payload": {
         "action": "Updated",
         "number": 2,
@@ -759,7 +829,7 @@
       "repo": {
         "name": "BrUn3y/xTerm"
       },
-      "created_at": "2026-11-23T23:31:20Z",
+      "created_at": "2026-11-24T14:48:03Z",
       "payload": {
         "action": "Updated",
         "number": 1,
@@ -770,130 +840,82 @@
       }
     },
     {
-      "id": "issue-6552217781",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-23T04:27:56Z",
-      "payload": {
-        "action": "Updated",
-        "number": 37,
-        "pull_request": {
-          "number": 37,
-          "title": "Add DAM catalog instructions and GIF; fix cached layout assets"
-        }
-      }
-    },
-    {
-      "id": "issue-6552107368",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-23T04:16:13Z",
-      "payload": {
-        "action": "Updated",
-        "number": 36,
-        "pull_request": {
-          "number": 36,
-          "title": "Show Qiskit as a technology credit beside DAM"
-        }
-      }
-    },
-    {
-      "id": "issue-6552015499",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-23T04:08:06Z",
-      "payload": {
-        "action": "Updated",
-        "number": 35,
-        "pull_request": {
-          "number": 35,
-          "title": "Point website DAM links to GitHub"
-        }
-      }
-    },
-    {
-      "id": "issue-6551974234",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-23T04:02:18Z",
-      "payload": {
-        "action": "Updated",
-        "number": 34,
-        "pull_request": {
-          "number": 34,
-          "title": "Use supplied Qiskit SDK logo on project website"
-        }
-      }
-    },
-    {
-      "id": "issue-6551899770",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-23T03:55:08Z",
-      "payload": {
-        "action": "Updated",
-        "number": 33,
-        "pull_request": {
-          "number": 33,
-          "title": "Add animated Qiskit Lab project website and GitHub Pages"
-        }
-      }
-    },
-    {
-      "id": "issue-6551348172",
+      "id": "issue-6571128262",
       "type": "IssuesEvent",
       "repo": {
-        "name": "BrUn3y/qiskit_lab"
+        "name": "BrUn3y/xTerm"
       },
-      "created_at": "2026-11-23T03:00:35Z",
+      "created_at": "2026-11-24T14:48:02Z",
       "payload": {
         "action": "Updated",
-        "number": 32,
+        "number": 4,
         "issue": {
-          "number": 32,
-          "title": "[P3] Publish a Technical Introduction and Share Qiskit Lab with Relevant Communities"
+          "number": 4,
+          "title": "Use IBM Bob artwork instead of the b_ monogram in the harness card"
         }
       }
     },
     {
-      "id": "issue-6551347963",
+      "id": "issue-6571043736",
       "type": "IssuesEvent",
       "repo": {
-        "name": "BrUn3y/qiskit_lab"
+        "name": "BrUn3y/xTerm"
       },
-      "created_at": "2026-11-23T03:00:34Z",
+      "created_at": "2026-11-24T14:48:02Z",
       "payload": {
         "action": "Updated",
-        "number": 31,
+        "number": 3,
         "issue": {
-          "number": 31,
-          "title": "[P2] Extend the Contributor Guide and Publish a Prioritized Project Roadmap"
+          "number": 3,
+          "title": "Show SSH connection details in the sidebar card"
         }
       }
     },
     {
-      "id": "issue-6551347678",
-      "type": "IssuesEvent",
+      "id": "issue-6577435443",
+      "type": "PullRequestEvent",
       "repo": {
-        "name": "BrUn3y/qiskit_lab"
+        "name": "BrUn3y/xTerm"
       },
-      "created_at": "2026-11-23T03:00:33Z",
+      "created_at": "2026-11-24T14:45:10Z",
       "payload": {
         "action": "Updated",
-        "number": 30,
-        "issue": {
-          "number": 30,
-          "title": "[P2] Improve Hardware Execution, Credentials, and Job Recovery Guidance"
+        "number": 7,
+        "pull_request": {
+          "number": 7,
+          "title": "fix: show bundled official IBM Bob artwork in harness card"
+        }
+      }
+    },
+    {
+      "id": "issue-6576871072",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T14:31:51Z",
+      "payload": {
+        "action": "Updated",
+        "number": 6,
+        "pull_request": {
+          "number": 6,
+          "title": "feat: consent-driven release notifications and in-app updates"
+        }
+      }
+    },
+    {
+      "id": "issue-6583298197",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T13:51:28Z",
+      "payload": {
+        "action": "Updated",
+        "number": 12,
+        "pull_request": {
+          "number": 12,
+          "title": "release: add checksum-gated preview publication"
         }
       }
     }
