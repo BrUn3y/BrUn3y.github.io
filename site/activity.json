@@ -1,6 +1,186 @@
 {
-  "updated_at": "2026-11-25T02:00:52.364415+00:00",
+  "updated_at": "2026-11-25T17:35:59.116253+00:00",
   "events": [
+    {
+      "id": "21283536089",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-25T16:39:26Z",
+      "payload": {
+        "action": "opened",
+        "number": 41,
+        "pull_request": {
+          "number": 41
+        }
+      }
+    },
+    {
+      "id": "21281457448",
+      "type": "ReleaseEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-25T16:21:25Z",
+      "payload": {
+        "action": "published",
+        "release": {
+          "tag_name": "v0.6.1",
+          "name": "xTerm v0.6.1"
+        }
+      }
+    },
+    {
+      "id": "21280890440",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-25T16:13:58Z",
+      "payload": {
+        "action": "merged",
+        "number": 24,
+        "pull_request": {
+          "number": 24
+        }
+      }
+    },
+    {
+      "id": "21280860611",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-25T16:13:31Z",
+      "payload": {
+        "action": "opened",
+        "number": 24,
+        "pull_request": {
+          "number": 24
+        }
+      }
+    },
+    {
+      "id": "21279984389",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-25T15:59:37Z",
+      "payload": {
+        "action": "merged",
+        "number": 22,
+        "pull_request": {
+          "number": 22
+        }
+      }
+    },
+    {
+      "id": "21279984390",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-25T15:59:34Z",
+      "payload": {
+        "action": "merged",
+        "number": 23,
+        "pull_request": {
+          "number": 23
+        }
+      }
+    },
+    {
+      "id": "21279863133",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-25T15:57:47Z",
+      "payload": {
+        "action": "opened",
+        "number": 23,
+        "pull_request": {
+          "number": 23
+        }
+      }
+    },
+    {
+      "id": "21279388464",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-25T15:50:33Z",
+      "payload": {
+        "action": "opened",
+        "number": 22,
+        "pull_request": {
+          "number": 22
+        }
+      }
+    },
+    {
+      "id": "21278839456",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-25T15:41:55Z",
+      "payload": {
+        "action": "merged",
+        "number": 21,
+        "pull_request": {
+          "number": 21
+        }
+      }
+    },
+    {
+      "id": "21278807946",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-25T15:41:38Z",
+      "payload": {
+        "action": "opened",
+        "number": 21,
+        "pull_request": {
+          "number": 21
+        }
+      }
+    },
+    {
+      "id": "21207451830",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-25T02:03:24Z",
+      "payload": {
+        "action": "merged",
+        "number": 20,
+        "pull_request": {
+          "number": 20
+        }
+      }
+    },
+    {
+      "id": "21207423459",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-25T02:03:05Z",
+      "payload": {
+        "action": "opened",
+        "number": 20,
+        "pull_request": {
+          "number": 20
+        }
+      }
+    },
     {
       "id": "21206906075",
       "type": "ReleaseEvent",
@@ -149,6 +329,19 @@
       }
     },
     {
+      "id": "28215723695",
+      "type": "CreateEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T18:07:08Z",
+      "payload": {
+        "ref": "release/v0.5.1",
+        "ref_type": "branch",
+        "description": "A desktop terminal built with Electron, React, and TypeScript, featuring split panes, a file explorer, and live coding agent activity."
+      }
+    },
+    {
       "id": "21163510141",
       "type": "IssuesEvent",
       "repo": {
@@ -161,6 +354,18 @@
           "number": 15,
           "title": "Clipboard text paste reaches harness image shortcut instead of inserting text"
         }
+      }
+    },
+    {
+      "id": "28240644179",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T18:04:54Z",
+      "payload": {
+        "ref": "refs/heads/main",
+        "head": "db84298edb635e617d5b9659398a70f727e0ed89"
       }
     },
     {
@@ -209,6 +414,19 @@
       }
     },
     {
+      "id": "28237681660",
+      "type": "CreateEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T17:19:08Z",
+      "payload": {
+        "ref": "fix/harness-clipboard-paste",
+        "ref_type": "branch",
+        "description": "A desktop terminal built with Electron, React, and TypeScript, featuring split panes, a file explorer, and live coding agent activity."
+      }
+    },
+    {
       "id": "21158046678",
       "type": "IssuesEvent",
       "repo": {
@@ -251,51 +469,6 @@
       }
     },
     {
-      "id": "21144747043",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-24T15:07:03Z",
-      "payload": {
-        "action": "merged",
-        "number": 14,
-        "pull_request": {
-          "number": 14
-        }
-      }
-    },
-    {
-      "id": "21144735831",
-      "type": "ReleaseEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-24T15:07:00Z",
-      "payload": {
-        "action": "published",
-        "release": {
-          "tag_name": "v0.5.0",
-          "name": "xTerm v0.5.0"
-        }
-      }
-    },
-    {
-      "id": "21144289481",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-24T15:02:30Z",
-      "payload": {
-        "action": "opened",
-        "number": 14,
-        "pull_request": {
-          "number": 14
-        }
-      }
-    },
-    {
       "id": "28153900221",
       "type": "CreateEvent",
       "repo": {
@@ -309,78 +482,15 @@
       }
     },
     {
-      "id": "21142880500",
-      "type": "PullRequestEvent",
+      "id": "28213364268",
+      "type": "PushEvent",
       "repo": {
         "name": "BrUn3y/xTerm"
       },
-      "created_at": "2026-11-24T14:48:37Z",
+      "created_at": "2026-11-24T14:48:39Z",
       "payload": {
-        "action": "merged",
-        "number": 13,
-        "pull_request": {
-          "number": 13
-        }
-      }
-    },
-    {
-      "id": "21142837083",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-24T14:48:16Z",
-      "payload": {
-        "action": "opened",
-        "number": 13,
-        "pull_request": {
-          "number": 13
-        }
-      }
-    },
-    {
-      "id": "21142819441",
-      "type": "IssuesEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-24T14:48:10Z",
-      "payload": {
-        "action": "closed",
-        "issue": {
-          "number": 3,
-          "title": "Show SSH connection details in the sidebar card"
-        }
-      }
-    },
-    {
-      "id": "21142815533",
-      "type": "IssuesEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-24T14:48:04Z",
-      "payload": {
-        "action": "closed",
-        "issue": {
-          "number": 1,
-          "title": "Show a GitHub icon and repository link next to the theme toggle"
-        }
-      }
-    },
-    {
-      "id": "21142815061",
-      "type": "IssuesEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-24T14:48:03Z",
-      "payload": {
-        "action": "closed",
-        "issue": {
-          "number": 2,
-          "title": "Shift+Enter submits harness prompts instead of inserting a newline"
-        }
+        "ref": "refs/heads/main",
+        "head": "13efe1cebfcce0324c7f6177f5290588626f6e7f"
       }
     },
     {
@@ -444,36 +554,6 @@
       }
     },
     {
-      "id": "21142523394",
-      "type": "IssuesEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-24T14:45:16Z",
-      "payload": {
-        "action": "closed",
-        "issue": {
-          "number": 4,
-          "title": "Use IBM Bob artwork instead of the b_ monogram in the harness card"
-        }
-      }
-    },
-    {
-      "id": "21142524640",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-24T14:45:10Z",
-      "payload": {
-        "action": "merged",
-        "number": 7,
-        "pull_request": {
-          "number": 7
-        }
-      }
-    },
-    {
       "id": "28151126829",
       "type": "PushEvent",
       "repo": {
@@ -483,36 +563,6 @@
       "payload": {
         "ref": "refs/heads/fix/issue-4-bob-artwork",
         "head": "40feb6f280a862fb061cd48c6d15be3b8ecc0625"
-      }
-    },
-    {
-      "id": "21137399721",
-      "type": "IssueCommentEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-24T13:54:00Z",
-      "payload": {
-        "action": "created",
-        "issue": {
-          "number": 7,
-          "title": "fix: show bundled official IBM Bob artwork in harness card"
-        }
-      }
-    },
-    {
-      "id": "21137398247",
-      "type": "IssueCommentEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-24T13:53:59Z",
-      "payload": {
-        "action": "created",
-        "issue": {
-          "number": 6,
-          "title": "feat: consent-driven release notifications and in-app updates"
-        }
       }
     },
     {
@@ -561,36 +611,6 @@
       }
     },
     {
-      "id": "21137141264",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-24T13:51:28Z",
-      "payload": {
-        "action": "merged",
-        "number": 12,
-        "pull_request": {
-          "number": 12
-        }
-      }
-    },
-    {
-      "id": "21137085505",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-24T13:50:54Z",
-      "payload": {
-        "action": "opened",
-        "number": 12,
-        "pull_request": {
-          "number": 12
-        }
-      }
-    },
-    {
       "id": "28183050586",
       "type": "PushEvent",
       "repo": {
@@ -603,78 +623,64 @@
       }
     },
     {
-      "id": "21136515383",
-      "type": "PullRequestEvent",
+      "id": "28219740425",
+      "type": "CreateEvent",
       "repo": {
         "name": "BrUn3y/xTerm"
       },
-      "created_at": "2026-11-24T13:45:18Z",
+      "created_at": "2026-11-24T13:44:44Z",
       "payload": {
-        "action": "merged",
-        "number": 11,
-        "pull_request": {
-          "number": 11
-        }
+        "ref": "release/v0.5.0-beta.1",
+        "ref_type": "branch",
+        "description": "A desktop terminal built with Electron, React, and TypeScript, featuring split panes, a file explorer, and live coding agent activity."
       }
     },
     {
-      "id": "21136476648",
-      "type": "PullRequestEvent",
+      "id": "28206480382",
+      "type": "PushEvent",
       "repo": {
         "name": "BrUn3y/xTerm"
       },
-      "created_at": "2026-11-24T13:44:56Z",
+      "created_at": "2026-11-24T13:41:27Z",
       "payload": {
-        "action": "opened",
-        "number": 11,
-        "pull_request": {
-          "number": 11
-        }
+        "ref": "refs/heads/fix/issue-2-shift-enter",
+        "head": "5f34c607d47d1841e5be16ccb1f81cc765176ce7"
       }
     },
     {
-      "id": "21136188171",
-      "type": "PullRequestEvent",
+      "id": "28211058512",
+      "type": "PushEvent",
       "repo": {
         "name": "BrUn3y/xTerm"
       },
-      "created_at": "2026-11-24T13:41:54Z",
+      "created_at": "2026-11-24T13:37:06Z",
       "payload": {
-        "action": "merged",
-        "number": 9,
-        "pull_request": {
-          "number": 9
-        }
+        "ref": "refs/heads/feat/issue-3-ssh-card",
+        "head": "5ea810df189732186c52edfddab2d47215ffd23f"
       }
     },
     {
-      "id": "21135796213",
-      "type": "PullRequestEvent",
+      "id": "28205597921",
+      "type": "PushEvent",
       "repo": {
         "name": "BrUn3y/xTerm"
       },
-      "created_at": "2026-11-24T13:37:32Z",
+      "created_at": "2026-11-24T13:33:47Z",
       "payload": {
-        "action": "merged",
-        "number": 10,
-        "pull_request": {
-          "number": 10
-        }
+        "ref": "refs/heads/fix/issue-2-shift-enter",
+        "head": "fbc2df0b987409f50d0cdfeaa72610c41d6d26ec"
       }
     },
     {
-      "id": "21135532075",
-      "type": "PullRequestEvent",
+      "id": "28198878477",
+      "type": "PushEvent",
       "repo": {
         "name": "BrUn3y/xTerm"
       },
-      "created_at": "2026-11-24T13:35:11Z",
+      "created_at": "2026-11-24T12:09:37Z",
       "payload": {
-        "action": "merged",
-        "number": 8,
-        "pull_request": {
-          "number": 8
-        }
+        "ref": "refs/heads/feat/issue-3-ssh-card",
+        "head": "494c2dcf768002ca2b156a89aa69ef5bbfe49770"
       }
     },
     {
@@ -702,33 +708,121 @@
         "ref_type": "branch",
         "description": "A desktop terminal built with Electron, React, and TypeScript, featuring split panes, a file explorer, and live coding agent activity."
       }
-    },
-    {
-      "id": "28134267371",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-23T23:24:16Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "a12132df1791d4d21ab89bb450e3578b4910de53"
-      }
-    },
-    {
-      "id": "28133570142",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-23T04:16:14Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "bf8e8717b13ca87973dc3ba33a3afab4a1c51c21"
-      }
     }
   ],
   "issue_events": [
+    {
+      "id": "issue-6551347963",
+      "type": "IssuesEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-25T16:39:28Z",
+      "payload": {
+        "action": "Updated",
+        "number": 31,
+        "issue": {
+          "number": 31,
+          "title": "[P2] Extend the Contributor Guide and Publish a Prioritized Project Roadmap"
+        }
+      }
+    },
+    {
+      "id": "issue-6609128699",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/qiskit_lab"
+      },
+      "created_at": "2026-11-25T16:39:26Z",
+      "payload": {
+        "action": "Updated",
+        "number": 41,
+        "pull_request": {
+          "number": 41,
+          "title": "Extend the contributor guide and publish a project roadmap"
+        }
+      }
+    },
+    {
+      "id": "issue-6608652541",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-25T16:13:59Z",
+      "payload": {
+        "action": "Updated",
+        "number": 24,
+        "pull_request": {
+          "number": 24,
+          "title": "Restore foreground harness detection for v0.6.1"
+        }
+      }
+    },
+    {
+      "id": "issue-6608329893",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-25T15:59:37Z",
+      "payload": {
+        "action": "Updated",
+        "number": 22,
+        "pull_request": {
+          "number": 22,
+          "title": "Update Buy Me a Coffee widget"
+        }
+      }
+    },
+    {
+      "id": "issue-6608434588",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-25T15:59:35Z",
+      "payload": {
+        "action": "Updated",
+        "number": 23,
+        "pull_request": {
+          "number": 23,
+          "title": "Load the support widget after parsing the page"
+        }
+      }
+    },
+    {
+      "id": "issue-6608215365",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-25T15:41:55Z",
+      "payload": {
+        "action": "Updated",
+        "number": 21,
+        "pull_request": {
+          "number": 21,
+          "title": "Document Remote Mode setup and add support widget"
+        }
+      }
+    },
+    {
+      "id": "issue-6595443484",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-25T02:03:25Z",
+      "payload": {
+        "action": "Updated",
+        "number": 20,
+        "pull_request": {
+          "number": 20,
+          "title": "Show the Remote Mode QR and phone view together"
+        }
+      }
+    },
     {
       "id": "issue-6588915759",
       "type": "IssuesEvent",
@@ -806,118 +900,6 @@
         "pull_request": {
           "number": 16,
           "title": "Fix text clipboard paste in coding harness terminals"
-        }
-      }
-    },
-    {
-      "id": "issue-6584775923",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-24T15:07:03Z",
-      "payload": {
-        "action": "Updated",
-        "number": 14,
-        "pull_request": {
-          "number": 14,
-          "title": "release: xTerm v0.5.0"
-        }
-      }
-    },
-    {
-      "id": "issue-6584477585",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-24T14:48:38Z",
-      "payload": {
-        "action": "Updated",
-        "number": 13,
-        "pull_request": {
-          "number": 13,
-          "title": "release: prepare v0.5.0-beta.2"
-        }
-      }
-    },
-    {
-      "id": "issue-6571014430",
-      "type": "IssuesEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-24T14:48:03Z",
-      "payload": {
-        "action": "Updated",
-        "number": 2,
-        "issue": {
-          "number": 2,
-          "title": "Shift+Enter submits harness prompts instead of inserting a newline"
-        }
-      }
-    },
-    {
-      "id": "issue-6571012956",
-      "type": "IssuesEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-24T14:48:03Z",
-      "payload": {
-        "action": "Updated",
-        "number": 1,
-        "issue": {
-          "number": 1,
-          "title": "Show a GitHub icon and repository link next to the theme toggle"
-        }
-      }
-    },
-    {
-      "id": "issue-6571128262",
-      "type": "IssuesEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-24T14:48:02Z",
-      "payload": {
-        "action": "Updated",
-        "number": 4,
-        "issue": {
-          "number": 4,
-          "title": "Use IBM Bob artwork instead of the b_ monogram in the harness card"
-        }
-      }
-    },
-    {
-      "id": "issue-6571043736",
-      "type": "IssuesEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-24T14:48:02Z",
-      "payload": {
-        "action": "Updated",
-        "number": 3,
-        "issue": {
-          "number": 3,
-          "title": "Show SSH connection details in the sidebar card"
-        }
-      }
-    },
-    {
-      "id": "issue-6577435443",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-24T14:45:10Z",
-      "payload": {
-        "action": "Updated",
-        "number": 7,
-        "pull_request": {
-          "number": 7,
-          "title": "fix: show bundled official IBM Bob artwork in harness card"
         }
       }
     }
