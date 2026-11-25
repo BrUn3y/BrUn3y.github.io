@@ -75,6 +75,33 @@ h1, h2, h3, h4, p { margin: 0; }
 .profile-bio { font-size: 11px; line-height: 1.75; color: #6a6372; margin-top: 12px; }
 .profile-link { display: flex; justify-content: space-between; gap: 6px; font-size: 10px; font-weight: 600; margin-top: 16px; }
 .profile-link:hover { color: #745398; }
+.coffee-button {
+  width: 100%;
+  min-height: 40px;
+  margin-top: 12px;
+  padding: 6px 7px;
+  gap: 7px;
+  border-color: #798559;
+  background: linear-gradient(#f5fadf, #dceca6);
+  box-shadow: inset 1px 1px #fff, inset -1px -1px #b1be83, 2px 2px 0 #29263012;
+  color: #384428;
+  font: bold 11px/1.3 var(--mono);
+  text-align: center;
+  white-space: normal;
+}
+.coffee-button:hover { background: #e9f4b9; }
+.coffee-icon {
+  position: relative;
+  flex: none;
+  width: 11px;
+  height: 9px;
+  margin-right: 3px;
+  border: 1px solid currentColor;
+  border-radius: 0 0 3px 3px;
+  background: #fff9e8;
+  box-shadow: inset 0 2px #906a43;
+}
+.coffee-icon::after { content: ''; position: absolute; top: 1px; right: -4px; width: 4px; height: 5px; border: 1px solid currentColor; border-left: 0; }
 .directory { margin-top: 20px; }
 .directory > a { display: flex; align-items: center; gap: 7px; padding: 10px 9px; font: 9px var(--mono); border-bottom: 1px solid #e6e1ec; }
 .directory > a:last-child { border: 0; }
