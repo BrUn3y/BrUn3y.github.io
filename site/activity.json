@@ -1,6 +1,108 @@
 {
-  "updated_at": "2026-11-24T18:15:48.205916+00:00",
+  "updated_at": "2026-11-25T02:00:52.364415+00:00",
   "events": [
+    {
+      "id": "21206906075",
+      "type": "ReleaseEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-25T01:56:12Z",
+      "payload": {
+        "action": "published",
+        "release": {
+          "tag_name": "v0.6.0",
+          "name": "xTerm v0.6.0"
+        }
+      }
+    },
+    {
+      "id": "21206859740",
+      "type": "IssuesEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-25T01:55:36Z",
+      "payload": {
+        "action": "closed",
+        "issue": {
+          "number": 18,
+          "title": "Feature: Remote Mode with QR pairing, mobile terminal control, and a five-hour limit"
+        }
+      }
+    },
+    {
+      "id": "21206858914",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-25T01:55:34Z",
+      "payload": {
+        "action": "merged",
+        "number": 19,
+        "pull_request": {
+          "number": 19
+        }
+      }
+    },
+    {
+      "id": "21206211563",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-25T01:47:02Z",
+      "payload": {
+        "action": "opened",
+        "number": 19,
+        "pull_request": {
+          "number": 19
+        }
+      }
+    },
+    {
+      "id": "21173500118",
+      "type": "IssuesEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T19:39:36Z",
+      "payload": {
+        "action": "opened",
+        "issue": {
+          "number": 18,
+          "title": "Feature: Remote Mode with QR pairing, mobile terminal control, and a five-hour limit"
+        }
+      }
+    },
+    {
+      "id": "21167566339",
+      "type": "IssuesEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T18:43:10Z",
+      "payload": {
+        "action": "labeled",
+        "issue": {
+          "number": 18,
+          "title": "Feature: Remote Mode with QR pairing, mobile terminal control, and a five-hour limit"
+        }
+      }
+    },
+    {
+      "id": "28179573010",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T18:13:54Z",
+      "payload": {
+        "ref": "refs/heads/main",
+        "head": "b4383b5b50646d5cd5c49073b8bf34ecbd235483"
+      }
+    },
     {
       "id": "21164437496",
       "type": "PullRequestEvent",
@@ -77,6 +179,21 @@
       }
     },
     {
+      "id": "21173926119",
+      "type": "IssueCommentEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T17:19:50Z",
+      "payload": {
+        "action": "created",
+        "issue": {
+          "number": 15,
+          "title": "Clipboard text paste reaches harness image shortcut instead of inserting text"
+        }
+      }
+    },
+    {
       "id": "21158732546",
       "type": "PullRequestEvent",
       "repo": {
@@ -119,6 +236,18 @@
           "number": 15,
           "title": "Clipboard text paste reaches harness image shortcut instead of inserting text"
         }
+      }
+    },
+    {
+      "id": "28154672199",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T15:07:04Z",
+      "payload": {
+        "ref": "refs/heads/main",
+        "head": "18c050eae55a54069f156fe461389d5f863f8dde"
       }
     },
     {
@@ -255,6 +384,21 @@
       }
     },
     {
+      "id": "21179825494",
+      "type": "IssueCommentEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T14:48:02Z",
+      "payload": {
+        "action": "created",
+        "issue": {
+          "number": 3,
+          "title": "Show SSH connection details in the sidebar card"
+        }
+      }
+    },
+    {
       "id": "21161374948",
       "type": "IssueCommentEvent",
       "repo": {
@@ -372,6 +516,21 @@
       }
     },
     {
+      "id": "21172587644",
+      "type": "IssueCommentEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T13:53:21Z",
+      "payload": {
+        "action": "created",
+        "issue": {
+          "number": 1,
+          "title": "Show a GitHub icon and repository link next to the theme toggle"
+        }
+      }
+    },
+    {
       "id": "21156376009",
       "type": "IssueCommentEvent",
       "repo": {
@@ -429,6 +588,18 @@
         "pull_request": {
           "number": 12
         }
+      }
+    },
+    {
+      "id": "28183050586",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T13:50:37Z",
+      "payload": {
+        "ref": "refs/heads/release/v0.5.0-beta.1",
+        "head": "d20e2b85ebf850a037d88b1d714c649bfbacfab1"
       }
     },
     {
@@ -507,150 +678,29 @@
       }
     },
     {
-      "id": "21123493399",
-      "type": "PullRequestEvent",
+      "id": "28178766447",
+      "type": "CreateEvent",
       "repo": {
         "name": "BrUn3y/xTerm"
       },
-      "created_at": "2026-11-24T11:23:00Z",
+      "created_at": "2026-11-24T10:21:20Z",
       "payload": {
-        "action": "opened",
-        "number": 10,
-        "pull_request": {
-          "number": 10
-        }
+        "ref": "fix/issue-2-shift-enter",
+        "ref_type": "branch",
+        "description": "A desktop terminal built with Electron, React, and TypeScript, featuring split panes, a file explorer, and live coding agent activity."
       }
     },
     {
-      "id": "21118015984",
-      "type": "PullRequestEvent",
+      "id": "28165816704",
+      "type": "CreateEvent",
       "repo": {
         "name": "BrUn3y/xTerm"
       },
-      "created_at": "2026-11-24T10:21:38Z",
+      "created_at": "2026-11-24T07:29:04Z",
       "payload": {
-        "action": "opened",
-        "number": 9,
-        "pull_request": {
-          "number": 9
-        }
-      }
-    },
-    {
-      "id": "21111869811",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-24T09:11:32Z",
-      "payload": {
-        "action": "opened",
-        "number": 8,
-        "pull_request": {
-          "number": 8
-        }
-      }
-    },
-    {
-      "id": "21106771874",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-24T08:09:46Z",
-      "payload": {
-        "action": "opened",
-        "number": 7,
-        "pull_request": {
-          "number": 7
-        }
-      }
-    },
-    {
-      "id": "21103631559",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-24T07:29:45Z",
-      "payload": {
-        "action": "opened",
-        "number": 6,
-        "pull_request": {
-          "number": 6
-        }
-      }
-    },
-    {
-      "id": "21086373312",
-      "type": "IssuesEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-24T03:19:11Z",
-      "payload": {
-        "action": "labeled",
-        "issue": {
-          "number": 5,
-          "title": "Notify about new releases and update xTerm from inside the app"
-        }
-      }
-    },
-    {
-      "id": "21086373043",
-      "type": "IssuesEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-24T03:19:11Z",
-      "payload": {
-        "action": "opened",
-        "issue": {
-          "number": 5,
-          "title": "Notify about new releases and update xTerm from inside the app"
-        }
-      }
-    },
-    {
-      "id": "28130086379",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/Brun3y"
-      },
-      "created_at": "2026-11-24T02:01:17Z",
-      "payload": {
-        "ref": "refs/heads/master",
-        "head": "fc50caaf2542f2ec4da063cf8e6a9eaaa5964480"
-      }
-    },
-    {
-      "id": "21070812913",
-      "type": "IssuesEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-23T23:37:54Z",
-      "payload": {
-        "action": "labeled",
-        "issue": {
-          "number": 4,
-          "title": "Use IBM Bob artwork instead of the b_ monogram in the harness card"
-        }
-      }
-    },
-    {
-      "id": "21070812556",
-      "type": "IssuesEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-23T23:37:54Z",
-      "payload": {
-        "action": "opened",
-        "issue": {
-          "number": 4,
-          "title": "Use IBM Bob artwork instead of the b_ monogram in the harness card"
-        }
+        "ref": "feat/issue-5-in-app-updates",
+        "ref_type": "branch",
+        "description": "A desktop terminal built with Electron, React, and TypeScript, featuring split panes, a file explorer, and live coding agent activity."
       }
     },
     {
@@ -666,30 +716,6 @@
       }
     },
     {
-      "id": "28133000108",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-23T23:07:07Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "b95ee6ca542c650f020b43e8abcdf4ca71127ff5"
-      }
-    },
-    {
-      "id": "28131337639",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/BrUn3y.github.io"
-      },
-      "created_at": "2026-11-23T04:46:13Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "3fda6e7c00a63920b1319946e1525ea7ecced701"
-      }
-    },
-    {
       "id": "28133570142",
       "type": "PushEvent",
       "repo": {
@@ -700,33 +726,41 @@
         "ref": "refs/heads/main",
         "head": "bf8e8717b13ca87973dc3ba33a3afab4a1c51c21"
       }
-    },
-    {
-      "id": "28132332203",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-23T04:02:19Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "52ba42f58c35a599c9252503e2e8653bb15fab7d"
-      }
-    },
-    {
-      "id": "28131890484",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/qiskit_lab"
-      },
-      "created_at": "2026-11-23T03:55:09Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "07771f3ee10ea809ef5f421dd07899b539bcbc47"
-      }
     }
   ],
   "issue_events": [
+    {
+      "id": "issue-6588915759",
+      "type": "IssuesEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-25T01:55:35Z",
+      "payload": {
+        "action": "Updated",
+        "number": 18,
+        "issue": {
+          "number": 18,
+          "title": "Feature: Remote Mode with QR pairing, mobile terminal control, and a five-hour limit"
+        }
+      }
+    },
+    {
+      "id": "issue-6595245178",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-25T01:55:34Z",
+      "payload": {
+        "action": "Updated",
+        "number": 19,
+        "pull_request": {
+          "number": 19,
+          "title": "Add Remote Mode and release xTerm v0.6.0"
+        }
+      }
+    },
     {
       "id": "issue-6588316822",
       "type": "PullRequestEvent",
@@ -884,38 +918,6 @@
         "pull_request": {
           "number": 7,
           "title": "fix: show bundled official IBM Bob artwork in harness card"
-        }
-      }
-    },
-    {
-      "id": "issue-6576871072",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-24T14:31:51Z",
-      "payload": {
-        "action": "Updated",
-        "number": 6,
-        "pull_request": {
-          "number": 6,
-          "title": "feat: consent-driven release notifications and in-app updates"
-        }
-      }
-    },
-    {
-      "id": "issue-6583298197",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-24T13:51:28Z",
-      "payload": {
-        "action": "Updated",
-        "number": 12,
-        "pull_request": {
-          "number": 12,
-          "title": "release: add checksum-gated preview publication"
         }
       }
     }
