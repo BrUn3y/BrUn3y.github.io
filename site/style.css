@@ -266,8 +266,45 @@ main { min-width: 0; }
 .vertical-art { background-color: #c6dcf0; color: #253549; }
 .qiskit-art { background-color: #f0d1d8; color: #49333e; }
 .qiskit-circuit { position: absolute; inset: 27px 0 20px; width: 100%; height: calc(100% - 47px); object-fit: contain; }
-.xterm-art { background-color: #f2cfbe; padding: 9px; }
-.xterm-art > img { width: 100%; height: 100%; object-fit: contain; }
+.xterm-art { background-color: #efbfa5; color: #633928; }
+.xterm-window {
+  position: absolute;
+  inset: 0;
+  width: min(248px, calc(100% - 24px));
+  height: min(108px, calc(100% - 43px));
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #44342e;
+  box-shadow: 5px 5px 0 #8a503733;
+  background: #302b29;
+  transform: rotate(-2deg);
+}
+.xterm-titlebar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 7px;
+  background: #f7eee0;
+  color: #44342e;
+  border-bottom: 1px solid #44342e;
+  font: 8px/1 var(--mono);
+}
+.xterm-titlebar strong > span { color: #a83a1e; font-size: 11px; }
+.xterm-titlebar > span { color: #a83a1e; font-size: 6px; }
+.xterm-workspace { display: grid; grid-template-columns: 1fr 1.45fr 1.45fr; flex: 1; }
+.xterm-explorer, .xterm-pane { min-width: 0; overflow: hidden; }
+.xterm-explorer { background: #eee1d2; }
+.xterm-pane { color: #f7eee0; border-left: 1px solid #68534b; }
+.xterm-explorer > span, .xterm-pane > span {
+  display: block;
+  padding: 4px 5px;
+  border-bottom: 1px solid #68534b55;
+  font: 6px/1 var(--mono);
+}
+.xterm-pane > span { color: #ffc095; background: #483a34; }
+.xterm-workspace code { display: block; padding: 5px; font: 6px/1.6 var(--mono); white-space: nowrap; }
+.xterm-pane b { color: #ffc095; }
 .mini-terminal { position: absolute; inset: 32px 17px 22px; border: 1px solid #4e535c; box-shadow: 4px 4px 0 #4b566222; background: #30323c; }
 .mini-terminal-bar { display: flex; align-items: center; justify-content: space-between; font: 6px var(--mono); color: #b6b4c3; padding: 4px 6px; border-bottom: 1px solid #646271; background: #41414e; }
 .mini-terminal-bar > span { font-size: 5px; letter-spacing: 1px; color: #b8a7cf; }
