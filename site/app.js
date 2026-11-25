@@ -15,6 +15,39 @@ const currentYear = String(new Date().getFullYear());
 document.querySelector('#year').textContent = currentYear;
 document.querySelector('#copyright-year').textContent = currentYear;
 
+const featuredAds = [...document.querySelectorAll('[data-featured-project]')];
+const featuredStorageKey = 'brun3y-featured-project';
+let featuredIndex = -1;
+
+function showFeaturedProject() {
+  let previousIndex = featuredIndex;
+  try {
+    const previousProject = localStorage.getItem(featuredStorageKey);
+    if (previousProject) {
+      previousIndex = featuredAds.findIndex(ad => ad.dataset.featuredProject === previousProject);
+    }
+  } catch {
+    // Storage can be unavailable in private or restricted browser contexts.
+  }
+  featuredIndex = previousIndex < 0
+    ? Math.floor(Math.random() * featuredAds.length)
+    : (previousIndex + 1) % featuredAds.length;
+
+  for (const [index, ad] of featuredAds.entries()) ad.hidden = index !== featuredIndex;
+  try {
+    localStorage.setItem(featuredStorageKey, featuredAds[featuredIndex].dataset.featuredProject);
+  } catch {
+    // The ad still works when preferences cannot be saved.
+  }
+}
+
+if (featuredAds.length) {
+  showFeaturedProject();
+  addEventListener('pageshow', event => {
+    if (event.persisted) showFeaturedProject();
+  });
+}
+
 const filters = [...document.querySelectorAll('[data-filter]')];
 const projects = [...document.querySelectorAll('[data-category]')];
 const projectCount = document.querySelector('#project-count');

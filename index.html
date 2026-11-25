@@ -34,8 +34,8 @@
     <link rel="canonical" href="https://brun3y.github.io/">
     <link rel="alternate" type="application/rss+xml" title="Brun3y's notes on Medium" href="https://medium.com/feed/@brun3y">
     <link rel="icon" type="image/svg+xml" href="site/assets/favicon.svg">
-    <link rel="stylesheet" href="site/style.css?v=coffee-1">
-    <script src="site/app.js" defer></script>
+    <link rel="stylesheet" href="site/style.css?v=featured-1">
+    <script src="site/app.js?v=featured-1" defer></script>
     <script src="site/chat.js?v=2" defer></script>
     <script src="site/activity.js" defer></script>
     <script src="site/strava.js" defer></script>
@@ -124,14 +124,51 @@
           <p class="sidebar-note">A 2000s personality.<br>A curiosity for what comes next.</p>
         </aside>
         <main id="content">
-          <section class="hero" id="home" aria-labelledby="hero-title">
-            <p class="hero-wordmark" aria-hidden="true">BRUN3Y</p>
-            <div class="hero-copy">
-              <h1 id="hero-title">What I build and what I learn.</h1>
-              <p>Open-source projects, personal notes, and events from the tech community in Guadalajara.</p>
-              <a class="primary-button" href="#projects">Explore projects <span aria-hidden="true">↘</span></a>
-            </div>
-            <img class="hero-art" src="site/assets/orbit.svg" alt="" width="540" height="540">
+          <section class="featured" id="home" aria-label="Featured project">
+            <a class="featured-ad featured-xterm" data-featured-project="xterm" href="https://brun3y.github.io/xTerm/" target="_blank" rel="noopener noreferrer">
+              <div class="featured-copy">
+                <h1>xTerm</h1>
+                <p>A desktop terminal with split panes and a built-in file explorer.</p>
+                <span class="featured-cta">Explore xTerm <span aria-hidden="true">↗</span></span>
+              </div>
+              <div class="featured-terminal" aria-hidden="true">
+                <div><span>● ● ●</span><span>xterm.local</span></div>
+                <code><b>❯</b> git status<br>On branch main</code>
+                <code><b>❯</b> npm run dev<br><b>✓</b> Ready</code>
+              </div>
+            </a>
+            <a class="featured-ad featured-vertical" data-featured-project="vertical-mode" href="https://brun3y.github.io/yt-vertical-mode/" target="_blank" rel="noopener noreferrer" hidden>
+              <div class="featured-copy">
+                <h1>Vertical Mode</h1>
+                <p>Reframe YouTube for a portrait monitor without stretching the video.</p>
+                <span class="featured-cta">See the extension <span aria-hidden="true">↗</span></span>
+              </div>
+              <div class="featured-phone" aria-hidden="true"><span></span></div>
+            </a>
+            <a class="featured-ad featured-qiskit" data-featured-project="qiskit-lab" href="https://brun3y.github.io/qiskit_lab/" target="_blank" rel="noopener noreferrer" hidden>
+              <div class="featured-copy">
+                <h1>Qiskit Lab</h1>
+                <p>Build and simulate quantum circuits. Save your experiments as HTML reports.</p>
+                <span class="featured-cta">Open Qiskit Lab <span aria-hidden="true">↗</span></span>
+              </div>
+              <img class="featured-circuit" src="site/assets/qiskit-lab-circuit.svg" alt="" width="300" height="160">
+            </a>
+            <a class="featured-ad featured-skills" data-featured-project="skills-ai-week" href="https://brun3y.github.io/skills-ai-week/" target="_blank" rel="noopener noreferrer" hidden>
+              <div class="featured-copy">
+                <h1>Skills · AI Week</h1>
+                <p>A visual guide in Spanish to building, installing, and using AI agent skills.</p>
+                <span class="featured-cta">Read the guide <span aria-hidden="true">↗</span></span>
+              </div>
+              <div class="featured-file" aria-hidden="true"><span>SKILL.md</span></div>
+            </a>
+            <a class="featured-ad featured-triforge" data-featured-project="triforge" href="https://brun3y.github.io/triforge/" target="_blank" rel="noopener noreferrer" hidden>
+              <div class="featured-copy">
+                <h1>TriForge</h1>
+                <p>Codex, Claude Code, and IBM Bob build and review together.</p>
+                <span class="featured-cta">Explore TriForge <span aria-hidden="true">↗</span></span>
+              </div>
+              <div class="featured-agents" aria-hidden="true"><span>CODEX</span><span>CLAUDE CODE</span><span>IBM BOB</span></div>
+            </a>
           </section>
           <div class="ticker" aria-label="Interests: artificial intelligence, quantum computing, open source, running, and heavy music"><div class="ticker-track" aria-hidden="true"><span>AGENTIC AI</span>✳<span>QUANTUM COMPUTING</span>✳<span>OPEN SOURCE</span>✳<span>RUNNING</span>✳<span>HEAVY MUSIC</span>✳<span>AGENTIC AI</span>✳<span>QUANTUM COMPUTING</span>✳<span>OPEN SOURCE</span>✳<span>RUNNING</span>✳<span>HEAVY MUSIC</span>✳</div></div>
           <section class="projects section-pad" id="projects" aria-labelledby="projects-title">
