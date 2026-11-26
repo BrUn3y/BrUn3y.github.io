@@ -1,6 +1,84 @@
 {
-  "updated_at": "2026-11-26T02:00:50.649195+00:00",
+  "updated_at": "2026-11-26T17:17:14.669257+00:00",
   "events": [
+    {
+      "id": "21406462990",
+      "type": "WatchEvent",
+      "repo": {
+        "name": "Marvisak/VIctory"
+      },
+      "created_at": "2026-11-26T17:02:06Z",
+      "payload": {
+        "action": "started"
+      }
+    },
+    {
+      "id": "21405984129",
+      "type": "ForkEvent",
+      "repo": {
+        "name": "ProjectLeonidaL/leonida"
+      },
+      "created_at": "2026-11-26T16:56:55Z",
+      "payload": {
+        "action": "forked"
+      }
+    },
+    {
+      "id": "21405848593",
+      "type": "WatchEvent",
+      "repo": {
+        "name": "ProjectLeonidaL/leonida"
+      },
+      "created_at": "2026-11-26T16:55:34Z",
+      "payload": {
+        "action": "started"
+      }
+    },
+    {
+      "id": "21393621841",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-26T14:48:29Z",
+      "payload": {
+        "action": "opened",
+        "number": 26,
+        "pull_request": {
+          "number": 26
+        }
+      }
+    },
+    {
+      "id": "21393370428",
+      "type": "IssuesEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-26T14:45:56Z",
+      "payload": {
+        "action": "opened",
+        "issue": {
+          "number": 25,
+          "title": "Abrir y editar archivos de texto del Explorer en vi"
+        }
+      }
+    },
+    {
+      "id": "21392797114",
+      "type": "IssuesEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-26T14:40:05Z",
+      "payload": {
+        "action": "labeled",
+        "issue": {
+          "number": 25,
+          "title": "Abrir y editar archivos de texto del Explorer en vi"
+        }
+      }
+    },
     {
       "id": "21306132415",
       "type": "PullRequestEvent",
@@ -182,6 +260,18 @@
       }
     },
     {
+      "id": "28322943385",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-25T15:41:56Z",
+      "payload": {
+        "ref": "refs/heads/main",
+        "head": "2b526e0974cc49c9c5bed7f646193163f3230ef1"
+      }
+    },
+    {
       "id": "21278839456",
       "type": "PullRequestEvent",
       "repo": {
@@ -254,6 +344,31 @@
       }
     },
     {
+      "id": "28302405214",
+      "type": "CreateEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-25T02:03:04Z",
+      "payload": {
+        "ref": "docs/remote-mode-showcase",
+        "ref_type": "branch",
+        "description": "A desktop terminal built with Electron, React, and TypeScript, featuring split panes, a file explorer, and live coding agent activity."
+      }
+    },
+    {
+      "id": "28305494273",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/Brun3y"
+      },
+      "created_at": "2026-11-25T02:01:21Z",
+      "payload": {
+        "ref": "refs/heads/master",
+        "head": "84fed6d4da3fd7a7d2ccdd14eb6bdee132b5b2f4"
+      }
+    },
+    {
       "id": "21206906075",
       "type": "ReleaseEvent",
       "repo": {
@@ -296,21 +411,6 @@
       }
     },
     {
-      "id": "21206858914",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-25T01:55:34Z",
-      "payload": {
-        "action": "merged",
-        "number": 19,
-        "pull_request": {
-          "number": 19
-        }
-      }
-    },
-    {
       "id": "28262670135",
       "type": "PushEvent",
       "repo": {
@@ -323,90 +423,16 @@
       }
     },
     {
-      "id": "21206211563",
-      "type": "PullRequestEvent",
+      "id": "28290847185",
+      "type": "CreateEvent",
       "repo": {
         "name": "BrUn3y/xTerm"
       },
-      "created_at": "2026-11-25T01:47:02Z",
+      "created_at": "2026-11-25T01:46:49Z",
       "payload": {
-        "action": "opened",
-        "number": 19,
-        "pull_request": {
-          "number": 19
-        }
-      }
-    },
-    {
-      "id": "21173500118",
-      "type": "IssuesEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-24T19:39:36Z",
-      "payload": {
-        "action": "opened",
-        "issue": {
-          "number": 18,
-          "title": "Feature: Remote Mode with QR pairing, mobile terminal control, and a five-hour limit"
-        }
-      }
-    },
-    {
-      "id": "21167566339",
-      "type": "IssuesEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-24T18:43:10Z",
-      "payload": {
-        "action": "labeled",
-        "issue": {
-          "number": 18,
-          "title": "Feature: Remote Mode with QR pairing, mobile terminal control, and a five-hour limit"
-        }
-      }
-    },
-    {
-      "id": "28179573010",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-24T18:13:54Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "b4383b5b50646d5cd5c49073b8bf34ecbd235483"
-      }
-    },
-    {
-      "id": "21164437496",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-24T18:13:52Z",
-      "payload": {
-        "action": "merged",
-        "number": 17,
-        "pull_request": {
-          "number": 17
-        }
-      }
-    },
-    {
-      "id": "21164433260",
-      "type": "ReleaseEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-24T18:13:50Z",
-      "payload": {
-        "action": "published",
-        "release": {
-          "tag_name": "v0.5.1",
-          "name": "xTerm v0.5.1"
-        }
+        "ref": "feat/issue-18-remote-mode",
+        "ref_type": "branch",
+        "description": "A desktop terminal built with Electron, React, and TypeScript, featuring split panes, a file explorer, and live coding agent activity."
       }
     },
     {
@@ -447,21 +473,6 @@
       }
     },
     {
-      "id": "21173926119",
-      "type": "IssueCommentEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-24T17:19:50Z",
-      "payload": {
-        "action": "created",
-        "issue": {
-          "number": 15,
-          "title": "Clipboard text paste reaches harness image shortcut instead of inserting text"
-        }
-      }
-    },
-    {
       "id": "28237681660",
       "type": "CreateEvent",
       "repo": {
@@ -470,31 +481,6 @@
       "created_at": "2026-11-24T17:19:08Z",
       "payload": {
         "ref": "fix/harness-clipboard-paste",
-        "ref_type": "branch",
-        "description": "A desktop terminal built with Electron, React, and TypeScript, featuring split panes, a file explorer, and live coding agent activity."
-      }
-    },
-    {
-      "id": "28154672199",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-24T15:07:04Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "18c050eae55a54069f156fe461389d5f863f8dde"
-      }
-    },
-    {
-      "id": "28153900221",
-      "type": "CreateEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-24T15:02:14Z",
-      "payload": {
-        "ref": "release/v0.5.0",
         "ref_type": "branch",
         "description": "A desktop terminal built with Electron, React, and TypeScript, featuring split panes, a file explorer, and live coding agent activity."
       }
@@ -512,45 +498,39 @@
       }
     },
     {
-      "id": "21179825494",
-      "type": "IssueCommentEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-24T14:48:02Z",
-      "payload": {
-        "action": "created",
-        "issue": {
-          "number": 3,
-          "title": "Show SSH connection details in the sidebar card"
-        }
-      }
-    },
-    {
-      "id": "21172587644",
-      "type": "IssueCommentEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-24T13:53:21Z",
-      "payload": {
-        "action": "created",
-        "issue": {
-          "number": 1,
-          "title": "Show a GitHub icon and repository link next to the theme toggle"
-        }
-      }
-    },
-    {
-      "id": "28183050586",
+      "id": "28293113374",
       "type": "PushEvent",
       "repo": {
         "name": "BrUn3y/xTerm"
       },
-      "created_at": "2026-11-24T13:50:37Z",
+      "created_at": "2026-11-24T14:45:11Z",
       "payload": {
-        "ref": "refs/heads/release/v0.5.0-beta.1",
-        "head": "d20e2b85ebf850a037d88b1d714c649bfbacfab1"
+        "ref": "refs/heads/main",
+        "head": "4816799dff0532a684d34ac35c54c5401befc443"
+      }
+    },
+    {
+      "id": "28291421028",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T14:31:17Z",
+      "payload": {
+        "ref": "refs/heads/feat/issue-5-in-app-updates",
+        "head": "a0b5fc0d88b0e8fffbef6439195d8a7ca5ee9424"
+      }
+    },
+    {
+      "id": "28285209421",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T13:45:20Z",
+      "payload": {
+        "ref": "refs/heads/main",
+        "head": "ce853237454fbbeafcd9583944eaf3c3baf99b15"
       }
     },
     {
@@ -564,6 +544,18 @@
         "ref": "release/v0.5.0-beta.1",
         "ref_type": "branch",
         "description": "A desktop terminal built with Electron, React, and TypeScript, featuring split panes, a file explorer, and live coding agent activity."
+      }
+    },
+    {
+      "id": "28284792267",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T13:41:57Z",
+      "payload": {
+        "ref": "refs/heads/main",
+        "head": "e8a71262c5f3a885b8ab76f244df325f931536a7"
       }
     },
     {
@@ -588,6 +580,18 @@
       "payload": {
         "ref": "refs/heads/feat/issue-3-ssh-card",
         "head": "5ea810df189732186c52edfddab2d47215ffd23f"
+      }
+    },
+    {
+      "id": "28283925510",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-24T13:35:12Z",
+      "payload": {
+        "ref": "refs/heads/main",
+        "head": "d5ce1906963285a665b81dada771f2c47017b1fc"
       }
     },
     {
@@ -628,19 +632,6 @@
       }
     },
     {
-      "id": "28178766447",
-      "type": "CreateEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-24T10:21:20Z",
-      "payload": {
-        "ref": "fix/issue-2-shift-enter",
-        "ref_type": "branch",
-        "description": "A desktop terminal built with Electron, React, and TypeScript, featuring split panes, a file explorer, and live coding agent activity."
-      }
-    },
-    {
       "id": "28252629895",
       "type": "CreateEvent",
       "repo": {
@@ -667,19 +658,6 @@
       }
     },
     {
-      "id": "28165816704",
-      "type": "CreateEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-24T07:29:04Z",
-      "payload": {
-        "ref": "feat/issue-5-in-app-updates",
-        "ref_type": "branch",
-        "description": "A desktop terminal built with Electron, React, and TypeScript, featuring split panes, a file explorer, and live coding agent activity."
-      }
-    },
-    {
       "id": "28250697001",
       "type": "CreateEvent",
       "repo": {
@@ -694,6 +672,54 @@
     }
   ],
   "issue_events": [
+    {
+      "id": "issue-5682656030",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "Qiskit/qiskit-ibm-runtime"
+      },
+      "created_at": "2026-11-26T17:07:40Z",
+      "payload": {
+        "action": "Updated",
+        "number": 3425,
+        "pull_request": {
+          "number": 3425,
+          "title": "Reject nan angles in rzz validation"
+        }
+      }
+    },
+    {
+      "id": "issue-6629003623",
+      "type": "IssuesEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-26T14:50:46Z",
+      "payload": {
+        "action": "Updated",
+        "number": 25,
+        "issue": {
+          "number": 25,
+          "title": "Abrir y editar archivos de texto del Explorer en vi"
+        }
+      }
+    },
+    {
+      "id": "issue-6629168886",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-26T14:50:46Z",
+      "payload": {
+        "action": "Updated",
+        "number": 26,
+        "pull_request": {
+          "number": 26,
+          "title": "feat: Abrir y editar archivos del Explorer en vi"
+        }
+      }
+    },
     {
       "id": "issue-6613028138",
       "type": "PullRequestEvent",
@@ -835,54 +861,6 @@
         "pull_request": {
           "number": 20,
           "title": "Show the Remote Mode QR and phone view together"
-        }
-      }
-    },
-    {
-      "id": "issue-6588915759",
-      "type": "IssuesEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-25T01:55:35Z",
-      "payload": {
-        "action": "Updated",
-        "number": 18,
-        "issue": {
-          "number": 18,
-          "title": "Feature: Remote Mode with QR pairing, mobile terminal control, and a five-hour limit"
-        }
-      }
-    },
-    {
-      "id": "issue-6595245178",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-25T01:55:34Z",
-      "payload": {
-        "action": "Updated",
-        "number": 19,
-        "pull_request": {
-          "number": 19,
-          "title": "Add Remote Mode and release xTerm v0.6.0"
-        }
-      }
-    },
-    {
-      "id": "issue-6588316822",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-24T18:13:52Z",
-      "payload": {
-        "action": "Updated",
-        "number": 17,
-        "pull_request": {
-          "number": 17,
-          "title": "release: v0.5.1 fixes macOS bundle integrity and terminal paste"
         }
       }
     }
