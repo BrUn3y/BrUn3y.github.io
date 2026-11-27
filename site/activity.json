@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T02:00:42.373519+00:00",
+  "updated_at": "2026-11-27T16:57:25.874884+00:00",
   "events": [
     {
       "id": "21410548544",
@@ -95,6 +95,90 @@
       }
     },
     {
+      "id": "28413024600",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/Brun3y"
+      },
+      "created_at": "2026-11-26T02:01:23Z",
+      "payload": {
+        "ref": "refs/heads/master",
+        "head": "2109505c4548e5e2162c2679a92d4ba0953d1dee"
+      }
+    },
+    {
+      "id": "28387221374",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/BrUn3y.github.io"
+      },
+      "created_at": "2026-11-25T21:12:14Z",
+      "payload": {
+        "ref": "refs/heads/main",
+        "head": "f757c4c02d4f2a74c9b9e176fe0562ae8b73242f"
+      }
+    },
+    {
+      "id": "28427612559",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/BrUn3y.github.io"
+      },
+      "created_at": "2026-11-25T21:03:38Z",
+      "payload": {
+        "ref": "refs/heads/main",
+        "head": "fe00c1657e55d83af8775c7628f29e1727b460df"
+      }
+    },
+    {
+      "id": "28412949510",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/BrUn3y.github.io"
+      },
+      "created_at": "2026-11-25T21:02:30Z",
+      "payload": {
+        "ref": "refs/heads/main",
+        "head": "5d1a5482294c65e1ca0a40df81deab6781fbd3b6"
+      }
+    },
+    {
+      "id": "28412693401",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/BrUn3y.github.io"
+      },
+      "created_at": "2026-11-25T21:00:16Z",
+      "payload": {
+        "ref": "refs/heads/main",
+        "head": "79234e3da5a62c7e736477fc50a1ead5c907b0e2"
+      }
+    },
+    {
+      "id": "28385050498",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/BrUn3y.github.io"
+      },
+      "created_at": "2026-11-25T20:52:29Z",
+      "payload": {
+        "ref": "refs/heads/main",
+        "head": "f325c0ec6d9eefc89dac77394ffe86deb8ccdd7d"
+      }
+    },
+    {
+      "id": "28411645329",
+      "type": "PushEvent",
+      "repo": {
+        "name": "Quantum-Guild-GDL/qiskit_fall_fest_gdl"
+      },
+      "created_at": "2026-11-25T20:23:56Z",
+      "payload": {
+        "ref": "refs/heads/main",
+        "head": "9469d85d320e1be6ec701830e9735c6c4cc30ffb"
+      }
+    },
+    {
       "id": "21306132415",
       "type": "PullRequestEvent",
       "repo": {
@@ -138,6 +222,18 @@
       }
     },
     {
+      "id": "28410312974",
+      "type": "PushEvent",
+      "repo": {
+        "name": "Quantum-Guild-GDL/qiskit_fall_fest_gdl"
+      },
+      "created_at": "2026-11-25T20:13:09Z",
+      "payload": {
+        "ref": "refs/heads/main",
+        "head": "a0a06ccbf0a2d76693eb3eef33ba33b26a0ab8fe"
+      }
+    },
+    {
       "id": "21305102916",
       "type": "PullRequestEvent",
       "repo": {
@@ -165,6 +261,19 @@
         "pull_request": {
           "number": 34
         }
+      }
+    },
+    {
+      "id": "28421534401",
+      "type": "CreateEvent",
+      "repo": {
+        "name": "Quantum-Guild-GDL/qiskit_fall_fest_gdl"
+      },
+      "created_at": "2026-11-25T20:12:37Z",
+      "payload": {
+        "ref": "feat/day2-recording",
+        "ref_type": "branch",
+        "description": null
       }
     },
     {
@@ -283,36 +392,6 @@
       }
     },
     {
-      "id": "21279863133",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-25T15:57:47Z",
-      "payload": {
-        "action": "opened",
-        "number": 23,
-        "pull_request": {
-          "number": 23
-        }
-      }
-    },
-    {
-      "id": "21279388464",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-25T15:50:33Z",
-      "payload": {
-        "action": "opened",
-        "number": 22,
-        "pull_request": {
-          "number": 22
-        }
-      }
-    },
-    {
       "id": "28359569118",
       "type": "CreateEvent",
       "repo": {
@@ -338,33 +417,16 @@
       }
     },
     {
-      "id": "21278839456",
-      "type": "PullRequestEvent",
+      "id": "28379490277",
+      "type": "CreateEvent",
       "repo": {
         "name": "BrUn3y/xTerm"
       },
-      "created_at": "2026-11-25T15:41:55Z",
+      "created_at": "2026-11-25T15:41:29Z",
       "payload": {
-        "action": "merged",
-        "number": 21,
-        "pull_request": {
-          "number": 21
-        }
-      }
-    },
-    {
-      "id": "21278807946",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-25T15:41:38Z",
-      "payload": {
-        "action": "opened",
-        "number": 21,
-        "pull_request": {
-          "number": 21
-        }
+        "ref": "docs/remote-install-bmc",
+        "ref_type": "branch",
+        "description": "A desktop terminal built with Electron, React, and TypeScript, featuring split panes, a file explorer, and live coding agent activity."
       }
     },
     {
@@ -466,19 +528,6 @@
       }
     },
     {
-      "id": "28215723695",
-      "type": "CreateEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-24T18:07:08Z",
-      "payload": {
-        "ref": "release/v0.5.1",
-        "ref_type": "branch",
-        "description": "A desktop terminal built with Electron, React, and TypeScript, featuring split panes, a file explorer, and live coding agent activity."
-      }
-    },
-    {
       "id": "28240644179",
       "type": "PushEvent",
       "repo": {
@@ -488,31 +537,6 @@
       "payload": {
         "ref": "refs/heads/main",
         "head": "db84298edb635e617d5b9659398a70f727e0ed89"
-      }
-    },
-    {
-      "id": "28237681660",
-      "type": "CreateEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-24T17:19:08Z",
-      "payload": {
-        "ref": "fix/harness-clipboard-paste",
-        "ref_type": "branch",
-        "description": "A desktop terminal built with Electron, React, and TypeScript, featuring split panes, a file explorer, and live coding agent activity."
-      }
-    },
-    {
-      "id": "28213364268",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-24T14:48:39Z",
-      "payload": {
-        "ref": "refs/heads/main",
-        "head": "13efe1cebfcce0324c7f6177f5290588626f6e7f"
       }
     },
     {
@@ -552,19 +576,6 @@
       }
     },
     {
-      "id": "28219740425",
-      "type": "CreateEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-24T13:44:44Z",
-      "payload": {
-        "ref": "release/v0.5.0-beta.1",
-        "ref_type": "branch",
-        "description": "A desktop terminal built with Electron, React, and TypeScript, featuring split panes, a file explorer, and live coding agent activity."
-      }
-    },
-    {
       "id": "28284792267",
       "type": "PushEvent",
       "repo": {
@@ -574,30 +585,6 @@
       "payload": {
         "ref": "refs/heads/main",
         "head": "e8a71262c5f3a885b8ab76f244df325f931536a7"
-      }
-    },
-    {
-      "id": "28206480382",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-24T13:41:27Z",
-      "payload": {
-        "ref": "refs/heads/fix/issue-2-shift-enter",
-        "head": "5f34c607d47d1841e5be16ccb1f81cc765176ce7"
-      }
-    },
-    {
-      "id": "28211058512",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-24T13:37:06Z",
-      "payload": {
-        "ref": "refs/heads/feat/issue-3-ssh-card",
-        "head": "5ea810df189732186c52edfddab2d47215ffd23f"
       }
     },
     {
