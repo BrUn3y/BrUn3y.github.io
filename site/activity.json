@@ -1,6 +1,21 @@
 {
-  "updated_at": "2026-11-26T17:17:14.669257+00:00",
+  "updated_at": "2026-11-27T02:00:42.373519+00:00",
   "events": [
+    {
+      "id": "21410548544",
+      "type": "PullRequestEvent",
+      "repo": {
+        "name": "Qiskit/qiskit-ibm-runtime"
+      },
+      "created_at": "2026-11-26T17:46:55Z",
+      "payload": {
+        "action": "merged",
+        "number": 3425,
+        "pull_request": {
+          "number": 3425
+        }
+      }
+    },
     {
       "id": "21406462990",
       "type": "WatchEvent",
@@ -110,6 +125,19 @@
       }
     },
     {
+      "id": "28357227563",
+      "type": "CreateEvent",
+      "repo": {
+        "name": "Quantum-Guild-GDL/qiskit_fall_fest_gdl"
+      },
+      "created_at": "2026-11-25T20:22:52Z",
+      "payload": {
+        "ref": "feat/day2-part2-recording",
+        "ref_type": "branch",
+        "description": null
+      }
+    },
+    {
       "id": "21305102916",
       "type": "PullRequestEvent",
       "repo": {
@@ -170,6 +198,18 @@
       }
     },
     {
+      "id": "28362236953",
+      "type": "PushEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-25T16:14:00Z",
+      "payload": {
+        "ref": "refs/heads/main",
+        "head": "1ed4edd3ec625c5ddb2273902efe1958c8a29a84"
+      }
+    },
+    {
       "id": "21280890440",
       "type": "PullRequestEvent",
       "repo": {
@@ -197,6 +237,19 @@
         "pull_request": {
           "number": 24
         }
+      }
+    },
+    {
+      "id": "28362125047",
+      "type": "CreateEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-25T16:13:04Z",
+      "payload": {
+        "ref": "fix/harness-detection-v0.6.1",
+        "ref_type": "branch",
+        "description": "A desktop terminal built with Electron, React, and TypeScript, featuring split panes, a file explorer, and live coding agent activity."
       }
     },
     {
@@ -260,6 +313,19 @@
       }
     },
     {
+      "id": "28359569118",
+      "type": "CreateEvent",
+      "repo": {
+        "name": "BrUn3y/xTerm"
+      },
+      "created_at": "2026-11-25T15:50:02Z",
+      "payload": {
+        "ref": "docs/update-bmc-profile",
+        "ref_type": "branch",
+        "description": "A desktop terminal built with Electron, React, and TypeScript, featuring split panes, a file explorer, and live coding agent activity."
+      }
+    },
+    {
       "id": "28322943385",
       "type": "PushEvent",
       "repo": {
@@ -314,36 +380,6 @@
       }
     },
     {
-      "id": "21207451830",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-25T02:03:24Z",
-      "payload": {
-        "action": "merged",
-        "number": 20,
-        "pull_request": {
-          "number": 20
-        }
-      }
-    },
-    {
-      "id": "21207423459",
-      "type": "PullRequestEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-25T02:03:05Z",
-      "payload": {
-        "action": "opened",
-        "number": 20,
-        "pull_request": {
-          "number": 20
-        }
-      }
-    },
-    {
       "id": "28302405214",
       "type": "CreateEvent",
       "repo": {
@@ -369,33 +405,15 @@
       }
     },
     {
-      "id": "21206906075",
-      "type": "ReleaseEvent",
+      "id": "28370374974",
+      "type": "PushEvent",
       "repo": {
-        "name": "BrUn3y/xTerm"
+        "name": "BrUn3y/BrUn3y.github.io"
       },
-      "created_at": "2026-11-25T01:56:12Z",
+      "created_at": "2026-11-25T02:01:10Z",
       "payload": {
-        "action": "published",
-        "release": {
-          "tag_name": "v0.6.0",
-          "name": "xTerm v0.6.0"
-        }
-      }
-    },
-    {
-      "id": "21206859740",
-      "type": "IssuesEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-25T01:55:36Z",
-      "payload": {
-        "action": "closed",
-        "issue": {
-          "number": 18,
-          "title": "Feature: Remote Mode with QR pairing, mobile terminal control, and a five-hour limit"
-        }
+        "ref": "refs/heads/main",
+        "head": "c44db5064f72bb97a0da5f3487c9ab23695509c4"
       }
     },
     {
@@ -595,30 +613,6 @@
       }
     },
     {
-      "id": "28205597921",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-24T13:33:47Z",
-      "payload": {
-        "ref": "refs/heads/fix/issue-2-shift-enter",
-        "head": "fbc2df0b987409f50d0cdfeaa72610c41d6d26ec"
-      }
-    },
-    {
-      "id": "28198878477",
-      "type": "PushEvent",
-      "repo": {
-        "name": "BrUn3y/xTerm"
-      },
-      "created_at": "2026-11-24T12:09:37Z",
-      "payload": {
-        "ref": "refs/heads/feat/issue-3-ssh-card",
-        "head": "494c2dcf768002ca2b156a89aa69ef5bbfe49770"
-      }
-    },
-    {
       "id": "28267535831",
       "type": "CreateEvent",
       "repo": {
@@ -678,7 +672,7 @@
       "repo": {
         "name": "Qiskit/qiskit-ibm-runtime"
       },
-      "created_at": "2026-11-26T17:07:40Z",
+      "created_at": "2026-11-26T17:46:55Z",
       "payload": {
         "action": "Updated",
         "number": 3425,
